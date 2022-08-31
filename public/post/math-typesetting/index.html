@@ -3,11 +3,12 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     
-        <title>Series | Jane Doe</title>
-        <meta name="description" content="Series">
-        <meta property="og:site_name" content="Series" />
+        <title>Math Typesetting | Jane Doe</title>
+        <meta name="description" content="Math Typesetting">
+        <meta property="og:site_name" content="Math Typesetting" />
         <meta property="og:title" content="Jane Doe" />
-        <meta property="og:description" content=""/>
+        <meta property="og:description" content="Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
+"/>
         <meta property="og:image" content="https://examplesite.com/img/author.jpg" />
 	<meta name="keywords" content=""/>
     
@@ -34,7 +35,6 @@
     
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://examplesite.com/series/index.xml" title="Jane Doe" />
     </head>
 
 <body>
@@ -90,19 +90,49 @@
   });
 </script>
 
-<br>
-	<div style="display:flex;align-items:center;">
-		<a class="go-back" href="https://examplesite.com/"><svg aria-hidden="true" focusable="false" data-prefix="far" class="back-icon" data-icon="caret-square-left" height="25px" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M272 157.1v197.8c0 10.7-13 16.1-20.5 8.5l-98.3-98.9c-4.7-4.7-4.7-12.2 0-16.9l98.3-98.9c7.5-7.7 20.5-2.3 20.5 8.4zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5
-						21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-48 346V86c0-3.3-2.7-6-6-6H54c-3.3 0-6 2.7-6 6v340c0 3.3 2.7 6 6
-						6h340c3.3 0 6-2.7 6-6z"></path></svg> </a>
-	<h2 class="post-title">Series</h2>
-	</div>
-        
-        
-          
-            <span><a style="color: white; text-decoration: none;" href='https://examplesite.com/tags/themes-guide'>themes-guide (1)</a></span>
-          
-        
+<section class="intro">
+  
+  <div class="post-header">
+    <a class="go-back" href="https://examplesite.com/"><svg aria-hidden="true" focusable="false" data-prefix="far" class="back-icon" data-icon="caret-square-left" height="25px" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M272 157.1v197.8c0 10.7-13 16.1-20.5 8.5l-98.3-98.9c-4.7-4.7-4.7-12.2 0-16.9l98.3-98.9c7.5-7.7 20.5-2.3 20.5 8.4zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-48 346V86c0-3.3-2.7-6-6-6H54c-3.3 0-6 2.7-6 6v340c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"></path></svg> </a>
+    <h2 class="post-title">Math Typesetting</h2>
+</div>
+
+<p>By <a href="">Hugo Authors</a></p>
+
+<p class="post-dets">Published on: March 8, 2019
+  | Reading Time: 1 min | Last Modified: March 8, 2019
+  <br>
+</p>
+<span class="tags">
+  
+</span>
+
+<div class="content">
+  <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">{{</span> <span style="color:#66d9ef">if</span> or .Params.math .Site.Params.math <span style="color:#f92672">}}</span>
+<span style="color:#f92672">{{</span> partial <span style="color:#e6db74">&#34;math.html&#34;</span> . <span style="color:#f92672">}}</span>
+<span style="color:#f92672">{{</span> end <span style="color:#f92672">}}</span>
+</code></pre></div><ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
+
+<h3 id="examples">Examples</h3>
+
+<p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>
+</div>
+
+</section>
 <footer id="footer">
     <strong></strong>
     <div class="social">
