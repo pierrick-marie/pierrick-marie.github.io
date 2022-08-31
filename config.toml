@@ -1,0 +1,4 @@
+baseURL = "https://pierrick-marie.github.io."
+languageCode = "fr-FR"
+title = "Pierrick MARIE"
+theme = "avicenna"
