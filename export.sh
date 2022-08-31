@@ -13,10 +13,12 @@ echo "update main branch"
 echo "=============="
 
 git checkout main
+
+rm ./*
+
 git checkout dev -- public
 
 mv public/* ./
-rm public
 
 git add -A
 git commit -m "Last update"
