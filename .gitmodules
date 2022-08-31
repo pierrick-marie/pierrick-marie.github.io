@@ -1,3 +1,4 @@
-[submodule "themes/jane"]
-	path = themes/jane
-	url = https://github.com/xianmin/hugo-theme-jane.git
+[submodule "themes/gruvhugo"]
+	path = themes/gruvhugo
+	url = https://gitlab.com/avron/gruvhugo.git
+	
