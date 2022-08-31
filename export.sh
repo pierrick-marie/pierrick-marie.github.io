@@ -21,3 +21,8 @@ rm public
 git add -A
 git commit -m "Last update"
 git push 
+
+echo "back to dev branch"
+echo "=============="
+
+git checkout dev
