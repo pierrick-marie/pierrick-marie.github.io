@@ -540,7 +540,8 @@ footer .theme-by {
 }
 
 .blog-tags a {
-  color: #008AFF;
+  /* color: #008AFF; */
+  color: #0176aa;
   text-decoration: none;
   padding: 0px 5px;
 }
@@ -895,7 +896,7 @@ div.splitbox div.right {
     padding: 15px 25px;
   }
 }
-.disqus-comments button:hover, 
+.disqus-comments button:hover,
 .disqus-comments button:focus {
   color: #FFF;
   background: #0085a1;

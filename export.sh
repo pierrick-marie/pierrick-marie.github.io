@@ -1,28 +1,41 @@
 #!/bin/sh
 
-# 1. Generate static web site
-hugo --cleanDestinationDir -d public
+# 1. Push theme updated
 
-# 2. Push last update
+## 1.1 Change directory
+cd themes/prettyhugo
+
+## 1.2 Push update
 git add -A
 git commit -m "Last update"
 git push
 
-# 3. Push static web site 
+## 1.3 Go back in parent folder
+cd ../..
+
+# 2. Generate static web site
+hugo --cleanDestinationDir -d public
+
+# 3. Push last update
+git add -A
+git commit -m "Last update"
+git push
+
+# 4. Push static web site 
 git checkout main
 
-## 3.1 Clean repo
+## 4.1 Clean repo
 rm *
 
-## 3.2 get static web site from src
+## 4.2 get static web site from src
 git checkout src -- public
 mv public/* ./
 rmdir public
 
-## 3.3 Push web site 
+## 4.3 Push web site 
 git add -A
 git commit -m "Last update"
 git push
 
-# 4. Back to src branch
+# 5. Back to src branch
 git checkout src
