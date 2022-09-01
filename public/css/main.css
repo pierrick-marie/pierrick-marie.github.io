@@ -516,7 +516,8 @@ footer .theme-by {
   width: 192px;
 }
 .post-preview .post-read-more {
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 15px;
   float: right;
 }
 
