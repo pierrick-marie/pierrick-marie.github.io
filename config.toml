@@ -50,7 +50,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Author]
   name = "Pierrick MARIE"
-  website = "https://pierrick-marie.github.io/"
+  # website = "https://pierrick-marie.github.io/"
   email = "mail@pierrickmarie.info"
   facebook = "ninaeaventures"
   github = "pierrick-marie"
