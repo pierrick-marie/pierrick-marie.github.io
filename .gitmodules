@@ -1,9 +1,6 @@
 [submodule "themes/gruvhugo"]
 	path = themes/gruvhugo
 	url = git@github.com:pierrick-marie/fork-gruvhugo-theme.git
-[submodule "themes/meme"]
-	path = themes/meme
-	url = https://github.com/reuixiy/hugo-theme-meme.git
 [submodule "themes/beautifulhugo"]
 	path = beautifulhugo
 	url = https://github.com/halogenica/beautifulhugo.git
