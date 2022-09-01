@@ -1,9 +1,13 @@
 baseurl = "https://pierrick-marie.github.io"
-DefaultContentLanguage = "en"
-#DefaultContentLanguage = "ja"
-title = "Beautiful Hugo"
-theme = "beautifulhugo"
+
+DefaultContentLanguage = "fr-FR"
+
+title = "Pierrick MARIE"
+
+theme = "prettyhugo"
+
 metaDataFormat = "yaml"
+
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -15,21 +19,21 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Développeur informatique & Voyageur sur les océans"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  logo = "img/icon/avatar-tiny-2.png" # Expecting square dimensions
+  favicon = "img/icon/avatar-tiny-2.png"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
-  comments = true
+  comments = false
   readingTime = true
   wordCount = true
   useHLJS = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-#  hideAuthor = true
+  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -45,36 +49,36 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
+  name = "Pierrick MARIE"
+  website = "https://pierrick-marie.github.io/"
+  email = "mail@pierrickmarie.info"
   facebook = "username"
   github = "username"
-  gitlab = "username"
-  bitbucket = "username"
-  twitter = "username"
-  reddit = "username"
+  framagit = "username"
+  # bitbucket = "username"
+  # twitter = "username"
+  # reddit = "username"
   linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  vk = "username"
-  paypal = "username"
-  telegram = "username"
-  500px = "username"
-  codepen = "username"
-  mastodon = "url"
-  kaggle = "username"
-  weibo = "username"
-  slack = "username"
-  discord = "invite code (https://discord.gg/XXXXXXX)"
-  strava = "userid"
+  # xing = "username"
+  # stackoverflow = "users/XXXXXXX/username"
+  # snapchat = "username"
+  # instagram = "username"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
+  # 500px = "username"
+  # codepen = "username"
+  # mastodon = "url"
+  # kaggle = "username"
+  # weibo = "username"
+  # slack = "username"
+  # discord = "invite code (https://discord.gg/XXXXXXX)"
+  # strava = "userid"
 
 [[menu.main]]
     name = "Blog"

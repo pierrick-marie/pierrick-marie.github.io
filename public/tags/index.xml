@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Beautiful Hugo</title>
+    <title>Tags on Pierrick MARIE</title>
     <link>https://pierrick-marie.github.io/tags/</link>
-    <description>Recent content in Tags on Beautiful Hugo</description>
+    <description>Recent content in Tags on Pierrick MARIE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <managingEditor>mail@pierrickmarie.info (Pierrick MARIE)</managingEditor>
+    <webMaster>mail@pierrickmarie.info (Pierrick MARIE)</webMaster>
     <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pierrick-marie.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>bigimg</title>
       <link>https://pierrick-marie.github.io/tags/bigimg/</link>
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>mail@pierrickmarie.info (Pierrick MARIE)</author>
       <guid>https://pierrick-marie.github.io/tags/bigimg/</guid>
       <description></description>
     </item>
@@ -25,7 +25,7 @@
       <title>example</title>
       <link>https://pierrick-marie.github.io/tags/example/</link>
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>mail@pierrickmarie.info (Pierrick MARIE)</author>
       <guid>https://pierrick-marie.github.io/tags/example/</guid>
       <description></description>
     </item>
@@ -34,7 +34,7 @@
       <title>math</title>
       <link>https://pierrick-marie.github.io/tags/math/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>mail@pierrickmarie.info (Pierrick MARIE)</author>
       <guid>https://pierrick-marie.github.io/tags/math/</guid>
       <description></description>
     </item>
@@ -43,7 +43,7 @@
       <title>code</title>
       <link>https://pierrick-marie.github.io/tags/code/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>mail@pierrickmarie.info (Pierrick MARIE)</author>
       <guid>https://pierrick-marie.github.io/tags/code/</guid>
       <description></description>
     </item>
@@ -52,7 +52,7 @@
       <title>markdown</title>
       <link>https://pierrick-marie.github.io/tags/markdown/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>mail@pierrickmarie.info (Pierrick MARIE)</author>
       <guid>https://pierrick-marie.github.io/tags/markdown/</guid>
       <description></description>
     </item>

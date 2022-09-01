@@ -1,22 +1,28 @@
 #!/bin/sh
 
-# Push src
+# 1. Generate static web site
+hugo --cleanDestinationDir -d public
 
+# 2. Push last update
 git add -A
 git commit -m "Last update"
 git push
 
-# Export static web site 
+# 3. Push static web site 
 git checkout main
 
-hugo --cleanDestinationDir -d ../pierrick-marie.github.io
+## 3.1 Clean repo
+rm *
 
-# Push web site 
+## 3.2 get static web site from src
+git checkout src -- public
+mv public/* ./
+rmdir public
 
+## 3.3 Push web site 
 git add -A
 git commit -m "Last update"
 git push
 
-# Back to src branch
-
+# 4. Back to src branch
 git checkout src
