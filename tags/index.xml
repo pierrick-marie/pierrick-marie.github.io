@@ -5,83 +5,13 @@
     <link>https://pierrick-marie.github.io/tags/</link>
     <description>Recent content in Tags on Pierrick MARIE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+    <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+    <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
     
 	<atom:link href="https://pierrick-marie.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>css</title>
-      <link>https://pierrick-marie.github.io/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pierrick-marie.github.io/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>https://pierrick-marie.github.io/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pierrick-marie.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://pierrick-marie.github.io/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pierrick-marie.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://pierrick-marie.github.io/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pierrick-marie.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://pierrick-marie.github.io/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pierrick-marie.github.io/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>text</title>
-      <link>https://pierrick-marie.github.io/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pierrick-marie.github.io/tags/text/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>https://pierrick-marie.github.io/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pierrick-marie.github.io/tags/emoji/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>index</title>
-      <link>https://pierrick-marie.github.io/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pierrick-marie.github.io/tags/index/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
