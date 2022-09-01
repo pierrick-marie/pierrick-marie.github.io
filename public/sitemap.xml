@@ -4,33 +4,8 @@
   
   <url>
     <loc>https://pierrick-marie.github.io/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pierrick-marie.github.io/tags/example/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierrick-marie.github.io/tags/photoswipe/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierrick-marie.github.io/post/2017-03-20-photoswipe-gallery-sample/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierrick-marie.github.io/post/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierrick-marie.github.io/tags/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -40,6 +15,21 @@
   
   <url>
     <loc>https://pierrick-marie.github.io/tags/bigimg/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pierrick-marie.github.io/tags/example/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pierrick-marie.github.io/post/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pierrick-marie.github.io/tags/</loc>
     <lastmod>2017-03-07T00:00:00+00:00</lastmod>
   </url>
   
