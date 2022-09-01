@@ -24,15 +24,12 @@ git push
 # 4. Push static web site 
 git checkout main
 
-## 4.1 Clean repo
-rm *
-
-## 4.2 get static web site from src
+## 4.1 get static web site from src
 git checkout src -- public
 mv public/* ./
 rmdir public
 
-## 4.3 Push web site 
+## 4.2 Push web site 
 git add -A
 git commit -m "Last update"
 git push
