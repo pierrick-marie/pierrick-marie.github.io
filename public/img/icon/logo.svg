@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="-382.51077"
-     inkscape:cy="1006.4437"
+     inkscape:zoom="0.35"
+     inkscape:cx="-885.37535"
+     inkscape:cy="726.49238"
      inkscape:document-units="mm"
      inkscape:current-layer="text821"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,15 +57,19 @@
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text821">
       <ellipse
-         style="fill:#fffff7;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="fill:#fffff7;fill-opacity:1;stroke:#000000;stroke-width:4.33881378;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path836"
-         cx="-101.9453"
-         cy="32.261147"
-         rx="9.2479067"
-         ry="9.2479076" />
+         cx="102.91779"
+         cy="118.43972"
+         rx="57.32135"
+         ry="57.321358"
+         inkscape:export-xdpi="688.07001"
+         inkscape:export-ydpi="688.07001" />
       <g
          id="g843"
-         transform="translate(0.76078442,-1.1027502)">
+         transform="matrix(6.1983056,0,0,6.1983056,739.52146,-88.359905)"
+         inkscape:export-xdpi="688.07001"
+         inkscape:export-ydpi="688.07001">
         <path
            inkscape:connector-curvature="0"
            id="path826"
