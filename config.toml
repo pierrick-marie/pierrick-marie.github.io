@@ -81,12 +81,12 @@ pygmentsCodefencesGuessSyntax = true
   # strava = "userid"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Accueil"
     url = ""
     weight = 1
 
 [[menu.main]]
-    name = "À propos"
+    name = "Qui suis-je ?"
     url = "page/about/"
     weight = 2
 
