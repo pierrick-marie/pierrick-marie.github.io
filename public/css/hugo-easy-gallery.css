@@ -17,7 +17,7 @@ Grid Layout Styles
     position: relative;
     /* Default: 1 tile wide */
     width: 100%;
-    padding-bottom: 100%; 
+    padding-bottom: 100%;
 }
 @media only screen and (min-width : 365px) {
     /* Tablet view: 2 tiles */
@@ -45,7 +45,7 @@ Grid Layout Styles
 Transition styles
 */
 .gallery.hover-transition figure,
-.gallery.hover-effect-zoom .img, 
+.gallery.hover-effect-zoom .img,
 .gallery:not(.caption-effect-appear) figcaption,
 .fancy-figure:not(.caption-effect-appear) figcaption {
     -webkit-transition: all 0.3s ease-in-out;
@@ -59,7 +59,14 @@ figure styles
 figure {
     position:relative; /* purely to allow absolution positioning of figcaption */
     overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+figure h4 {
+      text-align: center;
+}
+
 .gallery figure {
     position: absolute;
     left: 5px;
@@ -155,5 +162,7 @@ figcaption styles
 }
 figcaption p {
     margin: auto; /* override style in theme */
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
 }
-
