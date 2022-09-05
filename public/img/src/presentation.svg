@@ -19,6 +19,256 @@
    sodipodi:docname="presentation.svg">
   <defs
      id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2456"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2454"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Sstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1195"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Torso"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Torso"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g1391"
+         transform="scale(0.7)"
+         style="stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1">
+        <path
+           id="path1377"
+           d="M -4.7792281,-3.2395420 C -2.4288541,-2.8736027 0.52103922,-1.3019943 0.25792722,0.38794346 C -0.0051877922,2.0778819 -2.2126741,2.6176539 -4.5630471,2.2517169 C -6.9134221,1.8857769 -8.5210350,0.75201414 -8.2579220,-0.93792336 C -7.9948090,-2.6278615 -7.1296041,-3.6054813 -4.7792281,-3.2395420 z "
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.25;stroke-opacity:1" />
+        <path
+           id="path1379"
+           d="M 4.4598789,0.088665736 C -2.5564571,-4.3783320 5.2248769,-3.9061806 -0.84829578,-8.7197331"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" />
+        <path
+           id="path1381"
+           d="M 4.9298719,0.057520736 C -1.3872731,1.7494689 1.8027579,5.4782079 -4.9448731,7.5462725"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" />
+        <rect
+           id="rect1383"
+           transform="matrix(0.527536,-0.849533,0.887668,0.460484,0,0)"
+           y="-1.7408575"
+           x="-10.391706"
+           height="2.7608147"
+           width="2.6366582"
+           style="fill-rule:evenodd;stroke-width:1pt;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1" />
+        <rect
+           id="rect1385"
+           transform="matrix(0.671205,-0.741272,0.790802,0.612072,0,0)"
+           y="-7.9629307"
+           x="4.9587269"
+           height="2.8614161"
+           width="2.7327356"
+           style="fill-rule:evenodd;stroke-width:1pt;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1" />
+        <path
+           id="path1387"
+           transform="matrix(0,-1.109517,1.109517,0,25.96648,19.71619)"
+           d="M 16.779951 -28.685045 A 0.60731727 0.60731727 0 1 0 15.565317,-28.685045 A 0.60731727 0.60731727 0 1 0 16.779951 -28.685045 z"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" />
+        <path
+           id="path1389"
+           transform="matrix(0,-1.109517,1.109517,0,26.82450,16.99126)"
+           d="M 16.779951 -28.685045 A 0.60731727 0.60731727 0 1 0 15.565317,-28.685045 A 0.60731727 0.60731727 0 1 0 16.779951 -28.685045 z"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="Tail"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1979"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g1977"
+         transform="scale(-1.2)"
+         style="stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1">
+        <path
+           id="path1965"
+           d="M -3.8048674,-3.9585227 L 0.54352094,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1967"
+           d="M -1.2866832,-3.9585227 L 3.0617053,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1969"
+           d="M 1.3053582,-3.9585227 L 5.6537466,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1971"
+           d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1973"
+           d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1975"
+           d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyTriangleOutM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1328"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4) translate(-4.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Tail"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1619"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g1617"
+         transform="scale(-1.2)"
+         style="stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1">
+        <path
+           id="path1605"
+           d="M -3.8048674,-3.9585227 L 0.54352094,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1607"
+           d="M -1.2866832,-3.9585227 L 3.0617053,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1609"
+           d="M 1.3053582,-3.9585227 L 5.6537466,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1611"
+           d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1613"
+           d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1615"
+           d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="Tail"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Tail"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g1213"
+         transform="scale(-1.2)"
+         style="stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1">
+        <path
+           id="path1201"
+           d="M -3.8048674,-3.9585227 L 0.54352094,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1203"
+           d="M -1.2866832,-3.9585227 L 3.0617053,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1205"
+           d="M 1.3053582,-3.9585227 L 5.6537466,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1207"
+           d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1209"
+           d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path1211"
+           d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1183"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1449"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1447"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1168"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
     <linearGradient
        gradientTransform="matrix(1.316598,0,0,0.24990122,166.00274,-61.494156)"
        gradientUnits="userSpaceOnUse"
@@ -411,9 +661,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.1896304"
-     inkscape:cx="341.8698"
-     inkscape:cy="878.34222"
+     inkscape:zoom="6.1932099"
+     inkscape:cx="183.25347"
+     inkscape:cy="992.82702"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -447,24 +697,24 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.826819,36.166874 a 2.3385932,2.3385929 0 0 1 -2.338594,2.338595 2.3385932,2.3385929 0 0 1 -2.338593,-2.338595 2.3385932,2.3385929 0 0 1 2.338593,-2.338595 2.3385932,2.3385929 0 0 1 2.338594,2.338595 z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 49.688266,48.95729 A 3.6028647,3.6028643 0 0 1 46.0854,52.560157 3.6028647,3.6028643 0 0 1 42.482536,48.95729 3.6028647,3.6028643 0 0 1 46.0854,45.354422 3.6028647,3.6028643 0 0 1 49.688266,48.95729 Z"
        id="path836-3"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.32281354;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.826819,70.318053 a 2.3385935,2.3385912 0 0 1 -2.338593,2.338593 2.3385935,2.3385912 0 0 1 -2.338594,-2.338593 2.3385935,2.3385912 0 0 1 2.338594,-2.338594 2.3385935,2.3385912 0 0 1 2.338593,2.338594 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49733043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 49.688266,101.57101 a 3.6028652,3.6028617 0 0 1 -3.602864,3.60286 3.6028652,3.6028617 0 0 1 -3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602866,-3.60287 3.6028652,3.6028617 0 0 1 3.602864,3.60287 z"
        id="path836-3-7"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52999997,0.26499999;stroke-dashoffset:0"
-       d="M 62.488225,70.318052 C 84.148223,51.790007 42.284755,56.509825 60.855652,37.841308"
+       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 46.0854,101.571 C 79.455053,73.026476 14.959692,80.297884 43.570239,51.536943"
        id="path4650"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -472,24 +722,24 @@
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.826819,70.318052 a 2.3385932,2.3385929 0 0 1 -2.338594,2.338595 2.3385932,2.3385929 0 0 1 -2.338593,-2.338595 2.3385932,2.3385929 0 0 1 2.338593,-2.338595 2.3385932,2.3385929 0 0 1 2.338594,2.338595 z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 49.688266,101.571 A 3.6028647,3.6028643 0 0 1 46.0854,105.17387 3.6028647,3.6028643 0 0 1 42.482536,101.571 3.6028647,3.6028643 0 0 1 46.0854,97.968137 3.6028647,3.6028643 0 0 1 49.688266,101.571 Z"
        id="path836-3-1"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.32281354;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.826819,104.46923 a 2.3385935,2.3385912 0 0 1 -2.338593,2.33859 2.3385935,2.3385912 0 0 1 -2.338594,-2.33859 2.3385935,2.3385912 0 0 1 2.338594,-2.33859 2.3385935,2.3385912 0 0 1 2.338593,2.33859 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49733043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 49.688266,154.18472 a 3.6028652,3.6028617 0 0 1 -3.602864,3.60286 3.6028652,3.6028617 0 0 1 -3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602864,3.60286 z"
        id="path836-3-7-7"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52999997,0.26499999;stroke-dashoffset:0"
-       d="M 62.488225,104.46923 C 84.148223,85.941185 42.253193,90.629639 60.82409,71.961122"
+       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 46.0854,154.18472 C 79.455053,125.64019 14.911067,132.86328 43.521614,104.10234"
        id="path4650-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -498,49 +748,52 @@
        inkscape:export-ydpi="353.10999" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="49.826992"
-       y="173.9975"
+       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
+       x="26.579353"
+       y="261.30081"
        id="text4626-1-8-1-6"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999"><tspan
          sodipodi:role="line"
-         x="49.826992"
-         y="173.9975"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.26458332"
+         x="26.579353"
+         y="261.30081"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
          id="tspan4790-1">2012</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="50.068295"
-       y="71.543953"
+       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
+       x="26.951107"
+       y="103.45964"
        id="text4626-1-8-1-6-6"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999"><tspan
          sodipodi:role="line"
-         x="50.068295"
-         y="71.543953"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.26458332"
+         x="26.951107"
+         y="103.45964"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
          id="tspan4790-1-4">2021</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="49.826992"
-       y="37.392776"
+       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
+       x="26.579353"
+       y="50.845928"
        id="text4626-1-8-1-6-8"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999"><tspan
          sodipodi:role="line"
-         x="49.826992"
-         y="37.392776"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.26458332"
+         x="26.579353"
+         y="50.845928"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
          id="tspan4790-1-0">2022</tspan></text>
     <g
        id="g1676"
-       transform="translate(-11.391326,1.5176935)">
+       transform="matrix(1.540612,0,0,1.540612,-67.734323,-4.4236536)"
+       inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
+       inkscape:export-xdpi="353"
+       inkscape:export-ydpi="353">
       <g
          transform="translate(12.445974,-3.6250411)"
          id="g1653">
@@ -651,24 +904,24 @@
            id="tspan1096">Champion universitaire de lancer de marteau</tspan></text>
     </g>
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.826819,104.46923 a 2.3385932,2.3385929 0 0 1 -2.338594,2.3386 2.3385932,2.3385929 0 0 1 -2.338593,-2.3386 2.3385932,2.3385929 0 0 1 2.338593,-2.33859 2.3385932,2.3385929 0 0 1 2.338594,2.33859 z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 49.688266,154.18472 a 3.6028647,3.6028643 0 0 1 -3.602866,3.60287 3.6028647,3.6028643 0 0 1 -3.602864,-3.60287 3.6028647,3.6028643 0 0 1 3.602864,-3.60286 3.6028647,3.6028643 0 0 1 3.602866,3.60286 z"
        id="path836-3-1-7"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.32281354;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.826819,138.62041 a 2.3385935,2.3385912 0 0 1 -2.338593,2.33859 2.3385935,2.3385912 0 0 1 -2.338594,-2.33859 2.3385935,2.3385912 0 0 1 2.338594,-2.33859 2.3385935,2.3385912 0 0 1 2.338593,2.33859 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49733043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 49.688266,206.79844 a 3.6028652,3.6028617 0 0 1 -3.602864,3.60286 3.6028652,3.6028617 0 0 1 -3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602864,3.60286 z"
        id="path836-3-7-7-5"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52999997,0.26499999;stroke-dashoffset:0"
-       d="M 62.488225,138.62041 C 84.148223,120.09237 42.267536,124.79522 60.838433,106.1267"
+       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 46.0854,206.79844 C 79.455053,178.25392 14.933164,185.49918 43.543711,156.73824"
        id="path4650-0-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -676,24 +929,24 @@
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.826819,138.62041 a 2.3385932,2.3385929 0 0 1 -2.338594,2.3386 2.3385932,2.3385929 0 0 1 -2.338593,-2.3386 2.3385932,2.3385929 0 0 1 2.338593,-2.33859 2.3385932,2.3385929 0 0 1 2.338594,2.33859 z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 49.688266,206.79844 a 3.6028647,3.6028643 0 0 1 -3.602866,3.60287 3.6028647,3.6028643 0 0 1 -3.602864,-3.60287 3.6028647,3.6028643 0 0 1 3.602864,-3.60286 3.6028647,3.6028643 0 0 1 3.602866,3.60286 z"
        id="path836-3-1-6"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.826819,172.77159 a 2.3385935,2.3385912 0 0 1 -2.338593,2.3386 2.3385935,2.3385912 0 0 1 -2.338594,-2.3386 2.3385935,2.3385912 0 0 1 2.338594,-2.33859 2.3385935,2.3385912 0 0 1 2.338593,2.33859 z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 49.688266,259.41215 a 3.6028652,3.6028617 0 0 1 -3.602864,3.60288 3.6028652,3.6028617 0 0 1 -3.602866,-3.60288 3.6028652,3.6028617 0 0 1 3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602864,3.60286 z"
        id="path836-3-7-7-3"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52999997,0.26499999;stroke-dashoffset:0"
-       d="M 64.289735,171.28042 C 83.14456,151.99714 42.362966,159.04456 60.947487,140.37971"
+       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 48.860828,257.11484 c 29.04797,-29.70805 -33.780643,-18.85071 -5.149107,-47.606"
        id="path4650-0-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -702,40 +955,46 @@
        inkscape:export-ydpi="353.10999" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="49.843925"
-       y="139.84456"
+       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
+       x="26.60544"
+       y="208.68437"
        id="text4626-1-8-1-6-9"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999"><tspan
          sodipodi:role="line"
-         x="49.843925"
-         y="139.84456"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.26458332"
+         x="26.60544"
+         y="208.68437"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
          id="tspan4790-1-7">2015</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="49.791012"
-       y="105.69514"
+       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
+       x="26.523922"
+       y="156.07336"
        id="text4626-1-8-1-6-6-4"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999"><tspan
          sodipodi:role="line"
-         x="49.791012"
-         y="105.69514"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.26458332"
+         x="26.523922"
+         y="156.07336"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
          id="tspan4790-1-4-9">2020</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path5221"
-       style="fill:#9ac421;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00201211"
-       d="m 66.830547,40.058327 h 9.20105 c 0.190668,0 0.346666,0.156019 0.346666,0.346706 v 0 c 0,0.190647 -0.155998,0.346646 -0.346666,0.346646 h -9.20105 c -0.190696,0 -0.346681,-0.155999 -0.346681,-0.346646 v 0 c 0,-0.190687 0.155985,-0.346706 0.346681,-0.346706" />
+       style="fill:#9ac421;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00309988"
+       d="m 52.775234,54.952509 h 14.175248 c 0.293745,0 0.534078,0.240365 0.534078,0.534139 v 0 c 0,0.293713 -0.240333,0.534047 -0.534078,0.534047 H 52.775234 c -0.293789,0 -0.534101,-0.240334 -0.534101,-0.534047 v 0 c 0,-0.293774 0.240312,-0.534139 0.534101,-0.534139"
+       inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
+       inkscape:export-xdpi="353"
+       inkscape:export-ydpi="353" />
     <g
        id="g1729"
-       transform="translate(0,0.05387876)">
+       transform="matrix(1.540612,0,0,1.540612,-50.184709,-6.6788241)"
+       inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
+       inkscape:export-xdpi="353"
+       inkscape:export-ydpi="353">
       <text
          id="text4626-1"
          y="34.813007"
@@ -883,7 +1142,10 @@
     </g>
     <g
        id="g1569"
-       transform="translate(-3.1749999,0.85901439)">
+       transform="matrix(1.540612,0,0,1.540612,-55.076152,-5.4384225)"
+       inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
+       inkscape:export-xdpi="353"
+       inkscape:export-ydpi="353">
       <text
          id="text4626-1-8"
          y="72.23233"
@@ -976,7 +1238,10 @@
     </g>
     <g
        id="g1616"
-       transform="translate(-7.4083335,1.0181478)">
+       transform="matrix(1.540612,0,0,1.540612,-61.598076,-5.1932597)"
+       inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
+       inkscape:export-xdpi="353"
+       inkscape:export-ydpi="353">
       <text
          id="text4626-1-8-1"
          y="101.23058"
@@ -1103,7 +1368,10 @@
     </g>
     <g
        id="g1698"
-       transform="translate(0,0.25978391)">
+       transform="matrix(1.540612,0,0,1.540612,-50.184709,-6.3616042)"
+       inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
+       inkscape:export-xdpi="353"
+       inkscape:export-ydpi="353">
       <text
          id="text4626-1-8-1-8-2"
          y="136.75726"
@@ -1229,8 +1497,8 @@
       </g>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.52999997, 0.26499999;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 64.725607,191.1353 C 54.234091,185.7177 55.07256,181.07627 61.171898,174.70455"
+       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 49.532338,287.70351 C 33.368982,279.35709 34.660738,272.20644 44.057451,262.3901"
        id="path4650-0-7-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -1238,13 +1506,22 @@
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.52999997, 0.26499999;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 63.985109,34.370109 C 73.174089,23.795002 68.815284,22.923164 63.450101,19.707503"
+       style="fill:none;stroke:#000000;stroke-width:0.408;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.816, 0.40799999999999997;stroke-dashoffset:0;stroke-opacity:1;marker-end:"
+       d="M 48.391518,46.189172 C 62.548171,29.897035 55.832943,28.553871 47.567278,23.599785"
        id="path4650-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
        inkscape:export-xdpi="353.10999"
        inkscape:export-ydpi="353.10999" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.19545117px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 48.836326,28.773669 c -0.740165,-2.574287 -2.041632,-5.245294 -3.865324,-6.901523 2.697632,0.726075 5.730297,1.265389 8.389293,1.151962 -1.44579,0.649023 -1.142408,2.324015 -4.262941,1.522312 2.257603,2.202298 -0.01121,3.012571 -0.261028,4.227249 z"
+       id="path2611"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
+       inkscape:export-xdpi="353"
+       inkscape:export-ydpi="353" />
   </g>
 </svg>
