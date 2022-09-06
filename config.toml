@@ -12,88 +12,107 @@ pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+
+# pygmentsUseClassic = true
+# pygmentOptions = "linenos=inline"
+# disqusShortname = "XXX"
+# googleAnalytics = "XXX"
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Développeur informatique && Voyageur des mers"
-  mainSections = ["post","posts"]
-  logo = "img/icon/avatar-tiny-2.png" # Expecting square dimensions
-  favicon = "img/icon/logo.png"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = false
-  readingTime = true
-  wordCount = true
-  useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
-  hideAuthor = true
+	# homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+	subtitle = "Développeur informatique && Voyageur des mers"
+	mainSections = ["post","posts"]
+	logo = "img/icon/avatar-tiny-2.png" # Expecting square dimensions
+	favicon = "img/icon/logo.png"
+	dateFormat = "January 2, 2006"
+	commit = false
+	rss = true
+	comments = false
+	readingTime = true
+	wordCount = true
+	useHLJS = true
+	socialShare = true
+	delayDisqus = true
+	showRelatedPosts = true
+	hideAuthor = true
+
+	
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[markup.goldmark.renderer]
+	unsafe = true
+
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
 #  desc = "Triangle"
+
 #[[Params.bigimg]]
 #  src = "img/sphere.jpg"
 #  desc = "Sphere"
 #  # position: see values of CSS background-position.
 #  position = "center top"
+
 #[[Params.bigimg]]
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
 [Author]
-  name = "Pierrick MARIE"
-  # website = "https://pierrick-marie.github.io/"
-  email = "mail@pierrickmarie.info"
-  facebook = "ninaeaventures"
-  github = "pierrick-marie"
-  framagit = "pierrick"
-  # bitbucket = "username"
-  # twitter = "username"
-  # reddit = "username"
-  linkedin = "pierrick-marie-100493211"
-  # xing = "username"
-  # stackoverflow = "users/XXXXXXX/username"
-  # snapchat = "username"
-  # instagram = "username"
-  # youtube = "user/username" # or channel/channelname
-  # soundcloud = "username"
-  # spotify = "username"
-  # bandcamp = "username"
-  # itchio = "username"
-  # vk = "username"
-  # paypal = "username"
-  # telegram = "username"
-  # 500px = "username"
-  # codepen = "username"
-  # mastodon = "url"
-  # kaggle = "username"
-  # weibo = "username"
-  # slack = "username"
-  # discord = "invite code (https://discord.gg/XXXXXXX)"
-  # strava = "userid"
+	name = "Pierrick MARIE"
+	email = "mail@pierrickmarie.info"
+	facebook = "ninaeaventures"
+	github = "pierrick-marie"
+	framagit = "pierrick"
+	linkedin = "pierrick-marie-100493211"
+	# website = "https://pierrick-marie.github.io/"
+	# bitbucket = "username"
+	# twitter = "username"
+	# reddit = "username"
+	# xing = "username"
+	# stackoverflow = "users/XXXXXXX/username"
+	# snapchat = "username"
+	# instagram = "username"
+	# youtube = "user/username" # or channel/channelname
+	# soundcloud = "username"
+	# spotify = "username"
+	# bandcamp = "username"
+	# itchio = "username"
+	# vk = "username"
+	# paypal = "username"
+	# telegram = "username"
+	# 500px = "username"
+	# codepen = "username"
+	# mastodon = "url"
+	# kaggle = "username"
+	# weibo = "username"
+	# slack = "username"
+	# discord = "invite code (https://discord.gg/XXXXXXX)"
+	# strava = "userid"
 
 [[menu.main]]
-    name = "Accueil"
-    url = ""
-    weight = 1
+	name = "Articles"
+	url = ""
+	weight = 1
 
 [[menu.main]]
-    name = "Qui suis-je ?"
-    url = "page/about/"
-    weight = 2
+	name = "Qui suis-je ?"
+	url = "page/about/"
+	weight = 2
 
 [[menu.main]]
-    name = "Réalisations"
-    url = "page/realisations/"
-    weight = 2
+	name = "Réalisations"
+	url = "page/realisations/"
+	weight = 3
+
+[[menu.main]]
+	name = "Projets en cours"
+	url = "page/projects/"
+	weight = 4
+
+[[menu.main]]
+	name = "Tags"
+	url = "tags"
+	weight = 5
 
 #[[menu.main]]
 #    parent = "samples"
@@ -113,7 +132,3 @@ pygmentsCodefencesGuessSyntax = true
 #    url = "post/2016-03-08-code-sample"
 #    weight = 3
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3

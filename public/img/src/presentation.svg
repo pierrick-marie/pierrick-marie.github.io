@@ -661,9 +661,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.1932099"
-     inkscape:cx="183.25347"
-     inkscape:cy="992.82702"
+     inkscape:zoom="0.54740759"
+     inkscape:cx="216.14169"
+     inkscape:cy="533.77783"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -688,7 +688,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -696,104 +696,111 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25117874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.5023576, 1.25117878;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1977"
+       width="186.02591"
+       height="288.25748"
+       x="11.730747"
+       y="4.737011" />
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 49.688266,48.95729 A 3.6028647,3.6028643 0 0 1 46.0854,52.560157 3.6028647,3.6028643 0 0 1 42.482536,48.95729 3.6028647,3.6028643 0 0 1 46.0854,45.354422 3.6028647,3.6028643 0 0 1 49.688266,48.95729 Z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.43644035;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 39.007183,35.504089 a 3.8515338,3.8515334 0 0 1 -3.851535,3.851535 3.8515338,3.8515334 0 0 1 -3.851533,-3.851535 3.8515338,3.8515334 0 0 1 3.851533,-3.851537 3.8515338,3.8515334 0 0 1 3.851535,3.851537 z"
        id="path836-3"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49733043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 49.688266,101.57101 a 3.6028652,3.6028617 0 0 1 -3.602864,3.60286 3.6028652,3.6028617 0 0 1 -3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602866,-3.60287 3.6028652,3.6028617 0 0 1 3.602864,3.60287 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.53165609;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 39.007183,91.749202 a 3.8515343,3.8515306 0 0 1 -3.851533,3.851527 3.8515343,3.8515306 0 0 1 -3.851535,-3.851527 3.8515343,3.8515306 0 0 1 3.851535,-3.851544 3.8515343,3.8515306 0 0 1 3.851533,3.851544 z"
        id="path836-3-7"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 46.0854,101.571 C 79.455053,73.026476 14.959692,80.297884 43.570239,51.536943"
+       style="fill:none;stroke:#000000;stroke-width:0.43644035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.87288067, 0.43644034;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 35.155648,91.749191 C 70.828469,61.234525 1.8816505,69.007804 32.466891,38.261789"
        id="path4650"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 49.688266,101.571 A 3.6028647,3.6028643 0 0 1 46.0854,105.17387 3.6028647,3.6028643 0 0 1 42.482536,101.571 3.6028647,3.6028643 0 0 1 46.0854,97.968137 3.6028647,3.6028643 0 0 1 49.688266,101.571 Z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.43644035;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 39.007183,91.749191 a 3.8515338,3.8515334 0 0 1 -3.851535,3.851538 3.8515338,3.8515334 0 0 1 -3.851533,-3.851538 3.8515338,3.8515334 0 0 1 3.851533,-3.851536 3.8515338,3.8515334 0 0 1 3.851535,3.851536 z"
        id="path836-3-1"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49733043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 49.688266,154.18472 a 3.6028652,3.6028617 0 0 1 -3.602864,3.60286 3.6028652,3.6028617 0 0 1 -3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602864,3.60286 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.53165609;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 39.007183,147.9943 a 3.8515343,3.8515306 0 0 1 -3.851533,3.85154 3.8515343,3.8515306 0 0 1 -3.851535,-3.85154 3.8515343,3.8515306 0 0 1 3.851535,-3.85153 3.8515343,3.8515306 0 0 1 3.851533,3.85153 z"
        id="path836-3-7-7"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 46.0854,154.18472 C 79.455053,125.64019 14.911067,132.86328 43.521614,104.10234"
+       style="fill:none;stroke:#000000;stroke-width:0.43644035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.87288067, 0.43644034;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 35.155648,147.9943 C 70.828469,117.47964 1.8296694,125.20127 32.41491,94.45524"
        id="path4650-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
-       x="26.579353"
-       y="261.30081"
+       style="font-style:normal;font-weight:normal;font-size:17.43016434px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.43575415"
+       x="14.3033"
+       y="262.50357"
        id="text4626-1-8-1-6"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999"><tspan
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148"><tspan
          sodipodi:role="line"
-         x="26.579353"
-         y="261.30081"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
+         x="14.3033"
+         y="262.50357"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.81005478px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.43575415"
          id="tspan4790-1">2012</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
-       x="26.951107"
-       y="103.45964"
+       style="font-style:normal;font-weight:normal;font-size:17.43016434px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.43575415"
+       x="14.700711"
+       y="93.768181"
        id="text4626-1-8-1-6-6"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999"><tspan
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148"><tspan
          sodipodi:role="line"
-         x="26.951107"
-         y="103.45964"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
+         x="14.700711"
+         y="93.768181"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.81005478px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.43575415"
          id="tspan4790-1-4">2021</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
-       x="26.579353"
-       y="50.845928"
+       style="font-style:normal;font-weight:normal;font-size:17.43016434px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.43575415"
+       x="14.3033"
+       y="37.523083"
        id="text4626-1-8-1-6-8"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999"><tspan
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148"><tspan
          sodipodi:role="line"
-         x="26.579353"
-         y="50.845928"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
+         x="14.3033"
+         y="37.523083"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.81005478px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.43575415"
          id="tspan4790-1-0">2022</tspan></text>
     <g
        id="g1676"
-       transform="matrix(1.540612,0,0,1.540612,-67.734323,-4.4236536)"
+       transform="matrix(1.6469448,0,0,1.6469448,-86.519891,-21.561198)"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353"
-       inkscape:export-ydpi="353">
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148">
       <g
          transform="translate(12.445974,-3.6250411)"
          id="g1653">
@@ -904,97 +911,97 @@
            id="tspan1096">Champion universitaire de lancer de marteau</tspan></text>
     </g>
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 49.688266,154.18472 a 3.6028647,3.6028643 0 0 1 -3.602866,3.60287 3.6028647,3.6028643 0 0 1 -3.602864,-3.60287 3.6028647,3.6028643 0 0 1 3.602864,-3.60286 3.6028647,3.6028643 0 0 1 3.602866,3.60286 z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.43644035;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 39.007183,147.9943 a 3.8515338,3.8515334 0 0 1 -3.851535,3.85155 3.8515338,3.8515334 0 0 1 -3.851533,-3.85155 3.8515338,3.8515334 0 0 1 3.851533,-3.85153 3.8515338,3.8515334 0 0 1 3.851535,3.85153 z"
        id="path836-3-1-7"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49733043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 49.688266,206.79844 a 3.6028652,3.6028617 0 0 1 -3.602864,3.60286 3.6028652,3.6028617 0 0 1 -3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602864,3.60286 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.53165609;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 39.007183,204.23941 a 3.8515343,3.8515306 0 0 1 -3.851533,3.85154 3.8515343,3.8515306 0 0 1 -3.851535,-3.85154 3.8515343,3.8515306 0 0 1 3.851535,-3.85153 3.8515343,3.8515306 0 0 1 3.851533,3.85153 z"
        id="path836-3-7-7-5"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 46.0854,206.79844 C 79.455053,178.25392 14.933164,185.49918 43.543711,156.73824"
+       style="fill:none;stroke:#000000;stroke-width:0.43644035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.87288067, 0.43644034;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 35.155648,204.23941 C 70.828469,173.72476 1.8532911,181.47009 32.438532,150.72407"
        id="path4650-0-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 49.688266,206.79844 a 3.6028647,3.6028643 0 0 1 -3.602866,3.60287 3.6028647,3.6028643 0 0 1 -3.602864,-3.60287 3.6028647,3.6028643 0 0 1 3.602864,-3.60286 3.6028647,3.6028643 0 0 1 3.602866,3.60286 z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.43644035;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 39.007183,204.23941 a 3.8515338,3.8515334 0 0 1 -3.851535,3.85155 3.8515338,3.8515334 0 0 1 -3.851533,-3.85155 3.8515338,3.8515334 0 0 1 3.851533,-3.85153 3.8515338,3.8515334 0 0 1 3.851535,3.85153 z"
        id="path836-3-1-6"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.40826216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 49.688266,259.41215 a 3.6028652,3.6028617 0 0 1 -3.602864,3.60288 3.6028652,3.6028617 0 0 1 -3.602866,-3.60288 3.6028652,3.6028617 0 0 1 3.602866,-3.60286 3.6028652,3.6028617 0 0 1 3.602864,3.60286 z"
+       style="fill:#51a1c4;fill-opacity:1;stroke:#000000;stroke-width:0.43644035;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 39.007183,260.48451 a 3.8515343,3.8515306 0 0 1 -3.851533,3.85155 3.8515343,3.8515306 0 0 1 -3.851535,-3.85155 3.8515343,3.8515306 0 0 1 3.851535,-3.85153 3.8515343,3.8515306 0 0 1 3.851533,3.85153 z"
        id="path836-3-7-7-3"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 48.860828,257.11484 c 29.04797,-29.70805 -33.780643,-18.85071 -5.149107,-47.606"
+       style="fill:none;stroke:#000000;stroke-width:0.43644035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.87288067, 0.43644034;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 38.122636,258.02864 C 69.175491,226.27015 2.0104593,237.87686 32.618138,207.13688"
        id="path4650-0-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
-       x="26.60544"
-       y="208.68437"
+       style="font-style:normal;font-weight:normal;font-size:17.43016434px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.43575415"
+       x="14.331187"
+       y="206.25548"
        id="text4626-1-8-1-6-9"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999"><tspan
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148"><tspan
          sodipodi:role="line"
-         x="26.60544"
-         y="208.68437"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
+         x="14.331187"
+         y="206.25548"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.81005478px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.43575415"
          id="tspan4790-1-7">2015</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.30480957px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40762025"
-       x="26.523922"
-       y="156.07336"
+       style="font-style:normal;font-weight:normal;font-size:17.43016434px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.43575415"
+       x="14.244043"
+       y="150.01326"
        id="text4626-1-8-1-6-6-4"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999"><tspan
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148"><tspan
          sodipodi:role="line"
-         x="26.523922"
-         y="156.07336"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.43493652px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.40762025"
+         x="14.244043"
+         y="150.01326"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.81005478px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';stroke-width:0.43575415"
          id="tspan4790-1-4-9">2020</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path5221"
-       style="fill:#9ac421;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00309988"
-       d="m 52.775234,54.952509 h 14.175248 c 0.293745,0 0.534078,0.240365 0.534078,0.534139 v 0 c 0,0.293713 -0.240333,0.534047 -0.534078,0.534047 H 52.775234 c -0.293789,0 -0.534101,-0.240334 -0.534101,-0.534047 v 0 c 0,-0.293774 0.240312,-0.534139 0.534101,-0.534139"
+       style="fill:#9ac421;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00331383"
+       d="m 42.307213,41.913096 h 15.153621 c 0.31402,0 0.57094,0.256956 0.57094,0.571006 v 0 c 0,0.313985 -0.25692,0.570907 -0.57094,0.570907 H 42.307213 c -0.314067,0 -0.570964,-0.256922 -0.570964,-0.570907 v 0 c 0,-0.31405 0.256897,-0.571006 0.570964,-0.571006"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353"
-       inkscape:export-ydpi="353" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <g
        id="g1729"
-       transform="matrix(1.540612,0,0,1.540612,-50.184709,-6.6788241)"
+       transform="matrix(1.6469448,0,0,1.6469448,-67.759006,-23.97202)"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353"
-       inkscape:export-ydpi="353">
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148">
       <text
          id="text4626-1"
          y="34.813007"
@@ -1142,26 +1149,26 @@
     </g>
     <g
        id="g1569"
-       transform="matrix(1.540612,0,0,1.540612,-55.076152,-5.4384225)"
+       transform="matrix(1.6469448,0,0,1.6469448,-72.988056,-22.646006)"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353"
-       inkscape:export-ydpi="353">
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148">
       <text
          id="text4626-1-8"
          y="72.23233"
-         x="110.43108"
+         x="111.80498"
          style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.5;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="tspan4841"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke-width:0.26458332"
            y="72.23233"
-           x="110.43108"
+           x="111.80498"
            sodipodi:role="line">Une aventure salée commence !</tspan><tspan
            id="tspan6481"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:0.5;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke-width:0.26458332"
            y="77.523994"
-           x="110.43108"
-           sodipodi:role="line">Achat en Martinique de Ninaé, un voilier, ma nouvelle maison</tspan></text>
+           x="111.80498"
+           sodipodi:role="line">Achat en Martinique de Ninaé, un voilier, ma nouvelle résidence</tspan></text>
       <g
          id="g1549">
         <path
@@ -1238,10 +1245,10 @@
     </g>
     <g
        id="g1616"
-       transform="matrix(1.540612,0,0,1.540612,-61.598076,-5.1932597)"
+       transform="matrix(1.6469448,0,0,1.6469448,-79.960121,-22.383922)"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353"
-       inkscape:export-ydpi="353">
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148">
       <text
          id="text4626-1-8-1"
          y="101.23058"
@@ -1368,10 +1375,10 @@
     </g>
     <g
        id="g1698"
-       transform="matrix(1.540612,0,0,1.540612,-50.184709,-6.3616042)"
+       transform="matrix(1.6469448,0,0,1.6469448,-67.759006,-23.632905)"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353"
-       inkscape:export-ydpi="353">
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148">
       <text
          id="text4626-1-8-1-8-2"
          y="136.75726"
@@ -1497,31 +1504,31 @@
       </g>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.40826216;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.81652431, 0.40826216;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 49.532338,287.70351 C 33.368982,279.35709 34.660738,272.20644 44.057451,262.3901"
+       style="fill:none;stroke:#000000;stroke-width:0.43644035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.87288067, 0.43644034;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 38.840493,290.72854 C 21.561545,281.80605 22.942457,274.16187 32.987731,263.668"
        id="path4650-0-7-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.408;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.816, 0.40799999999999997;stroke-dashoffset:0;stroke-opacity:1;marker-end:"
-       d="M 48.391518,46.189172 C 62.548171,29.897035 55.832943,28.553871 47.567278,23.599785"
+       style="fill:none;stroke:#000000;stroke-width:0.43616009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.87232017, 0.43616008;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 37.620934,32.544915 C 52.754676,15.128299 45.575964,13.69243 36.739805,8.3964122"
        id="path4650-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353.10999"
-       inkscape:export-ydpi="353.10999" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.19545117px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       d="m 48.836326,28.773669 c -0.740165,-2.574287 -2.041632,-5.245294 -3.865324,-6.901523 2.697632,0.726075 5.730297,1.265389 8.389293,1.151962 -1.44579,0.649023 -1.142408,2.324015 -4.262941,1.522312 2.257603,2.202298 -0.01121,3.012571 -0.261028,4.227249 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.20894118px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 38.096442,13.927397 c -0.791251,-2.751964 -2.182544,-5.6073234 -4.132108,-7.3778654 2.883823,0.7761893 6.125801,1.3527259 8.968321,1.2314703 -1.545578,0.693819 -1.221257,2.4844191 -4.557168,1.6273817 2.413422,2.3543024 -0.01198,3.2204994 -0.279045,4.5190134 z"
        id="path2611"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="/home/pirik/Documents/informatique/blog/pierrick-marie.github.io/content/img/presentation.png"
-       inkscape:export-xdpi="353"
-       inkscape:export-ydpi="353" />
+       inkscape:export-xdpi="181.48148"
+       inkscape:export-ydpi="181.48148" />
   </g>
 </svg>

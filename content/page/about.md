@@ -14,4 +14,6 @@ En parallèle de mon parcours professionnel je poursuis depuis le collège une c
 
 Réconcilié avec ma passion première, je suis maintenant développeur informatique indépendant. J’offre mes services et mes compétences depuis les quatre coins du monde, mais jamais très loin d’un océan.
 
-{{< figure src="/img/presentation.png" title="Une infographie de mon parcours" caption="Résumé de mon parcours professionnel" alt="Mon parcours sous forme d'infographie'" width="90%">}}
+{{< figure src="/img/presentation.svg" title="Résumé de mon parcours" caption="Résumé de mon parcours professionnel" alt="Mon parcours sous forme d'infographie'" width="80%">}}
+
+
