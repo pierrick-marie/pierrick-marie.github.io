@@ -16,12 +16,15 @@ cd ../..
 # 2. Generate static web site
 hugo --cleanDestinationDir -d public
 
+# 4. Go to src branc
+git checkout src
+
 # 3. Push last update
 git add -A
 git commit -m "Last update"
 git push
 
-# 4. Push static web site 
+# 4. Push static web site
 git checkout main
 
 ## 4.1 get static web site from src
@@ -29,7 +32,7 @@ git checkout src -- public
 mv public/* ./
 rmdir public
 
-## 4.2 Push web site 
+## 4.2 Push web site
 git add -A
 git commit -m "Last update"
 git push

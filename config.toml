@@ -1,6 +1,6 @@
 baseurl = "https://pierrick-marie.github.io"
 
-DefaultContentLanguage = "fr-FR"
+DefaultContentLanguage = "fr"
 
 title = "Pierrick MARIE"
 
@@ -20,28 +20,28 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 	# homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-	subtitle = "Développeur informatique && Voyageur des mers"
-	mainSections = ["post","posts"]
+	subtitle = "Développeur informatique et voyageur au long cours"
+	subtitle_1 = "Développeur informatique"
+	subtitle_2 = "Voyageur au long cours"
+	mainSections = []
 	logo = "img/icon/avatar-tiny-2.png" # Expecting square dimensions
 	favicon = "img/icon/logo.png"
 	dateFormat = "January 2, 2006"
 	commit = false
-	rss = true
+	rss = false
 	comments = false
-	readingTime = true
-	wordCount = true
+	readingTime = false
+	wordCount = false
 	useHLJS = true
-	socialShare = true
-	delayDisqus = true
-	showRelatedPosts = true
+	socialShare = false
+	delayDisqus = false
+	showRelatedPosts = false
 	hideAuthor = true
 
-	
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 [markup.goldmark.renderer]
 	unsafe = true
-
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
@@ -64,6 +64,7 @@ pygmentsCodefencesGuessSyntax = true
 	github = "pierrick-marie"
 	framagit = "pierrick"
 	linkedin = "pierrick-marie-100493211"
+	medium = "pierrick"
 	# website = "https://pierrick-marie.github.io/"
 	# bitbucket = "username"
 	# twitter = "username"
@@ -89,10 +90,10 @@ pygmentsCodefencesGuessSyntax = true
 	# discord = "invite code (https://discord.gg/XXXXXXX)"
 	# strava = "userid"
 
-[[menu.main]]
-	name = "Articles"
-	url = ""
-	weight = 1
+#[[menu.main]]
+#	name = "Articles"
+#	url = ""
+#	weight = 1
 
 [[menu.main]]
 	name = "Qui suis-je ?"
@@ -109,10 +110,10 @@ pygmentsCodefencesGuessSyntax = true
 	url = "page/projects/"
 	weight = 4
 
-[[menu.main]]
-	name = "Tags"
-	url = "tags"
-	weight = 5
+#[[menu.main]]
+#	name = "Tags"
+#	url = "tags"
+#	weight = 5
 
 #[[menu.main]]
 #    parent = "samples"
@@ -131,4 +132,3 @@ pygmentsCodefencesGuessSyntax = true
 #    name = "Code Sample"
 #    url = "post/2016-03-08-code-sample"
 #    weight = 3
-
