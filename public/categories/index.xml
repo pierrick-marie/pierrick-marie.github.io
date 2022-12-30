@@ -6,10 +6,6 @@
     <description>Recent content in Categories on Pierrick MARIE</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mail@pierrickmarie.info (Pierrick MARIE)</managingEditor>
-    <webMaster>mail@pierrickmarie.info (Pierrick MARIE)</webMaster>
-    
-	<atom:link href="https://pierrick-marie.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>mail@pierrickmarie.info (Pierrick MARIE)</webMaster><atom:link href="https://pierrick-marie.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
