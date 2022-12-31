@@ -10,6 +10,19 @@ p {
 	font-size: 22px;
 }
 
+section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#competences {
+	background-color: green;
+}
+
+#projets {
+	background-color: blue;
+}
+
 .main-content {
   padding-bottom: 50px;
 }
@@ -20,21 +33,31 @@ p {
 	background-color: #f8f8f8;
 }
 
-#left {
+#left button {
 	/* flex: auto; */
 	float: left;
-	flex-basis: 0;
+	/* flex-basis: 0; */
+}
+
+#left ul {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #middle {
 	/* flex: auto; */
-	flex-basis: 0;
+	/* flex-basis: 0; */
 }
 
 #right {
 	/* flex: auto; */
+	top: 10px;
 	float: right;
-	flex-basis: 0;
+	/* flex-basis: 0; */
+}
+
+#right a {
+	font-size: 20px;
 }
 
 .navbar-custom .navbar-brand, .navbar-custom .nav li a {
