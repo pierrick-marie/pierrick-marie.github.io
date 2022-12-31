@@ -1,7 +1,7 @@
 /* --- General --- */
 
 body {
-	font-family: 'Lora', 'Times New Roman', serif;
+	/* font-family: 'Lora', 'Times New Roman', serif; */
 	font-size: 18px;
 	color: #cacaca;
 	position: relative;
@@ -734,7 +734,7 @@ footer .theme-by {
 	.intro-header .tags-heading h1,
 	.intro-header .categories-heading h1 {
 		font-size: 80px;
-		color: #aa5b8b;
+		color: #c84494;
 	}
 	.intro-header .post-heading h1 {
 		font-size: 50px;

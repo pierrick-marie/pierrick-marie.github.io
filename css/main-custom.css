@@ -1,6 +1,13 @@
 body {
-	  background-image: url("/img/accueil.jpeg");
-	  background-position: 50% 70px;
+	background-image: url("../img/accueil.jpeg");
+	background-position: 50% 70px;
+	background-color: #00040f;
+	background-repeat: no-repeat;
+}
+
+p {
+	text-align: center;
+	font-size: 22px;
 }
 
 .main-content {
@@ -8,25 +15,34 @@ body {
 }
 
 .container-fluid {
-	display: flex;
 	width: 100%;
 	border-bottom: 1px solid #e7e7e7;;
 	background-color: #f8f8f8;
 }
 
 #left {
-	flex: auto;
+	/* flex: auto; */
+	float: left;
 	flex-basis: 0;
 }
 
 #middle {
-	flex: auto; 
+	/* flex: auto; */
 	flex-basis: 0;
 }
 
 #right {
-	flex: auto;
+	/* flex: auto; */
+	float: right;
 	flex-basis: 0;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .nav li a {
+	color: #c84494;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #c84494;
 }
 
 footer.footer-min {
