@@ -1,8 +1,8 @@
 body {
-	background-image: url("../img/accueil.jpeg");
-	background-position: 50% 70px;
+	background-image: url("../img/accueil.jpg");
 	background-color: #00040f;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 p {
@@ -11,16 +11,25 @@ p {
 }
 
 section {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	/* padding-top: 60px; */
+	/* padding-bottom: 60px; */
 }
 
 #competences {
+	background-image: url("../img/competences.jpg");
+	/* background-position: 50% 70px; */
 	background-color: green;
+	background-repeat: no-repeat;
+	height: 100vh;
 }
 
 #projets {
 	background-color: blue;
+}
+
+.container h1 {
+	padding-bottom: 15px;
+	color: #c84494;
 }
 
 .main-content {
@@ -68,6 +77,7 @@ section {
 	background-color: #c84494;
 }
 
+
 footer.footer-min {
   position: fixed;
   bottom: 0;
@@ -80,4 +90,13 @@ footer.footer-min {
 
 footer p {
 	font-size: 14px;
+}
+
+header h1 {
+	margin-top: 5%;
+} 
+
+header h2 {
+	margin-top: 15%;
+	margin-bottom: 5%;
 }
