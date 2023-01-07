@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Pierrick MARIE</title>
+    <link>https://pierrick-marie.github.io/page/</link>
+    <description>Recent content in Pages on Pierrick MARIE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mail@pierrickmarie.info (Pierrick MARIE)</managingEditor>
+    <webMaster>mail@pierrickmarie.info (Pierrick MARIE)</webMaster><atom:link href="https://pierrick-marie.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mes réalisations</title>
+      <link>https://pierrick-marie.github.io/page/realisations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@pierrickmarie.info (Pierrick MARIE)</author>
+      <guid>https://pierrick-marie.github.io/page/realisations/</guid>
+      <description>Projets en cours ➜ Initiation à SpringBoot avec Kotlin et Gradle ➜ Développeur, Rédacteur et administrateur du site ninae.fr
+Projets terminés ss
+Projet de recherche QoCIM Quadriciel de gestion de la qualité des informations de contexte
+Code source du projet
+Code source du projet
+TITRE 0 Code source du projet
+TITRE 1 Développement des mini-programmes suivants :
+ un tétris avec la bibliothèque graphique SDL2 un lecteur de musique avec les bibliothèques GTK3 et Gstreamer un client et serveur FTP  =&amp;gt; Ajouter les languages utilisés / technologies / matériel =&amp;gt; Changer la présentation</description>
+    </item>
+    
+    <item>
+      <title>Projets en cours</title>
+      <link>https://pierrick-marie.github.io/page/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@pierrickmarie.info (Pierrick MARIE)</author>
+      <guid>https://pierrick-marie.github.io/page/projects/</guid>
+      <description>2022 - 2023  💻 Accroître mon activité de développeur informatique indépendant
+ ⛵ Poursuivre mon voyage à la voile jusqu&amp;rsquo;au Cap Vert en passant par les Canaries
+2024 - 2025  😌 Créer une activité de bien-être en proposant des séances d&amp;rsquo;acro-yoga et de méditation
+ 📖 Rassembler mes notes de voyage afin de rédiger un livre et le publier</description>
+    </item>
+    
+    <item>
+      <title>Qui suis-je ?</title>
+      <link>https://pierrick-marie.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mail@pierrickmarie.info (Pierrick MARIE)</author>
+      <guid>https://pierrick-marie.github.io/page/about/</guid>
+      <description>Mes débuts dans l’informatique commencent avec l’obtention d’un Master spécialisé dans le développement de logiciels pour des systèmes répartis ou embarqués. Je décide ensuite de poursuivre mes études au travers d’un doctorat soutenu trois ans plus tard qui porte sur la gestion de la qualité des informations échangées au sein de l’Internet des Objets. Intitulé complet : Gestion de bout en bout de la Qualité de Contexte pour l’Internet des Objets : le cadriciel QoCIM.</description>
+    </item>
+    
+  </channel>
+</rss>

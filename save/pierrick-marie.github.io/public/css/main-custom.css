@@ -1,0 +1,40 @@
+body {
+	  background-image: url("/img/accueil.jpeg");
+	  background-position: 50% 70px;
+}
+
+.main-content {
+  padding-bottom: 50px;
+}
+
+.container-fluid {
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #e7e7e7;;
+	background-color: #f8f8f8;
+}
+
+#left {
+	flex: auto;
+	flex-basis: 0;
+}
+
+#middle {
+	flex: auto; 
+	flex-basis: 0;
+}
+
+#right {
+	flex: auto;
+	flex-basis: 0;
+}
+
+footer.footer-min {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 3px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #eeeeee;
+  text-align: center;
+}
