@@ -1,0 +1,21 @@
+baseURL = 'https://pierrick-marie.github.io/'
+languageCode = 'fr'
+title = 'Pierrick MARIE - Développeur informatique'
+theme = 'yummy-yam'
+
+[params]
+	author = "Pierrick MARIE"
+	subtitle_1 = 'Développeur informatique'
+	subtitle_2 = 'Voyageur au long court'
+
+[menu]
+	[[menu.main]]
+		name = 'Home'
+		pre = 'home'
+		url = '/'
+		weight = 1
+
+[module]
+	[[module.mounts]]
+      	source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      	target = "assets/js/bootstrap/bundle.min.js"
