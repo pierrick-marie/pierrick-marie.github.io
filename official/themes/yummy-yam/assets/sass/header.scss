@@ -1,0 +1,39 @@
+a {
+	text-decoration: none;
+}
+
+header {
+	@extend .bg-primary;
+	
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	
+}
+
+#first-title {
+	position: relative;
+	top: 400px;
+}
+
+.navbar-avatar {
+	position: relative;
+	bottom: -30px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.avatar-img {
+	height: 25vh;
+	width: auto;
+
+	min-height: 80px;
+	max-height: 120px;
+}
+
+.navbar-title {
+	position: relative;
+	top: 0;
+	right: 40px;
+	z-index: 2;
+}

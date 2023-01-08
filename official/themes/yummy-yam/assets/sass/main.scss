@@ -1,0 +1,27 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+/* redefine theme colors for dark theme */
+$primary: #24b811;
+$secondary: #c00c0c;
+$success: #027e21;
+$dark: #bdc919;
+
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"success": $success,
+	"danger": $danger,
+	"info": $indigo,
+	"dark": $dark,
+	"light": $light,
+);
+
+$body-color: #a10404;
+$body-bg: #0569ff;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+@import './header.scss';
+@import './content.scss';

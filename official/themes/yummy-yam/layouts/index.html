@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<section id="first-content" class="content">
+	<div id="first-title" class="jumbotron text-center">
+		<h1 class="title">{{ .Site.Title }}</h1>
+		<h2 class="">{{ $.Site.Params.subtitle_2 }}</h2>
+	</div>
+</section>
+
+<section class="content">
+	<div id="home-jumbotron" class="jumbotron text-center">
+		<h1 class="title">{{ .Site.Title }}</h1>
+	</div>
+</section>
+
+{{ end }}

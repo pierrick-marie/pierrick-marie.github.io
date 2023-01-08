@@ -1,0 +1,17 @@
+<!-- The base of all pages -->
+<!DOCTYPE html>
+<html>
+
+{{- partial "head.html" . -}}
+
+<body>
+	{{- partial "header.html" . -}}
+	
+	{{- block "main" . }}{{- end }} <!-- layouts/index.html -->
+	
+	{{- partial "footer.html" . -}}
+	
+	{{- partial "script.html" . -}}
+</body>
+
+</html>
