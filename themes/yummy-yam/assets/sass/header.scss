@@ -34,13 +34,11 @@ header {
 }
 
 .navbar-avatar {
-		position: relative;
-		bottom: -20px;
-	// 	margin-top: 0;
-	// 	margin-bottom: 0;
-	// 	margin-left: auto;
-	// 	margin-right: auto;
-	// margin-top: 30px;
+	position: relative;
+	bottom: -20px;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translate(-50%, 0);
 }
 
 #navbar-icon {
@@ -48,8 +46,9 @@ header {
 }
 
 .avatar-img {
-	height: calc(max(2vh, 80px));
+	height: calc(max(10vh, 60px));
 	width: auto;
+
 }
 
 #navbar-content {
