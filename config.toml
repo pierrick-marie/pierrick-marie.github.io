@@ -1,12 +1,11 @@
 baseURL = 'https://pierrick-marie.github.io/'
 languageCode = 'fr'
-title = 'Pierrick MARIE - Développeur informatique'
+title = 'Développeur informatique'
 theme = 'yummy-yam'
 
 [params]
 	author = "Pierrick MARIE"
-	subtitle_1 = 'Développeur informatique'
-	subtitle_2 = 'Voyageur au long court'
+	subtitle = 'Voyageur au long court'
 
 [menu]
 	[[menu.main]]

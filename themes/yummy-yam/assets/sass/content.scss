@@ -1,15 +1,54 @@
-section {
-	height: 800px;
-}
 
-#first-content {
+#main {
 	background-image: url("/img/accueil.jpg");
 	background-color: #00040f;
 	background-repeat: no-repeat;
 	background-size: cover;
-	// background-position: 0 10vh;
+
+	margin-top: navbarHeight();	// @see ./header.css
+	
+	height: 90vh;
+}
+
+#developer {
+	background-image: url("/img/accueil.jpg");
+	background-color: #00040f;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+}
+
+section {
+	color: $light;
 }
 
 section h1 {
-	padding-top: 300px;
+	padding-top: 25vh;
+}
+
+section h2 {
+	padding-top: 10vh;
+}
+
+.down-arrow-box {
+	position: absolute;
+	bottom: 2vh;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.down-arrow {
+	color: $light;
+
+	font-size: 2.5em;
+	transition: 500ms;
+}
+
+.down-arrow:hover {
+	font-size: 3em;
+	color: $light;
+
+	margin-left: auto;
+	margin-right: auto;
 }

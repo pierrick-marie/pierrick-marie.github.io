@@ -1,13 +1,22 @@
 {{ define "main" }}
 
-<section id="first-content" class="content">
+<section id="main" class="content">
 	<div class="text-center">
-		<h1 class="">{{ .Site.Title }}</h1>
-		<h2 class="">{{ $.Site.Params.subtitle_2 }}</h2>
+		<h1 class="">{ &nbsp; {{ .Site.Title }} &nbsp; }</h1>
+		<h2 class="">{ &nbsp; {{ .Site.Params.subtitle }} &nbsp; }</h2>
+		
+		<div class="down-arrow-box">
+			<a href=".#developer">
+				<p class="down-arrow">
+					⮛<br>⮛
+				</p>
+			</a>
+		</div>
+
 	</div>
 </section>
 
-<section class="content">
+<section id="developer" class="content">
 	<div id="home-jumbotron" class="jumbotron text-center">
 		<h1 class="title">{{ .Site.Title }}</h1>
 	</div>
