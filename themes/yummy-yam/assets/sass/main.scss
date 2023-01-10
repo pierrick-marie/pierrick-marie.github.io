@@ -3,10 +3,13 @@
 @import "node_modules/bootstrap/scss/mixins";
 
 $primary: $gray-100;
-$secondary: #c00c0c;
-$success: #027e21;
+$secondary: $gray-300;
+$success: $green-100;
 $info: $indigo;
 $dark: $gray-800;
+
+$body-color: $pink-600;
+$body-bg: $primary;
 
 $theme-colors: (
 	"primary": $primary,
@@ -18,8 +21,6 @@ $theme-colors: (
 	"light": $light,
 );
 
-$body-color: $pink-500;
-$body-bg: $primary;
 
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 

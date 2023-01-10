@@ -21,12 +21,7 @@ header {
 	width: 100%;
 }
 
-#navbar-title {
-	position: fixed;
-	top: 20px;
-	right: 20px;
-}
-
+/* navbar in default view */
 #navbar {
 	width: 100%;
 	height: navbarHeight();
@@ -36,6 +31,7 @@ header {
 	padding: 0;
 }
 
+/* menu button */
 .navbar-toggler {
 	margin-left: 20px;
 	border-style: solid;
@@ -50,7 +46,12 @@ header {
 	box-shadow: 5px 5px 5px $gray-600;
 }
 
-.navbar-avatar {
+#navbar-toggler-icon {
+	padding: 5px;
+}
+
+/* link over avatar image */
+.navbar-avatar {	
 	position: relative;
 	bottom: -20px;
 	margin-left: auto;
@@ -62,10 +63,7 @@ header {
 	border-bottom: none;
 }
 
-#navbar-icon {
-	padding: 5px 5px;
-}
-
+/* image of the avatar */
 .avatar-img {
 	height: avatarHeight();
 	width: auto;
@@ -77,6 +75,14 @@ header {
 	rotate: -10deg;
 }
 
+/* link navbar title */
+#navbar-title {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+/* content displayed after roll down navbar */
 #navbar-content {
 	padding-top: 10px;
 	padding-left: 30px;
