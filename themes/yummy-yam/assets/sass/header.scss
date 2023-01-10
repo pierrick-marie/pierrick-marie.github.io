@@ -1,3 +1,17 @@
+/**
+ * Nice height of avatar image
+ */
+@function avatarHeight() {
+	@return calc(max(10vh, 80px));
+}
+
+/**
+ * Height of navbar: height of avatar image + 10px to avoid clipping during rotation of avatar
+ */
+@function navbarHeight() {
+	@return calc(max(10vh, 80px) + 10px);
+}
+
 header {
 	position: fixed;
 	top: 0;
@@ -15,6 +29,8 @@ header {
 
 #navbar {
 	width: 100%;
+	height: navbarHeight();
+
 	z-index: 2;
 	margin: 0;
 	padding: 0;
@@ -42,12 +58,16 @@ header {
 	transform: translate(-50%, 0);
 }
 
+.navbar-avatar:hover {
+	border-bottom: none;
+}
+
 #navbar-icon {
 	padding: 5px 5px;
 }
 
 .avatar-img {
-	height: calc(max(10vh, 80px));
+	height: avatarHeight();
 	width: auto;
 	transition: 500ms;
 
