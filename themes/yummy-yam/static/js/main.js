@@ -1,4 +1,4 @@
-var HEADER_HEIGHT = 0;
+var HEADER_HEIGHT = 0;	// The height of the navbar
 
 $(document).ready(function () {
 
@@ -7,10 +7,12 @@ $(document).ready(function () {
 	$(window).scroll(function () {
 		scrollFunction();
 	});
-
-
 });
 
+/**
+ * Fade out navbar after scroll down.
+ * Fade in navbar if scroll to top page. 
+ */
 function scrollFunction() {
 
 	const header = $('header');

@@ -17,12 +17,12 @@
 			</button>
 
 			<a class="navbar-avatar p-0" alt="Home page {{ $.Site.Title }}" href=".">
-				<img class="avatar-img" alt="Avatar Pierrick MARIE" src="/img/avatar.png" />
+				<img class="avatar-img" alt="Avatar {{ $.Site.Params.author }}" src="/img/avatar.png" />
 			</a>
 
-			<!-- <a class="navbar-title " alt="Home page Pierrick MARIE" href=".">
-				<h1 class="h4">Pierrick MARIE</h1>
-			</a> -->
+			<a id="navbar-title" alt="Home page {{ $.Site.Params.author }}" href=".">
+				<h1 class="h4">{{ $.Site.Params.author }}</h1>
+			</a>
 		</div>
 	</nav>
 

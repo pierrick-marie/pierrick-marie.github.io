@@ -2,9 +2,15 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 2000;
+	z-index: 100;
 
 	width: 100%;
+}
+
+#navbar-title {
+	position: fixed;
+	top: 20px;
+	right: 20px;
 }
 
 #navbar {
@@ -12,11 +18,6 @@ header {
 	z-index: 2;
 	margin: 0;
 	padding: 0;
-}
-
-#first-title {
-	position: relative;
-	top: 400px;
 }
 
 .navbar-toggler {
@@ -45,10 +46,15 @@ header {
 	padding: 5px 5px;
 }
 
-.avatar-img {
-	height: calc(max(10vh, 60px));
+.navbar-avatar img {
+	height: calc(max(10vh, 80px));
 	width: auto;
 
+}
+
+.avatar-img:hover {
+	transform: rotate(5deg);
+	transition-duration: 0.5s;
 }
 
 #navbar-content {
