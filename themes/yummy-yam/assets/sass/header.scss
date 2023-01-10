@@ -46,15 +46,15 @@ header {
 	padding: 5px 5px;
 }
 
-.navbar-avatar img {
+.avatar-img {
 	height: calc(max(10vh, 80px));
 	width: auto;
+	transition: 500ms;
 
 }
 
 .avatar-img:hover {
-	transform: rotate(5deg);
-	transition-duration: 0.5s;
+	rotate: -10deg;
 }
 
 #navbar-content {
