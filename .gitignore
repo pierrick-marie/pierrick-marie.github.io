@@ -1,2 +1,6 @@
 # Ignore source images
 img/src/*
+.hugo_build.lock
+node_modules/
+resources/
+
