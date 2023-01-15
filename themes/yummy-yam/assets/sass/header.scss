@@ -19,6 +19,10 @@ header {
 	z-index: 100;
 
 	width: 100%;
+
+	border-bottom: solid;
+	border-color: $dark;
+	border-width: 2px;
 }
 
 /* navbar in default view */
@@ -36,6 +40,8 @@ header {
 	margin-left: 20px;
 	border-style: solid;
 	border-width: 3px;
+
+	background-color: $gray-100;
 }
 
 .navbar-toggler:focus {
@@ -57,6 +63,8 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	transform: translate(-50%, 0)px;
+
+	// opacity: unset;
 }
 
 .navbar-avatar:hover {

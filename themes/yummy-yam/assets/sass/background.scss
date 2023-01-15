@@ -1,0 +1,23 @@
+// .images-background {
+// 	width: 100%;
+// }
+
+.images-background img {
+	width: auto;
+}
+
+#left-technologies {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+
+	height: 38vh;
+}
+
+#right-technologies {
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+
+	height: 30vh;
+}
