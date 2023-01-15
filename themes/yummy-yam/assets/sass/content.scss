@@ -2,7 +2,7 @@
 	background-image: url("/img/4.png");
 	background-color: $white;
 	background-repeat: repeat-y;
-	background-size: contain;
+	background-size: cover;
 	
 	margin-top: navbarHeight();	// @see ./header.css	
 }
