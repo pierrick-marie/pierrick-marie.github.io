@@ -1,6 +1,6 @@
 baseURL = 'https://pierrick-marie.github.io/'
 languageCode = 'fr'
-title = 'Développeur informatique'
+title = 'Développeur informatique freelance'
 theme = 'yummy-yam'
 
 [params]

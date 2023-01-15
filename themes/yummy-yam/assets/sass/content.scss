@@ -2,7 +2,7 @@
 	background-image: url("/img/4.png");
 	background-color: $white;
 	background-repeat: repeat-y;
-	background-size: cover;
+	background-size: contain;
 	
 	margin-top: navbarHeight();	// @see ./header.css	
 }
@@ -12,11 +12,6 @@
 }
 
 #developer {
-	// background-image: url("/img/competences/competences.jpg");
-	// background-color: #00040f;
-	// background-repeat: no-repeat;
-	// background-size: cover;
-
 	height: 100vh;
 }
 
@@ -24,25 +19,51 @@ section {
 	color: $dark;
 }
 
-section h1 {
-	display: inline;
-}
-
-#title-1 {
-	padding-top: 20vh;
-}
-
-#title-and {
-	padding-top: 5vh;
-	padding-bottom: 5vh;
-}
-
-section h2 {
-	display: inline;
-}
-
-.titles-content {
+.title-main {
 	font-size: 2.5em;
+	padding-top: 12vh;
+}
+
+.title-main h1 {
+	display: inline;
+}
+
+.introduction {
+	width: 95%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-top: 5vh;
+
+	font-size: 1.5em;
+}
+
+.introduction p {
+	font-style: italic;
+}
+
+.paragraph {
+	display: flex;
+	justify-content: space-around;
+
+	padding-top: 10vh;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.paragraph p {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#par-1 {
+	width: 70%;
+}
+
+#par-2 {
+	width: 85%;
 }
 
 .down-arrow-box {
@@ -52,30 +73,24 @@ section h2 {
 	transform: translate(-50%, 0);
 }
 
-.down-arrow {
-	font-size: 2.5em;
+.arrow {
+	font-size: 1.5em;
 	transition: 500ms;
-
-	margin-left: 100px;
-	margin-right: 100px;
 	margin-top: 100px;
+	transition: 150ms;
 }
 
-.down-arrow:hover {
+.arrow:hover {
 	font-size: 3em;
 
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.techno-img {
-	position: absolute;
-	bottom: -20px;
-	left: 10%;
+.title-projects {
+	padding-top: 1vh;
+}
 
-	height: 25vh;
-	width: auto;
-
-	margin-left: 10%;
-	margin-right: 10%;
+.up-arrow-box {
+	margin-top: 20px;
 }
