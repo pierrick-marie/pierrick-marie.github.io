@@ -1,17 +1,21 @@
+$arraow-size: 1.5em;
+
 .body {
 	background-image: url("/img/4.png");
 	background-color: $white;
 	background-repeat: repeat-y;
 	background-size: contain;
 	
-	margin-top: navbarHeight();	// @see ./header.css	
+	margin-top: navbarHeight();	// @see ./header.css
 }
 
 #main {
-	height: 100vh;
+	// height: calc(100vh - navbarHeight());
+	height: 90vh;
 }
 
 #developer {
+	top: 100vh;
 	height: 100vh;
 }
 
@@ -74,17 +78,17 @@ section {
 }
 
 .arrow {
-	font-size: 1.5em;
-	transition: 500ms;
-	margin-top: 100px;
+	font-size: $arraow-size;
 	transition: 150ms;
+
+	// margin-left: auto;
+	// margin-right: auto;
+
+	// z-index: 200;
 }
 
 .arrow:hover {
 	font-size: 3em;
-
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .title-projects {
@@ -92,5 +96,15 @@ section {
 }
 
 .up-arrow-box {
-	margin-top: 20px;
+	float: right;
+	margin-right: 50px;
+}
+
+.projects {
+	position: absolute;
+	top: 105vh;
+	left: 50%;
+	transform: translate(-50%, 0);
+	
+	// z-index: 100;
 }

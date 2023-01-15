@@ -9,14 +9,14 @@
  * Height of navbar: height of avatar image + 10px to avoid clipping during rotation of avatar
  */
 @function navbarHeight() {
-	@return calc(max(10vh, 80px) + 10px);
+	@return calc(max(10vh, 80px));
 }
 
 header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 100;
+	z-index: 200;
 
 	width: 100%;
 
@@ -28,7 +28,7 @@ header {
 /* navbar in default view */
 #navbar {
 	width: 100%;
-	height: navbarHeight()px;
+	// height: navbarHeight()px;
 
 	z-index: 2;
 	margin: 0;
@@ -62,7 +62,7 @@ header {
 	bottom: -20px;
 	margin-left: auto;
 	margin-right: auto;
-	transform: translate(-50%, 0);
+	transform: translate(-30%, 0);
 }
 
 .avatar-img {
