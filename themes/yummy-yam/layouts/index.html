@@ -2,10 +2,11 @@
 
 <div class="body">
 
-	<section id="main" class="content">
+	<section id="intro-section" class="content">
+
 		<div class="text-center">
 
-			<div class="title-main"> ⚝ &nbsp; <h1>{{ .Site.Title }}</h1> &nbsp; ⚝ </div>
+			<div class="title-h1" id="intro-title"> ⚝ &nbsp; <h1>{{ .Site.Title }}</h1> &nbsp; ⚝ </div>
 
 			<div class="introduction">
 				<div class="paragraph" id="par-1">
@@ -26,34 +27,21 @@
 				</div>
 			</div>
 
-			<div class="arrow down-arrow-box">
-				<a href=".#title-projects">
-					<p>
-						⮛<br>⮛
-					</p>
-				</a>
-			</div>
+			<a class="arrow down-arrow-box" href=".#projects-title">⮛<br>⮛</a>
 
 		</div>
-
 
 		<div class="images-background">
 			<img id="left-technologies" alt="technologies java docker" src="./img/competences/1-bis.png" />
 			<img id="right-technologies" alt="technologies maven springboot" src="./img/competences/2-bis.png" />
 		</div>
+
 	</section>
 
 	<section id="projects-section" class="text-center content">
-		<div class="arrow up-arrow-box">
-			<a href="#top">
-				<p>
-					⮙<br>⮙
-				</p>
-			</a>
-		</div>
 
-		<h1 id="title-projects"> Projets réalisés </h1>
-
+		<div class="title-h1" id="projects-title"> ⚝ &nbsp; <h1> Projets réalisés </h1> &nbsp; ⚝ </div>
+		
 		<div class="projects">
 
 			<div>
@@ -152,14 +140,29 @@
 			<div>
 				<a href="https://pierrick-marie.github.io/"><img src="./img/projects/these.png" alt="Site web : Pierrick MARIE"></a>
 				<p>
-					Site web : Pierrick MARIE. <br>
-					- Technologies : Hugo server, Bootstrap <br>
+					Intitulé : Gestion de bout en bout de la Qualité de Context pour l'Internet des Objets - le quadriciel QoCIM <br>
+					- Technologies : Java <br>
 					- Licence : BSD 3-Clause <br>
 					- <a href="https://pierrick-marie.github.io/">https://pierrick-marie.github.io/</a>
 				</p>
 			</div>
 
 		</div>
+
+		<a class="arrow up-arrow-box" href="#top">⮙<br>⮙</a>
+
+		<a class="arrow down-arrow-box" href=".#contact-title">⮛<br>⮛</a>
+
+	</section>
+
+	<section id="contact-section">
+
+		<div class="title-h1" id="contact-title"> ⚝ &nbsp; <h1> Contact </h1> &nbsp; ⚝ </div>
+		
+		<a class="arrow up-arrow-box" href=".#projects-title">⮙<br>⮙</a>
+
+
+
 
 	</section>
 

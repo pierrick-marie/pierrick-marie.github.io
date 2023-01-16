@@ -5,11 +5,18 @@ $arrow-size: 1.5em;
 	background-color: $white;
 	background-repeat: repeat-y;
 	background-size: contain;
-	
+
 	margin-top: navbarHeight();	// @see ./header.css
+	color: $dark;
 }
 
-#main {
+h1 {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	text-align: center;
+}
+
+#intro-section {
 	height: 90vh;
 }
 
@@ -17,17 +24,21 @@ $arrow-size: 1.5em;
 	height: 100vh;
 }
 
-section {
-	color: $dark;
+#contact-section {
+	height: 100vh;
 }
 
-.title-main {
+.title-h1 {
 	font-size: 2.5em;
-	padding-top: 10vh;
+	text-align: center;
 }
 
-.title-main h1 {
+.title-h1 h1 {
 	display: inline;
+}
+
+#intro-title {
+	padding-top: 10vh;
 }
 
 .introduction {
@@ -68,40 +79,57 @@ section {
 	width: 75%;
 }
 
-.arrow a {
+
+
+
+/* - BEGIN: Arrows - */
+.arrow {
 	font-size: $arrow-size;
 	transition: font-size 200ms;
 }
 
-.arrow a:hover {
+.arrow:hover {
 	font-size: 2em;
 }
 
 .down-arrow-box {
 	position: absolute;
 	left: 50%;
-	bottom: 2vh;
 	transform: translate(-50%, 0);
 }
 
 .up-arrow-box {
 	position: absolute;
 	right: 4vh;
+}
+
+#intro-section .down-arrow-box {
+	top: 90vh;
+}
+
+#projects-section .up-arrow-box {
 	top: 102vh;
 }
 
-#title-projects {
+#projects-section .down-arrow-box {
+	top: 190vh;
+}
+/* - END: Arrows - */
+
+
+
+
+
+#projects-title {
 	padding-top: 5vh;
 	padding-bottom: 5vh;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .projects {
 	position: relative;
 
 	width: 100%;
-	
+
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -111,6 +139,7 @@ section {
 	height: 15vh;
 	width: auto;
 }
+
 .projects p {
 	position: relative;
 
@@ -150,4 +179,17 @@ section {
 	visibility: visible;
 	opacity: 1;
 	display: block;
+}
+
+
+
+
+
+#contact-title {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+#contact-section .up-arrow-box {
+	top: 202vh;
 }
