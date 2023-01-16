@@ -5,20 +5,30 @@
 	<section id="main" class="content">
 		<div class="text-center">
 
-			<!-- <div id="title-1" class="titles-content"> { &nbsp; 💻 &nbsp; <h1>{{ .Site.Title }}</h1>&nbsp; 📱 &nbsp; } </div> <br>
-			<div id="title-and" class="titles-content"> & & </div> <br>
-			<div id="title-2" class="titles-content"> { &nbsp; ⛵ &nbsp; <h2>{{ .Site.Params.subtitle }}</h2>&nbsp; 🌎 &nbsp; } </div> <br> -->
+			<div class="title-main"> ⚝ &nbsp; <h1>{{ .Site.Title }}</h1> &nbsp; ⚝ </div> 
 
-			<div id="title-1" class="titles-content"> { <h1>{{ .Site.Title }}</h1> } </div> <br>
-			<div id="title-and" class="titles-content"> & & </div> <br>
-			<div id="title-2" class="titles-content"> { <h2>{{ .Site.Params.subtitle }}</h2> } </div> <br>
+			<div class="introduction">
+				<div class="paragraph" id="par-1">
+					<p> &nbsp; ⚝ &nbsp; </p>
+					<p>
+						D’abord maître de conférences en informatique, spécialisé dans l’Internet des Objets, <br>
+						je suis maintenant développeur freelance. <br>
+					</p>
+					<p> &nbsp; ⚝ &nbsp; </p>
+				</div>
+				<div class="paragraph" id="par-2">
+					<p> &nbsp; ⚝ &nbsp; </p>
+					<p>
+						Je possède de l'expérience dans diverses domaines : <br>
+						développement web, bibliothèques bas niveaux, frameworks pour applications réparties...
+					</p>
+					<p> &nbsp; ⚝ &nbsp; </p>
+				</div>
+			</div>
 
-			<!-- <img class="techno-img" alt="draw technologies rust docker" src="img/competences/rust.png" /> -->
-			<!-- <img class="techno-img" alt="draw web technologies" src="img/competences/web.png" />  -->
-
-			<div class="down-arrow-box">
+			<div class="arrow down-arrow-box">
 				<a href=".#developer">
-					<p class="down-arrow">
+					<p>
 						⮛<br>⮛
 					</p>
 				</a>
@@ -26,19 +36,111 @@
 
 		</div>
 
+
 		<div class="images-background">
-			<img id="left-technologies" alt="technologies java docker" src="./img/competences/1.png" />	
-			<img id="right-technologies" alt="technologies maven springboot" src="./img/competences/2.png" />	
+			<img id="left-technologies" alt="technologies java docker" src="./img/competences/1-bis.png" />
+			<img id="right-technologies" alt="technologies maven springboot" src="./img/competences/2-bis.png" />
 		</div>
 	</section>
 
-	<!-- <section id="developer" class="text-center content">
-		<h1 class="title">{{ .Site.Title }}</h1> <br> -->
-		<!-- <img alt="draw prof university" src="img/competences/prof.png" /> <br>
-		<img alt="draw sail man" src="img/competences/marin.png" /> <br>
-		<img alt="draw technologies rust docker" src="img/competences/rust.png" /> <br>
-		<img alt="draw web technologies" src="img/competences/web.png" /> <br> -->
-	<!-- </section> -->
+	<section id="developer" class="text-center content">
+		<div class="arrow up-arrow-box">
+			<a href="#top">
+				<p>
+					⮙<br>⮙
+				</p>
+			</a>
+		</div>
+
+		<h1 class="title-projects"> Projets réalisés </h1> 
+
+		<div class="projects">
+			<div>
+				<a href="https://github.com/pierrick-marie/QoCIM-Framework"><img src="./img/projects/qocim.png" alt="QoCIM framework"></a>
+				<p>
+					Projet de recherche : QoCIM (pour Quality of Context Information Model) est un framework pour faciliter le développement d’applications pour l’Internet
+					des Objets. QoCIM fourni entre autres une solution simple pour définir puis exploiter la qualité des informations requises pour le
+					bon fonctionnement des applications. QoCIM s’intègre dans cadre du projet de ANR <a href="https://www.irit.fr/income/">INCOME</a>. <br>
+					- Technologies : Java, Maven <br>
+					- Licence : LGPL <br>
+					- <a href="https://github.com/pierrick-marie/QoCIM-Framework">https://github.com/pierrick-marie/QoCIM-Framework</a>
+				</p>
+			</div>
+
+			<div>
+				<a href="https://framagit.org/pierrick/mqtt-sn"><img src="./img/projects/mqtt-1.png" alt="MQTT-SN pour Arduino"></a>
+				<p>
+					Adaptation du protocol <a href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/MQTT-v3.1.1.pdf">MQTT-SN</a> (MQTT for Sensor Networks) pour Arduino. La communication entre les modules est assurée par des modules <a href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/zigbee-modules.pdf">XBee</a>. <br>
+					- Technologies : Arduino, C/C++ <br>
+					- Licence : BSD 3-Clause <br>
+					- <a href="https://framagit.org/pierrick/mqtt-sn">https://framagit.org/pierrick/mqtt-sn</a>
+				</p>
+			</div>
+
+			<div>
+				<a href="https://framagit.org/network-probe/tap"><img src="./img/projects/tap.png" alt="Sonde réseau"></a>
+				<p>
+					Documentation et construction de <a href="https://fr.wikipedia.org/wiki/TAP_r%C3%A9seau">sonde réseau TAP</a>
+					Projet pédagogique de développement d'une solution de surveillance et d'analyse de réseaux d'entreprises. <br>
+					- Technologies : Ethernet, IP, GNU\Linux <br>
+					- Licence : BSD 3-Clause <br>
+					- <a href="https://framagit.org/network-probe/tap">https://framagit.org/network-probe/tap</a>
+				</p>
+			</div>
+
+			<div>
+				<a href="https://framagit.org/pierrick/very-simple-javascript-image-gallery"><img src="./img/projects/gallery.png" alt="Simple JavaScript Image Gallery"></a>
+				<p>
+					Une galerie d'image en JavaScript. Fonctionnalités : génération de la galerie à partir d'une liste d'image ; visualisation en plein écran ; utilisation de raccourcis clavier. <br>
+					- Technologies : HTML5, CSS3, JavaScript, JQuery <br>
+					- Licence : BSD 3-Clause <br>
+					- <a href="https://framagit.org/pierrick/simple-javascript-image-gallery">https://framagit.org/pierrick/simple-javascript-image-gallery</a>
+				</p>
+			</div>
+
+			<div>
+				<a href="https://framagit.org/pierrick/rust-lang-discovery"><img src="./img/projects/rust.png" alt="Rust Discovery"></a>
+				<p>
+					Découverte et initiation au langage Rust. Développement d'un jeu Tétris, d'un player de musique, et d'un client / serveur FTP. <br>
+					- Technologies : Rust, SDL2, GTK3, Gstreamer <br>
+					- Licence : BSD 3-Clause <br>
+					- <a href="https://framagit.org/pierrick/rust-lang-discovery">https://framagit.org/pierrick/rust-lang-discovery</a>
+				</p>
+			</div>
+
+			<div>
+				<a href="https://framagit.org/pierrick/spring-boot-discovery"><img src="./img/projects/springboot.png" alt="Spring boot Discovery"></a>
+				<p>
+					Découverte et initiation du framework SpringBoot avec Kotlin. Développement d'une API REST, tests unitaires et d'intégration, contrôle d'accès. <br>
+					- Technologies : SpringBoot, Gradle, Kotlin <br>
+					- Licence : BSD 3-Clause <br>
+					- <a href="https://framagit.org/pierrick/spring-boot-discovery">https://framagit.org/pierrick/spring-boot-discovery</a>
+				</p>
+			</div>
+
+			<div>
+				<a href="https://framagit.org/pierrick/gyroscope-ble"><img src="./img/projects/arduino.png" alt="Gyroscope Bluetooth Arduino"></a>
+				<p>
+					Développement d'un Gyroscope sans fil à l'aide de deux Arduino Nano 33 Iot et d'un écran LED. Un premier Arduino mesure son inclinaison et transmet en Bluetooth la mesure au second qui affiche la valeur sur un écran LED. <br>
+					- Technologies : Arduino Nano 33 IoT, Bluetooth <br>
+					- Licence : BSD 3-Clause <br>
+					- <a href="https://framagit.org/pierrick/gyroscope-ble">https://framagit.org/pierrick/gyroscope-ble</a>
+				</p>
+			</div>
+
+			<div>
+				<a href="https://pierrick-marie.github.io/"><img src="./img/projects/web.png" alt="Site web : Pierrick MARIE"></a>
+				<p>
+					Site web : Pierrick MARIE. <br>
+					- Technologies : Hugo server, Bootstrap <br>
+					- Licence : BSD 3-Clause <br>
+					- <a href="https://pierrick-marie.github.io/">https://pierrick-marie.github.io/</a>
+				</p>
+			</div>
+
+		</div>
+
+	</section>
 
 </div>
 

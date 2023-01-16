@@ -7,6 +7,7 @@ $(document).ready(function () {
 	$(window).scroll(function () {
 		scrollFunction();
 	});
+	scrollFunction();	// call function after loading page
 });
 
 /**

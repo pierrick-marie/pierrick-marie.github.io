@@ -1,22 +1,20 @@
+$arrow-size: 1em;
+
 .body {
 	background-image: url("/img/4.png");
 	background-color: $white;
 	background-repeat: repeat-y;
 	background-size: contain;
-	
+
 	margin-top: navbarHeight();	// @see ./header.css	
 }
 
 #main {
-	height: 100vh;
+	// padding-top: navbarHeight(); // @see ./header.css
+	height: 90vh;
 }
 
 #developer {
-	// background-image: url("/img/competences/competences.jpg");
-	// background-color: #00040f;
-	// background-repeat: no-repeat;
-	// background-size: cover;
-
 	height: 100vh;
 }
 
@@ -45,37 +43,82 @@ section h2 {
 	font-size: 2.5em;
 }
 
-.down-arrow-box {
+.arrow {
+	font-size: $arrow-size;
+	transition: 100ms;
+}
+
+.arrow:hover {
+	font-size: 2em;
+}
+
+.title-projects {
+	padding-top: 5vh;
+}
+
+.up-arrow-box {
 	position: absolute;
-	bottom: 2vh;
-	left: 50%;
-	transform: translate(-50%, 0);
+	right: 2%;
+	margin-top: 2vh;
 }
 
-.down-arrow {
-	font-size: 2.5em;
-	transition: 500ms;
+.projects {
+	position: relative;
+	top: 10vh;
 
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 100px;
+	width: 100%;
+	
+	padding-left: 30px;
+	padding-right: 30px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
-.down-arrow:hover {
-	font-size: 3em;
-
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.techno-img {
-	position: absolute;
-	bottom: -20px;
-	left: 10%;
-
-	height: 25vh;
+.projects img {
+	height: 15vh;
 	width: auto;
+}
+.projects p {
+	margin-top: 10px;
 
-	margin-left: 10%;
-	margin-right: 10%;
+	background-color: $info;
+	padding: 10px;
+
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: $dark;
+
+	font-size: 0.8em;
+
+	visibility: hidden;
+	opacity: 0;
+	transition: 600ms;
+
+	text-align: justify;
+
+	width: 400px;
+}
+
+.projects a:hover > img {
+	filter: drop-shadow(0 0 0.6rem $dark);
+}
+
+.projects a:hover+p {
+	visibility: visible;
+	opacity: 1;
+
+}
+
+.projects p a {
+	color: $secondary;
+	text-decoration: underline;
+	text-align: justify;
+}
+
+.projects p:hover {
+	visibility: visible;
+	opacity: 1;
 }
