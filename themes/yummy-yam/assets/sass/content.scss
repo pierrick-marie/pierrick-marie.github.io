@@ -29,8 +29,19 @@ $arrow-size: 1.5em;
 	text-align: center;
 }
 
+.star {
+	display: inline;
+	text-shadow: 1px 1px 0.2em black;
+
+	font-size: 1.2em;
+
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .title-h1 h1 {
 	display: inline;
+	text-shadow: 0 0 2px $gray-800;
 }
 
 #intro-title {
@@ -116,6 +127,7 @@ $arrow-size: 1.5em;
 #contact-section .up-arrow-box {
 	top: 205vh;
 }
+
 /* - END: Arrows - */
 
 
@@ -127,28 +139,51 @@ $arrow-size: 1.5em;
 	padding-bottom: 5vh;
 }
 
-.projects {
-	position: relative;
+// .projects {
+// 	position: relative;
+// 	left: 2%;
 
-	width: 100%;
-	height: 80vh;
+// 	width: 96%;
+// 	height: 80vh;
 
-	overflow: auto;
+// 	overflow: auto;
 
+// 	display: flex;
+// 	justify-content: space-around;
+// 	flex-wrap: wrap;
+
+// 	padding: 30px;
+
+// 	background-color:  rgba(0, 0, 0, 0.1);
+
+// 	border-radius: 10px;
+// 	box-shadow: 5px 5px 5px $dark;
+// }
+
+// .projects img {
+
+// 	min-height: 80px;
+// 	max-height: 300px;
+// 	height: 12vh;
+// 	width: auto;
+
+// 	filter: drop-shadow(0 0 1.1em black);
+// }
+
+.images {
+	margin-top: 5vh;
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap;
 }
 
-.projects img {
-	height: 12vh;
-	width: auto;
+.simple-gallery-legends {
+	display: none;
 }
 
-.projects p {
-	position: relative;
+.simple-gallery p {
+	// position: relative;
 
-	margin-top: -5vh;
+	// margin-top: -10vh;
 
 	background-color: $info;
 	padding: 10px;
@@ -160,19 +195,19 @@ $arrow-size: 1.5em;
 
 	font-size: 0.8em;
 
-	visibility: hidden;
-	opacity: 0;
 	transition: 600ms;
 
 	text-align: justify;
 
-	width: 500px;
+	width: 60%;
+	// left: 50%;
+	// transform: translate(-50%, 0);
 }
 
-.projects a:hover+p {
-	visibility: visible;
-	opacity: 1;
-}
+// .projects img:hover+p {
+// 	visibility: visible;
+// 	opacity: 1;
+// }
 
 p a {
 	color: $secondary;
@@ -180,15 +215,11 @@ p a {
 	text-align: justify;
 }
 
-.projects p:hover {
-	visibility: visible;
-	opacity: 1;
-	display: block;
-}
-
-
-
-
+// .projects p:hover {
+// 	visibility: visible;
+// 	opacity: 1;
+// 	display: block;
+// }
 
 #contact-title {
 	padding-top: 5vh;
@@ -215,8 +246,6 @@ p a {
 	justify-content: space-around;
 
 	z-index: 100;
-}
 
-.contact-icons a img:hover {
 	filter: drop-shadow(0 0 1rem $dark);
 }
