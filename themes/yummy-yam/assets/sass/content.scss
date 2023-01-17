@@ -108,9 +108,9 @@ $arrow-size: 1.5em;
 }
 
 #projects-section .down-arrow-box {
-	top: 190vh;
-	position: absolute;
-	right: 4vh;
+	// position: absolute;
+	// top: 190vh;
+	// right: 4vh;
 }
 
 #contact-section .up-arrow-box {
@@ -195,7 +195,9 @@ p a {
 }
 
 .contact-icons a img {
-	max-height: 90px;
+	height: 10vh;
+	min-height: 70px;
+	max-height: 120px;
 	padding: 20px;
 }
 
