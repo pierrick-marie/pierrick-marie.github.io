@@ -1,19 +1,35 @@
-.images-background img {
+@import './footer.scss';
+
+#contact-section aside {
+	position: relative;
+	height: 20vh;
+}
+
+.background-technologies {
+	position: absolute;
 	width: auto;
 }
 
-#left-technologies {
-	position: absolute;
-	bottom: 4px;
+#left-up {
+	height: 28vh;
+	bottom: 0;
 	left: 20px;
-
-	height: 38vh;
 }
 
-#right-technologies {
-	position: absolute;
+#right-up {
+	height: 25vh;
 	bottom: 0;
 	right: 20px;
+}
 
-	height: 30vh;
+#left-down {
+	bottom: 0;
+	left: 1%;
+	width: 5%;
+}
+
+#right-down {
+	bottom: 0;
+	width: 5%;
+	left: 94%;
 }

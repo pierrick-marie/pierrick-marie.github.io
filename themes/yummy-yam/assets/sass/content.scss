@@ -6,7 +6,7 @@ $arrow-size: 1.5em;
 	background-repeat: repeat-y;
 	background-size: contain;
 
-	margin-top: navbarHeight();	// @see ./header.css
+	margin-top: navbarHeight(); // @see ./header.css
 	color: $dark;
 }
 
@@ -21,10 +21,6 @@ $arrow-size: 1.5em;
 }
 
 #projects-section {
-	height: 100vh;
-}
-
-#contact-section {
 	height: 100vh;
 }
 
@@ -108,11 +104,17 @@ $arrow-size: 1.5em;
 }
 
 #projects-section .up-arrow-box {
-	top: 102vh;
+	top: 105vh;
 }
 
 #projects-section .down-arrow-box {
 	top: 190vh;
+	position: absolute;
+	right: 4vh;
+}
+
+#contact-section .up-arrow-box {
+	top: 205vh;
 }
 /* - END: Arrows - */
 
@@ -129,6 +131,9 @@ $arrow-size: 1.5em;
 	position: relative;
 
 	width: 100%;
+	height: 80vh;
+
+	overflow: auto;
 
 	display: flex;
 	justify-content: space-around;
@@ -136,7 +141,7 @@ $arrow-size: 1.5em;
 }
 
 .projects img {
-	height: 15vh;
+	height: 12vh;
 	width: auto;
 }
 
@@ -169,7 +174,7 @@ $arrow-size: 1.5em;
 	opacity: 1;
 }
 
-.projects p a {
+p a {
 	color: $secondary;
 	text-decoration: underline;
 	text-align: justify;
@@ -187,9 +192,29 @@ $arrow-size: 1.5em;
 
 #contact-title {
 	padding-top: 5vh;
-	padding-bottom: 5vh;
 }
 
-#contact-section .up-arrow-box {
-	top: 202vh;
+.contact-icons a img {
+	max-height: 90px;
+	padding: 20px;
+}
+
+.contact-icons {
+	width: 70%;
+
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+	display: flex;
+	justify-content: space-around;
+
+	z-index: 100;
+}
+
+.contact-icons a img:hover {
+	filter: drop-shadow(0 0 1rem $dark);
 }
