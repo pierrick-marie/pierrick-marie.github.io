@@ -60,6 +60,8 @@ function setupGalleryLegend() {
 
 	var index = 0;
 
+	$('.images').after(`<p class="project-description" id="${GALLERY}-legend"></p>`);
+
 	$(`${LEGENDS} p`).each(function () {
 		$(this).attr('id', `${GALLERY}-legend-${index}`);
 		
@@ -67,7 +69,7 @@ function setupGalleryLegend() {
 			.attr('onclick', `copyToClipBoard("${GALLERY}-legend-code-${index}")`)
 			.attr('title', 'Copy snippet')
 			.addClass('snippet');
-		$(this).append('<p class="code-copied">Copied <i class="fa-solid fa-check"></i></p>');
+		$(this).append('<p class="code-copied">Copié <i class="fa-solid fa-check"></i></p>');
 		
 		index++;
 	});
@@ -105,8 +107,6 @@ function setupImages() {
 
 	$(IMAGES).first().addClass('defaultView');	// Add classes defaultView to the first image
 	$(IMAGES).first().show();	// Show first image
-
-	$(IMAGES).last().after(`<p class="project-description" id="${GALLERY}-legend"></p>`);
 
 	setupImagesClass();
 }
