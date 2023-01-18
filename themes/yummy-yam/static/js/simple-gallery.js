@@ -27,7 +27,6 @@ $(document).ready(function () {
 	setupKeyboardBinding();
 });
 
-
 /**
  * Add event handler on left, right and escape key to change current image
  */
@@ -44,12 +43,32 @@ function setupKeyboardBinding() {
 	});
 }
 
+function copyToClipBoard(code) {
+
+
+	var text = $(`#${code}`).text();
+	text = text.trim();
+	navigator.clipboard.writeText(text);
+
+	$(`#${code}`).next('.code-copied').fadeIn(); // .css('display', 'inline')
+	setTimeout(function() {
+		$(`#${code}`).next('.code-copied').fadeOut();
+	}, 1000);
+}
+
 function setupGalleryLegend() {
 
 	var index = 0;
 
-	$(`${LEGENDS} p`).each(function() {
+	$(`${LEGENDS} p`).each(function () {
 		$(this).attr('id', `${GALLERY}-legend-${index}`);
+		
+		var code = $(this).find('code').attr('id', `${GALLERY}-legend-code-${index}`)
+			.attr('onclick', `copyToClipBoard("${GALLERY}-legend-code-${index}")`)
+			.attr('title', 'Copy snippet')
+			.addClass('snippet');
+		$(this).append('<p class="code-copied">Copied <i class="fa-solid fa-check"></i></p>');
+		
 		index++;
 	});
 
@@ -87,7 +106,7 @@ function setupImages() {
 	$(IMAGES).first().addClass('defaultView');	// Add classes defaultView to the first image
 	$(IMAGES).first().show();	// Show first image
 
-	$(IMAGES).last().after(`<p id="${GALLERY}-legend"></p>`);
+	$(IMAGES).last().after(`<p class="project-description" id="${GALLERY}-legend"></p>`);
 
 	setupImagesClass();
 }
@@ -251,5 +270,5 @@ function displayDefaultView() {
 		$(`#${GALLERY}-legend-${CURRENT_IMAGE_NUMBER}`).html());
 
 	var scrollPosition = CURRENT_IMAGE_NUMBER * THUMBNAIL_SIZE;
-	$(`.${THUMBNAILS}`).scrollLeft( scrollPosition );
+	$(`.${THUMBNAILS}`).scrollLeft(scrollPosition);
 }
