@@ -1,7 +1,8 @@
 $arrow-size: 1.5em;
 
+/*
 .body {
-	background-image: url("/img/4.png");
+	background-image: url("/img/background.png");
 	background-color: $white;
 	background-repeat: repeat-y;
 	background-size: contain;
@@ -9,6 +10,7 @@ $arrow-size: 1.5em;
 	margin-top: navbarHeight(); // @see ./header.css
 	color: $dark;
 }
+*/
 
 .body h1 {
 	padding-top: 5vh;
@@ -118,12 +120,6 @@ $arrow-size: 1.5em;
 	top: 105vh;
 }
 
-#projects-section .down-arrow-box {
-	// position: absolute;
-	// top: 190vh;
-	// right: 4vh;
-}
-
 #contact-section .up-arrow-box {
 	top: 205vh;
 }
@@ -138,38 +134,6 @@ $arrow-size: 1.5em;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 }
-
-// .projects {
-// 	position: relative;
-// 	left: 2%;
-
-// 	width: 96%;
-// 	height: 80vh;
-
-// 	overflow: auto;
-
-// 	display: flex;
-// 	justify-content: space-around;
-// 	flex-wrap: wrap;
-
-// 	padding: 30px;
-
-// 	background-color:  rgba(0, 0, 0, 0.1);
-
-// 	border-radius: 10px;
-// 	box-shadow: 5px 5px 5px $dark;
-// }
-
-// .projects img {
-
-// 	min-height: 80px;
-// 	max-height: 300px;
-// 	height: 12vh;
-// 	width: auto;
-
-// 	filter: drop-shadow(0 0 1.1em black);
-// }
-
 
 .simple-gallery-legends {
 	display: none;

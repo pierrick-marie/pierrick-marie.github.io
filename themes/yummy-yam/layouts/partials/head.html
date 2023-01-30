@@ -3,9 +3,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="/css/fontawesome-6.2.1/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/simple-gallery.css">
-
+	<link rel="stylesheet" type="text/css" href="./css/fontawesome-6.2.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/simple-gallery.css">
+	<link rel="stylesheet" type="text/css" href="./css/body.css">
 
 	{{ $sass := resources.Get "sass/main.scss" }}
 	{{ $style := $sass | resources.ToCSS | resources.Minify }}
@@ -16,5 +16,5 @@
 	{{ if .IsHome }} {{ $title = print .Site.Params.author " | " .Site.Title }} {{ end }}
 	<title>{{ $title }}</title>
 
-	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 </head>
