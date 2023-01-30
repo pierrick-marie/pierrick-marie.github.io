@@ -9,7 +9,7 @@
 
 	{{ $sass := resources.Get "sass/main.scss" }}
 	{{ $style := $sass | resources.ToCSS | resources.Minify }}
-	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+	<link rel="stylesheet" href=".{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 	
 	
 	{{ $title := print .Site.Title " | " .Title }}

@@ -18,17 +18,21 @@ $arrow-size: 1.5em;
 	text-align: center;
 }
 
-#intro-section {
-	height: 90vh;
+#intro {
+	height: 100vh;
 }
 
-#projects-section {
+#projects {
 	height: 100vh;
 }
 
 .title-h1 {
 	font-size: 2.5em;
 	text-align: center;
+}
+
+#intro .title-h1 {
+	padding-top: 18vh;
 }
 
 .star {
@@ -46,7 +50,7 @@ $arrow-size: 1.5em;
 	text-shadow: 0 0 2px $gray-800;
 }
 
-#intro-title {
+.intro-title {
 	padding-top: 10vh;
 }
 
@@ -112,17 +116,22 @@ $arrow-size: 1.5em;
 	right: 4vh;
 }
 
-#intro-section .down-arrow-box {
-	top: 90vh;
+#intro .down-arrow-box {
+	top: 85vh;
 }
 
-#projects-section .up-arrow-box {
+#projects .up-arrow-box {
 	top: 105vh;
 }
 
-#contact-section .up-arrow-box {
+#contact .up-arrow-box {
 	top: 205vh;
 }
+
+#projects .down-arrow-box {
+	margin-top: 2vh;
+}
+
 
 /* - END: Arrows - */
 
@@ -130,7 +139,7 @@ $arrow-size: 1.5em;
 
 
 
-#projects-title {
+.projects-title {
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 }
@@ -200,7 +209,13 @@ $snippet-padding: 2em;
 
 
 
-#contact-title {
+
+
+// #contact {
+// 	height: 38vh;
+// }
+
+.contact-title {
 	padding-top: 5vh;
 }
 
@@ -229,7 +244,7 @@ $snippet-padding: 2em;
 	filter: drop-shadow(0 0 1rem $dark);
 }
 
-#contact-section p {
+#contact p {
 	padding-top: 5vh;
 	text-align: center;
 	font-size: 1.2em;
