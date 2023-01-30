@@ -6,8 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="/css/fontawesome-6.2.1/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/simple-gallery.css">
 
+
+	{{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed") }}
 	{{ $sass := resources.Get "sass/main.scss" }}
-	{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+	{{ $style := $sass | resources.ToCSS $options | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 	
 	
