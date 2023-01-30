@@ -1,5 +1,5 @@
-{{ $bootstrap := resources.Get "js/bootstrap/bundle.min.js" }}
-<script src=".{{$bootstrap.RelPermalink}}" defer></script>
+{{ $bootstrap := resources.Get "./js/bootstrap/bundle.min.js" }}
+<script src=".{{$bootstrap.RelPermalink}}"></script>
 
 <script src="./css/fontawesome-6.2.1/js/all.min.js"></script>
 <script src="./js/jquery-3.6.3.min.js"></script>
