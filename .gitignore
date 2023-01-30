@@ -1,5 +1,6 @@
 # Ignore source images
 img/competences/src/
+img/src/
 
 # hugo folder
 .hugo_build.lock
