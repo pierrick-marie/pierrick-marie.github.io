@@ -1,0 +1,68 @@
+/* - BEGIN: Gallery */
+
+.projects-title {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.simple-gallery-legends {
+	display: none;
+}
+
+.gallery-container {
+	margin-top: 5vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.project-description {
+
+	background-color: $info;
+	padding: 15px;
+
+	border-radius: 10px;
+
+	box-shadow: 5px 5px 5px $dark;
+
+	transition: 600ms;
+
+	text-align: justify;
+
+	width: 70%;
+	min-height: 33vh; /* Relative to the max content (QoCIM) */
+}
+
+.project-description a {
+	color: $secondary;
+	text-decoration: underline;
+	text-align: justify;
+}
+
+$snipped-font-size: 1.2em;
+$snippet-padding: 2em;
+
+.project-description .snippet {
+
+	padding-top: $snippet-padding;
+	padding-bottom: $snippet-padding;
+	width: 91%;
+
+	text-align: left;
+
+	display: inline-block;
+
+	font-size: $snipped-font-size;
+
+	overflow-wrap: break-word;
+
+	cursor: pointer;
+}
+.code-copied {
+	display: none;
+	float: right;
+	padding-top: $snippet-padding;
+	width: 9%;
+	font-size: $snipped-font-size;
+}
+
+/* - END: Gallery */
