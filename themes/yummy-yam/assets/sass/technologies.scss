@@ -1,0 +1,37 @@
+// #technologies {
+// 	// height: 100vh;
+// }
+
+.list {
+	list-style-type: none;
+	width: 40%;
+}
+
+.list li {
+	margin-bottom: 25px;
+}
+
+.technologies-container {
+	display: flex;
+
+	margin-top: 80px;
+	width: 60%;
+	
+	justify-content: space-around;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.technologies-name {
+	text-align: right;
+}
+
+.technologies-stars {
+	text-align: left;
+}
+
+.red-color {
+	color: $red-500;
+	filter: drop-shadow(2px 2px 3px black);
+}

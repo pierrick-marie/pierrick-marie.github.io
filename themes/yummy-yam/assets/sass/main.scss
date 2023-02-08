@@ -25,21 +25,15 @@ $theme-colors: (
 
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
+@import './background.scss';
 @import './header.scss';
 @import './content.scss';
-@import './background.scss';
+@import './arrows.scss';
+@import './intro.scss';
+@import './projects.scss';
+@import './technologies.scss';
+@import './contact.scss';
 @import './footer.scss';
-@import './gallery.scss';
 @import './media.scss';
 
 
-a {
-	text-decoration: none;
-	color: $dark;
-	transition: 500ms;
-	border-bottom: 2px solid transparent;
-}
-
-a:hover {
-	color: $dark;
-}

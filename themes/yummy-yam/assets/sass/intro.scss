@@ -1,0 +1,45 @@
+#intro .title-h1 {
+	padding-top: 18vh;
+}
+
+.intro-title {
+	padding-top: 10vh;
+}
+
+.introduction {
+	width: 95%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-top: 5vh;
+
+	font-size: 1.5em;
+}
+
+.introduction p {
+	font-style: italic;
+}
+
+.paragraph {
+	display: flex;
+	justify-content: space-around;
+
+	padding-top: 10vh;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.paragraph p {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#par-1 {
+	width: 70%;
+}
+
+#par-2 {
+	width: 80%;
+}

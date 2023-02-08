@@ -1,0 +1,35 @@
+/* Contact section */
+
+.contact-title {
+	padding-top: 5vh;
+}
+
+.contact-icons a img {
+	height: 10vh;
+	min-height: 70px;
+	max-height: 120px;
+	padding: 20px;
+}
+
+.contact-icons {
+	width: 70%;
+
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+	display: flex;
+	justify-content: space-around;
+
+	z-index: 100;
+
+	filter: drop-shadow(0 0 1rem $dark);
+}
+
+#contact p {
+	padding-top: 5vh;
+	text-align: center;
+}
