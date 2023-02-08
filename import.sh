@@ -13,4 +13,8 @@ rm -r tags
 
 git checkout dev.yummy-yam.export -- public
 mv public/* ./
+
 rmdir public
+
+rm -r categories
+rm -r tags
