@@ -1,14 +1,49 @@
-$large: 2em;
-$larger: 3em;
-$huge: 4em;
-$jumbo: 5em;
+$normal: 1em;
+$normal-large: 1.2em;
+$normal-huge: 1.5em;
 
-@media screen and (min-width: 1300px) and (max-width: 1999px) {
+$large: 2em;
+$large-up: 2.5em;
+
+$larger: 3em;
+$larger-up: 3.5em;
+
+$huge: 4em;
+$huge-up: 4.5em;
+
+$jumbo: 5em;
+$jumbo-up: 5.5em;
+
+@media screen and (max-width: 1999px) {
 	#navbar-title h4 {
 		font-size: $large;
 	}
 
 	.navbar-link h5 {
+		font-size: $large;
+	}
+
+	.arrow {
+		font-size: $large;
+	}
+
+	p {
+		font-size: $normal;
+	}
+
+	.paragraph p {
+		font-size: $normal-huge;
+	}
+
+	#technologies li {
+		font-size: $normal-large;
+	}
+
+	#contact p {
+		font-size: $normal-large;
+	}
+
+	.star {
 		font-size: $large;
 	}
 }
@@ -28,15 +63,15 @@ $jumbo: 5em;
 	}
 
 	h1 {
-		font-size: $large;
+		font-size: $jumbo;
 	}
 
 	h2 {
-		font-size: $larger;
+		font-size: $huge;
 	}
 
 	p {
-		font-size: $large;
+		font-size: $larger;
 	}
 
 	#contact p {
@@ -48,7 +83,7 @@ $jumbo: 5em;
 	}
 
 	.star {
-		font-size: $large;
+		font-size: $jumbo;
 	}
 
 	.arrow {

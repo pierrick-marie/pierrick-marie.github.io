@@ -1,7 +1,6 @@
 /* - BEGIN: Arrows - */
 
 .arrow {
-	font-size: 1.5em;
 	transition: color 400ms;
 	color: $dark;
 }
@@ -10,38 +9,9 @@
 	color: $light;
 }
 
-.down-arrow-box {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, 0);
-}
-
-.up-arrow-box {
-	position: absolute;
-	right: 4vh;
-}
-
-#intro .down-arrow-box {
-	top: 85vh;
-}
-
-#projects .up-arrow-box {
-	top: 105vh;
-}
-
-#contact .up-arrow-box {
-	top: 205vh;
-}
-
-#projects .down-arrow-box {
-	margin-top: 4vh;
-}
-
-#technologies .arrow {
-	// position: relative;
-	// display: inline-block;
-	// height: 5em;
-	// z-index: 1000;
+#intro .arrow {
+	display: inline-block;
+	padding-top: 10vh;
 }
 
 /* - END: Arrows - */

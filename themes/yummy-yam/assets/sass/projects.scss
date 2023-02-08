@@ -29,7 +29,6 @@
 	text-align: justify;
 
 	width: 70%;
-	min-height: 33vh; /* Relative to the max content (QoCIM) */
 }
 
 .project-description a {
@@ -38,7 +37,6 @@
 	text-align: justify;
 }
 
-$snipped-font-size: 1.2em;
 $snippet-padding: 2em;
 
 .project-description .snippet {
@@ -51,8 +49,6 @@ $snippet-padding: 2em;
 
 	display: inline-block;
 
-	font-size: $snipped-font-size;
-
 	overflow-wrap: break-word;
 
 	cursor: pointer;
@@ -62,7 +58,6 @@ $snippet-padding: 2em;
 	float: right;
 	padding-top: $snippet-padding;
 	width: 9%;
-	font-size: $snipped-font-size;
 }
 
 /* - END: Gallery */

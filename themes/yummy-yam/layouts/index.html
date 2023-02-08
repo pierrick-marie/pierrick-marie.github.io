@@ -2,38 +2,35 @@
 
 <div class="body">
 
-	<section id="intro" class="text-center">
+	<section id="intro" class="text-center content">
 
-		<!-- <div class="text-center"> -->
+		<div class="title-h1 intro-title">
+			<p class="star">⚝</p>
+			<h1>{{ .Site.Title }}</h1>
+			<p class="star">⚝</p>
+		</div>
 
-			<div class="title-h1 intro-title">
+		<div class="introduction">
+			<div class="paragraph" id="par-1">
 				<p class="star">⚝</p>
-				<h1>{{ .Site.Title }}</h1>
+				<p>
+					D’abord maître de conférences en informatique, spécialisé dans l’Internet des Objets. <br>
+					Je suis maintenant développeur freelance. <br>
+				</p>
 				<p class="star">⚝</p>
 			</div>
-
-			<div class="introduction">
-				<div class="paragraph" id="par-1">
-					<p class="star">⚝</p>
-					<p>
-						D’abord maître de conférences en informatique, spécialisé dans l’Internet des Objets, <br>
-						je suis maintenant développeur freelance. <br>
-					</p>
-					<p class="star">⚝</p>
-				</div>
-				<div class="paragraph" id="par-2">
-					<p class="star">⚝</p>
-					<p>
-						Je possède de l'expérience dans diverses domaines : <br>
-						développement web, bibliothèques bas niveaux, frameworks pour applications réparties...
-					</p>
-					<p class="star">⚝</p>
-				</div>
+			<div class="paragraph" id="par-2">
+				<p class="star">⚝</p>
+				<p>
+					Je possède de l'expérience dans diverses domaines : <br>
+					développement web, bibliothèques bas niveaux, frameworks pour applications réparties...
+				</p>
+				<p class="star">⚝</p>
 			</div>
+		</div>
 
-			<a class="arrow" href="#projects">⮛<br>⮛</a>
+		<a class="arrow" href="#projects">⮛<br>⮛</a>
 
-		<!-- </div> -->
 
 		<aside>
 			<img class="background-technologies" id="left-up" alt="technologies java docker" src="./img/competences/1.png" />
@@ -72,8 +69,7 @@
 			<p>
 				Projet de recherche QoCIM (Quality of Context Information Model). Un framework pour le développement
 				d’applications pour l’Internet des Objets. Il permet de définir, collecter, filtrer et exploiter la qualité des informations
-				nécessaires pour le bon fonctionnement des applications. QoCIM s’intègre le projet ANR <a
-					href="https://www.irit.fr/income/">INCOME</a>.
+				nécessaires pour le bon fonctionnement des applications. QoCIM s’intègre le projet ANR <a href="https://www.irit.fr/income/">INCOME</a>.
 				<br> <br>
 				- Technologies : Java, Maven, Broker dédié <br>
 				- Licence : LGPL <br>
@@ -83,8 +79,8 @@
 			<p>
 				Adaptation du protocol <a href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/MQTT-v3.1.1.pdf">MQTT-SN</a>
 				(MQTT for Sensor Networks) pour Arduino. La communication entre les modules est assurée par des modules <a
-					href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/zigbee-modules.pdf">XBee</a>. 
-				Le coordinateur (broker) est développé en Java.<br> <br>
+					href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/zigbee-modules.pdf">XBee</a>.
+				Le coordinateur (broker) est développé en Java.<br> <br> <br>
 				- Technologies : Arduino, C/C++, Java <br>
 				- Licence : BSD 3-Clause <br>
 				- <a href="https://framagit.org/pierrick/mqtt-sn">https://framagit.org/pierrick/mqtt-sn</a> <br>
@@ -92,7 +88,8 @@
 			</p>
 			<p>
 				Documentation et construction de <a href="https://fr.wikipedia.org/wiki/TAP_r%C3%A9seau">sonde réseau TAP.</a>
-				Un projet pédagogique de développement de solutions de surveillance et d'analyse de réseaux d'entreprises pour mieux les protéger contre des cyber-attaques. <br> <br>
+				Un projet pédagogique de développement de solutions de surveillance et d'analyse de réseaux d'entreprises pour mieux les protéger contre
+				des cyber-attaques. <br> <br> <br>
 				- Technologies : Ethernet, IP, GNU\Linux <br>
 				- Licence : BSD 3-Clause <br>
 				- <a href="https://framagit.org/network-probe/tap">https://framagit.org/network-probe/tap</a> <br>
@@ -101,15 +98,16 @@
 			</p>
 			<p>
 				Une galerie d'image en JavaScript. Fonctionnalités : génération de la galerie à partir d'une liste d'image ; visualisation
-				en plein écran ; utilisation de raccourcis clavier. <br> <br>
+				en plein écran ; utilisation de raccourcis clavier. <br> <br> <br>
 				- Technologies : HTML5, CSS3, JavaScript, JQuery <br>
 				- Licence : BSD 3-Clause <br>
 				- <a href="https://framagit.org/pierrick/simple-gallery">https://framagit.org/pierrick/simple-gallery</a> <br>
 				<code>git clone https://framagit.org/pierrick/simple-gallery.git</code>
 			</p>
 			<p>
-				Découverte et initiation au langage Rust. Développement d'un jeu de Tétris, d'un player de fichiers audio ainsi qu'un client et un serveur
-				FTP. Développements basés sur le livre « <em>Rust Programming by Example</em> ».<br> <br>
+				Découverte et initiation au langage Rust. Développement d'un jeu de Tétris, d'un player de fichiers audio ainsi qu'un client et un
+				serveur FTP.  <br> 
+				Développements basés sur le livre « <em>Rust Programming by Example</em> ».<br> <br> 
 				- Technologies : Rust, SDL2, GTK3, Gstreamer <br>
 				- Licence : BSD 3-Clause <br>
 				- <a href="https://framagit.org/pierrick/rust-lang-discovery">https://framagit.org/pierrick/rust-lang-discovery</a> <br>
@@ -117,14 +115,15 @@
 			</p>
 			<p>
 				Découverte et initiation du framework SpringBoot avec le langage Kotlin. Développement d'une API REST, de tests unitaires et
-				d'intégration et mise en place d'un mécanisme de contrôle d'accès. <br> <br>
+				d'intégration et mise en place d'un mécanisme de contrôle d'accès. <br> <br> <br>
 				- Technologies : SpringBoot, Gradle, Kotlin <br>
 				- Licence : BSD 3-Clause <br>
 				- <a href="https://framagit.org/pierrick/spring-boot-discovery">https://framagit.org/pierrick/spring-boot-discovery</a> <br>
 				<code>git clone https://framagit.org/pierrick/spring-boot-discovery.git</code>
 			</p>
 			<p>
-				Développement d'un gyroscope sans fil à l'aide de deux modules <a href="https://docs.arduino.cc/hardware/nano-33-iot">Arduino Nano 33 Iot</a> et d'un écran LED. Un premier module Arduino mesure son
+				Développement d'un gyroscope sans fil à l'aide de deux modules <a href="https://docs.arduino.cc/hardware/nano-33-iot">Arduino Nano 33
+					Iot</a> et d'un écran LED. Un premier module Arduino mesure son
 				inclinaison et transmet en Bluetooth cette mesure au second module qui affiche alors cette valeur sur un écran LED. <br> <br>
 				- Technologies : Arduino Nano 33 IoT, Bluetooth <br>
 				- Licence : BSD 3-Clause <br>
@@ -134,24 +133,23 @@
 			<p>
 				Mon site web pro de présentation : https://pierrick-marie.github.io <br> <br>
 				- Technologies : Hugo server, Bootstrap, JQuery, Fontawesome <br>
-				- <a href="https://pierrick-marie.github.io/">https://pierrick-marie.github.io/</a> <br>
+				- <a href="https://pierrick-marie.github.io/">https://pierrick-marie.github.io/</a> <br> 
 				<code>git clone <br> 
 					&nbsp; https://github.com/pierrick-marie/pierrick-marie.github.io.git</code>
 			</p>
 			<p>
 				Mon site web de voyage : https://www.ninae.fr <br> <br>
-				- Technologies : Wordpress <br>
+				- Technologies : Wordpress <br> <br>
 				- <a href="https://www.ninae.fr">https://www.ninae.fr</a>
 			</p>
 			<p>
-				Manuscrit de thèse. Intitulé : Gestion de bout en bout de la Qualité de Context pour l'Internet des Objets - le quadriciel QoCIM <br> <br>
+				Manuscrit de thèse. Intitulé : Gestion de bout en bout de la Qualité de Context pour l'Internet des Objets - le quadriciel QoCIM <br>
+				<br>
 				- Technologies : QoCIM, Java, Raspberry Pi <br>
 				- Licence : BSD 3-Clause <br>
-				- <a href="https://pierrick-marie.github.io/manuscrit.pdf">https://pierrick-marie.github.io/manuscrit.pdf</a>
+				- <a href="https://pierrick-marie.github.io/manuscrit.pdf">https://pierrick-marie.github.io/manuscrit.pdf</a>  <br>
 			</p>
 		</div>
-
-		<a class="arrow" href="#technologies">⮛<br>⮛</a>
 
 	</section>
 
@@ -185,38 +183,43 @@
 					HTML5, CSS3, JavaScript
 				</li>
 				<li>
-					SpringBoot, JQuery, Bootstrap 
+					SpringBoot, JQuery, Bootstrap
 				</li>
 			</ul>
 
 			<ul class="technologies-stars list">
 				<li>
-					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i>
 				</li>
 				<li>
-					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i>
 				</li>
 				<li>
-					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i>
 				</li>
 				<li>
-					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i>
+					<i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
 				</li>
 				<li>
-					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i>
+					<i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
 				</li>
 				<li>
-					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i>
+					<i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
 				</li>
 				<li>
-					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+					<i class="fa-solid fa-star red-color"></i> <i class="fa-solid fa-star red-color"></i> <i class="fa-regular fa-star"></i> <i
+						class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
 				</li>
 			</ul>
 
 		</div>
 
-		<a class="arrow" href="#contact">⮛<br>⮛</a>
-	
 	</section>
 
 	<section id="contact" class="text-center">
@@ -227,7 +230,6 @@
 			<p class="star">⚝</p>
 		</div>
 
-		<!-- <a class="arrow up-arrow-box" href="#top">⮙<br>⮙</a> -->
 		<p>N'hésitez pas à me contacter par mail, ou via LinkedIn, Github et Framagit.</p>
 
 		<div class="contact-icons">
