@@ -18,6 +18,18 @@ Le site est réalisé à l'aide du framework [Hugo](https://gohugo.io/commands/h
 * Site web : https://www.ninae.fr
 * Doctorat: Gestion de bout en bout de la Qualité de Contexte pour l'Internet des Objets - https://pierrick-marie.github.io/manuscrit.pdf
 
+## Technologies
+
+* Java, Kotlin  : ★ ★ ★ ★ ☆
+* Maven, Gradle : ★ ★ ★ ★ ☆
+* Git, Docker   : ★ ★ ★ ★ ☆
+* Arduino, Raspberry Pi   : ★ ★ ★ ☆ ☆
+* C, C++, Rust  : ★ ★ ★ ☆ ☆
+* HTML5, CSS3, JavaScript : ★ ★ ★ ☆ ☆
+* SpringBoot, JQuery, Bootstrap : ★ ★ ☆ ☆ ☆
+
+
+
 ## Me contacter
 
 * LinkedIn : https://www.linkedin.com/in/pierrick-marie-100493211
