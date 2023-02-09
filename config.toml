@@ -3,7 +3,7 @@ languageCode = 'fr'
 title = 'Développeur informatique freelance'
 theme = 'yummy-yam'
 
-disableKinds = ["taxonomy", "term", "RSS", "404"]
+disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
 	author = "Pierrick MARIE"
