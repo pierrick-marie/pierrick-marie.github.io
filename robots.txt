@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pierrick-marie.github.io/sitemap.xml
