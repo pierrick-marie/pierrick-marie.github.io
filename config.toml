@@ -3,6 +3,8 @@ languageCode = 'fr'
 title = 'Développeur informatique freelance'
 theme = 'yummy-yam'
 
+disableKinds = ["taxonomy", "term", "RSS", "404"]
+
 [params]
 	author = "Pierrick MARIE"
 	subtitle = 'Voyageur au long court'
@@ -18,3 +20,7 @@ theme = 'yummy-yam'
 	[[module.mounts]]
       	source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
       	target = "assets/js/bootstrap/bundle.min.js"
+
+[sitemap]
+  changefreq = 'yearly'
+  filename = 'sitemap.xml'

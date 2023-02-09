@@ -73,8 +73,6 @@
  * thumbnails
  */
 .simple-gallery-thumbnails {
-	/* position: sticky; */
-	/* top: 100vh; */
 	margin-top: 5vh;
 	margin-left: auto;
 	margin-right: auto;
@@ -84,8 +82,6 @@
 
 	width: 96%; 
 	height: 6vw;
-
-	/* padding: 1%; */
 
 	overflow-y: hidden; /* Allow horizontal scroll if there are more images than screen width available */
 	overflow-x: scroll;
