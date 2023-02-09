@@ -11,10 +11,26 @@
 	{{ $style := $sass | resources.ToCSS | resources.Minify }}
 	<link rel="stylesheet" href=".{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 	
-	
 	{{ $title := print .Site.Title " | " .Title }}
 	{{ if .IsHome }} {{ $title = print .Site.Params.author " | " .Site.Title }} {{ end }}
 	<title>{{ $title }}</title>
 
 	<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
+	<meta name="author" content="{{ $.Site.Params.author }}" />
+	<meta
+  		name="description"
+  		content="{{ $.Site.Params.description }}" />
+	
+	<meta
+		property="og:image"
+		content="https://pierrick-marie.github.io/img/favicon.ico" />
+	<meta
+		property="og:description"
+		content="{{ $.Site.Params.description }}" />
+	<meta 
+		property="og:title"
+		content="{{ .Site.Title }}" />
+		
+
 </head>
