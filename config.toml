@@ -5,6 +5,8 @@ theme = 'yummy-yam'
 
 disableKinds = ["taxonomy", "term", "RSS"]
 
+enableRobotsTXT = true
+
 [params]
 	author = "Pierrick MARIE"
 	subtitle = "Voyageur au long court"
@@ -23,5 +25,5 @@ disableKinds = ["taxonomy", "term", "RSS"]
       	target = "assets/js/bootstrap/bundle.min.js"
 
 [sitemap]
-  changefreq = 'yearly'
-  filename = 'sitemap.xml'
+	changefreq = 'yearly'
+	filename = 'sitemap.xml'
