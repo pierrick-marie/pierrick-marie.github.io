@@ -7,3 +7,5 @@ img
 .hugo_build.lock
 resources/
 
+# hugo themes
+themes/yummy-yam
