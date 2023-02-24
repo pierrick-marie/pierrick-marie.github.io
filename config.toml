@@ -15,7 +15,6 @@ contentDir = 'content'
 	description = "Freelance développeur informatique Pierrick MARIE : projets, technologies et contacts."
 	keywords = "freelance, java, kotlin, springBoot, rust"
 	footer = "© Tous droits réservés - Pierrick MARIE - 2023"
-	customCSS = "simple-gallery.css"
 	customJS = "simple-gallery.js"
 
 [menu]

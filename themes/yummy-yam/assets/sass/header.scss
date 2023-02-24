@@ -20,6 +20,9 @@ header {
 
 	width: 100%;
 
+	background-color: $primary;
+	opacity: 1;
+
 	border-bottom: solid;
 	border-color: $dark;
 	border-width: 2px;
@@ -97,7 +100,6 @@ header {
 .navbar-link {
 	margin: 10px;
 	display: block;
-	// width: 200px;
 	width: fit-content;
 	block-size: fit-content;
 }

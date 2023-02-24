@@ -1,9 +1,0 @@
-.body {
-	background-image: url("../img/background.png");
-	background-color: #fff; /* bootstrap: $white */
-	background-repeat: repeat-y;
-	background-size: contain;
-
-	margin-top: navbarHeight(); /* @see ./header.css */
-	color: #343a40; /* main.scss: $dark -> $gray-800 */
-}
