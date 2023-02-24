@@ -1,11 +1,13 @@
 baseURL = 'https://pierrick-marie.github.io/'
-languageCode = 'fr'
+languageCode = 'fr-FR'
 title = 'Développeur informatique freelance'
 theme = 'yummy-yam'
 
 disableKinds = ["taxonomy", "term", "RSS"]
 
 enableRobotsTXT = true
+
+contentDir = 'content'
 
 [params]
 	author = "Pierrick MARIE"
@@ -19,6 +21,11 @@ enableRobotsTXT = true
 		pre = 'home'
 		url = '/'
 		weight = 1
+	[[menu.main]]
+    		name = "Posts"
+    		pre = "posts"
+    		url = "/posts/"
+    		weight = 2
 
 [module]
 	[[module.mounts]]
