@@ -2,10 +2,9 @@
 
 <div class="body">
 	
-		
 	{{ .Content }} <!-- _index.html -->
-	
-	{{ range .Pages.ByPublishDate }} <!-- All other content -->
+
+	{{ range .Pages.ByWeight }} <!-- All other content -->
 		{{ .Content }}
 	{{ end }}
 

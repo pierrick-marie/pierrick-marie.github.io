@@ -2,15 +2,14 @@
 
 	<div id="navbarToggleExternalContent" class="collapse">
 		<div id="navbar-content" class="m-0">
-			<a class="navbar-link" href="#projects">
-				<h3 class="h5 m-0">Projets réalisés</h3>
-			</a>
-			<a class="navbar-link" href="#technologies">
-				<h3 class="h5 m-0">Technologies</h3>
-			</a>
-			<a class="navbar-link" href="#contact">
-				<h3 class="h5 m-0">Contacts</h3>
-			</a>
+
+			{{ range .Pages.ByWeight }} <!-- All content pages -->
+				{{ $s := .RelPermalink }}
+				<a class="navbar-link" href="#{{ replace $s "/" "" }}">
+					<h3 class="h5 m-0">{{ .Title }}</h3>
+				</a>	
+			{{ end }}
+
 		</div>
 	</div>
 
