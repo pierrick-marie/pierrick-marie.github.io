@@ -26,5 +26,5 @@ enableRobotsTXT = true
       	target = "assets/js/bootstrap/bundle.min.js"
 
 [sitemap]
-	changefreq = 'yearly'
+	changefreq = 'monthly'
 	filename = 'sitemap.xml'
