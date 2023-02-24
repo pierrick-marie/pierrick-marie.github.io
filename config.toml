@@ -14,6 +14,7 @@ contentDir = 'content'
 	subtitle = "Voyageur au long court"
 	description = "Freelance développeur informatique Pierrick MARIE : projets, technologies et contacts."
 	keywords = "freelance, java, kotlin, springBoot, rust"
+	footer = "© Tous droits réservés - Pierrick MARIE - 2023"
 
 [menu]
 	[[menu.main]]
