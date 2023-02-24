@@ -15,6 +15,8 @@ contentDir = 'content'
 	description = "Freelance développeur informatique Pierrick MARIE : projets, technologies et contacts."
 	keywords = "freelance, java, kotlin, springBoot, rust"
 	footer = "© Tous droits réservés - Pierrick MARIE - 2023"
+	customCSS = [ "simple-gallery.css" ]
+	customJS = [ "simple-gallery.js" ]
 
 [menu]
 	[[menu.main]]
@@ -27,11 +29,6 @@ contentDir = 'content'
     		pre = "posts"
     		url = "/posts/"
     		weight = 2
-
-[module]
-	[[module.mounts]]
-      	source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-      	target = "assets/js/bootstrap/bundle.min.js"
 
 [sitemap]
 	changefreq = 'monthly'

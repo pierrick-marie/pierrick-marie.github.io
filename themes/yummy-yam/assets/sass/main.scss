@@ -1,6 +1,6 @@
-@import "node_modules/bootstrap/scss/functions";
-@import "node_modules/bootstrap/scss/variables";
-@import "node_modules/bootstrap/scss/mixins";
+@import "../../static/bootstrap/scss/functions";
+@import "../../static/bootstrap/scss/variables";
+@import "../../static/bootstrap/scss/mixins";
 
 $primary: $gray-100;
 $secondary: $blue-600;
@@ -23,7 +23,7 @@ $theme-colors: (
 );
 
 
-@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../static/bootstrap/scss/bootstrap.scss";
 
 @import './background.scss';
 @import './header.scss';
