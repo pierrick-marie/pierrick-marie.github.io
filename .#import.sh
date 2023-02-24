@@ -1,1 +1,0 @@
-pirik@pirik-Latitude-5500.163290:1677223055
