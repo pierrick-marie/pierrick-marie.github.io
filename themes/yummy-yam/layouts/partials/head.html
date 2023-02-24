@@ -23,12 +23,14 @@
 	<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 	<link rel="canonical" href="https://pierrick-marie.github.io">
 
+	
 	<link rel="stylesheet" type="text/css" href="./css/fontawesome-6.2.1/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/simple-gallery.css">
+	<script src="./css/{{ $.Site.Params.customCSS }}"></script>
 	<link rel="stylesheet" type="text/css" href="./css/body.css">
 	
 	{{ $sass := resources.Get "sass/main.scss" }}
 	{{ $style := $sass | resources.ToCSS | resources.Minify }}
 	<link rel="stylesheet" href=".{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">	
+
 
 </head>
