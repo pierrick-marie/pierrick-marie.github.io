@@ -2,15 +2,20 @@
 
 rm ./*.html
 rm ./*.xml
+rm ./*.txt
 
+rm -r bootstrap
 rm -r css
 rm -r img
 rm -r js
 rm -r resources
 rm -r sass
 
-git checkout dev.yummy-yam.export -- public
+git checkout export -- public
 mv public/* ./
 
-rmdir public
+rm -r public
+rm -r contacts
+rm -r projets
+rm -r technologies
 
