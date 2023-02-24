@@ -1,36 +1,34 @@
 <head>
+
+	{{ $title := print .Site.Title " - " .Title }}
+	{{ $title = print .Site.Params.author " - " .Site.Title }}
+	<title>{{ $title }}</title>
+
 	<meta charset="utf-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="{{ $.Site.Params.keywords }}">
+	<meta name="description" content="{{ $.Site.Params.description }}">
+	<meta name="author" content="{{ $.Site.Params.author }}">
+
+	<meta name="robots" content="index, follow">
+	
+	<meta property="og:title" content="{{ $title }}">
+	<meta property="og:image" content="https://pierrick-marie.github.io/img/avatar.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="252">
+	<meta property="og:image:height" content="256">
+	<meta property="og:description" content="{{ $.Site.Params.description }}">
+
+	<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+	<link rel="canonical" href="https://pierrick-marie.github.io">
 
 	<link rel="stylesheet" type="text/css" href="./css/fontawesome-6.2.1/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/simple-gallery.css">
 	<link rel="stylesheet" type="text/css" href="./css/body.css">
-
+	
 	{{ $sass := resources.Get "sass/main.scss" }}
 	{{ $style := $sass | resources.ToCSS | resources.Minify }}
-	<link rel="stylesheet" href=".{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
-	
-	{{ $title := print .Site.Title " | " .Title }}
-	{{ if .IsHome }} {{ $title = print .Site.Params.author " | " .Site.Title }} {{ end }}
-	<title>{{ $title }}</title>
-
-	<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-
-	<meta name="author" content="{{ $.Site.Params.author }}" />
-	<meta
-  		name="description"
-  		content="{{ $.Site.Params.description }}" />
-	
-	<meta
-		property="og:image"
-		content="https://pierrick-marie.github.io/img/favicon.ico" />
-	<meta
-		property="og:description"
-		content="{{ $.Site.Params.description }}" />
-	<meta 
-		property="og:title"
-		content="{{ .Site.Title }}" />
-		
+	<link rel="stylesheet" href=".{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">	
 
 </head>

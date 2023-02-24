@@ -3,13 +3,13 @@
 	<div id="navbarToggleExternalContent" class="collapse">
 		<div id="navbar-content" class="m-0">
 			<a class="navbar-link" href="#projects">
-				<h5 class="h5 m-0">Projets réalisés</h5>
+				<h3 class="h5 m-0">Projets réalisés</h3>
 			</a>
 			<a class="navbar-link" href="#technologies">
-				<h5 class="h5 m-0">Technologies</h5>
+				<h3 class="h5 m-0">Technologies</h3>
 			</a>
 			<a class="navbar-link" href="#contact">
-				<h5 class="h5 m-0">Contacts</h5>
+				<h3 class="h5 m-0">Contacts</h3>
 			</a>
 		</div>
 	</div>
@@ -21,11 +21,11 @@
 				<span id="navbar-toggler-icon" class="fa-solid fa-bars"></span>
 			</button>
 
-			<a class="navbar-avatar p-0" alt="Home page {{ $.Site.Title }}" href=".">
-				<img class="avatar-img" alt="Avatar {{ $.Site.Params.author }}" src="./img/avatar.png" />
+			<a class="navbar-avatar p-0" href="." rel="author">
+				<img class="avatar-img" alt="Avatar {{ $.Site.Params.author }}" src="./img/avatar.png">
 			</a>
 
-			<a id="navbar-title" alt="Home page {{ $.Site.Params.author }}" href=".">
+			<a id="navbar-title" href=".">
 				<h1 class="h4 m-0">{{ $.Site.Params.author }}</h1>
 			</a>
 		</div>

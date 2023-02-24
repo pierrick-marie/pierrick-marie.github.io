@@ -10,7 +10,8 @@ enableRobotsTXT = true
 [params]
 	author = "Pierrick MARIE"
 	subtitle = "Voyageur au long court"
-	description = "Site pro de présentation de Pierrick MARIE : mes projets, technologies et comment me contacter."
+	description = "Freelance développeur informatique Pierrick MARIE : projets, technologies et contacts."
+	keywords = "freelance, java, kotlin, springBoot, rust"
 
 [menu]
 	[[menu.main]]
