@@ -60,7 +60,7 @@ function setupGalleryLegend() {
 
 	var index = 0;
 
-	$('.images').after(`<p class="project-description" id="${GALLERY}-legend"></p>`);
+	$('.images').after(`<p class="projects-description" id="${GALLERY}-legend"></p>`);
 
 	$(`${LEGENDS} p`).each(function () {
 		$(this).attr('id', `${GALLERY}-legend-${index}`);
