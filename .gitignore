@@ -1,7 +1,7 @@
 # hugo folder
 .hugo_build.lock
-./public/
-./resources/
+public/
+resources/
 
 # hugo themes
-./themes/yummy-yam
+themes/yummy-yam
