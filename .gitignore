@@ -1,6 +1,5 @@
 # hugo folder
 .hugo_build.lock
-public/
 resources/
 
 # hugo themes
