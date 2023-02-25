@@ -1,11 +1,7 @@
-# Ignore source images
-public/img/competences/src
-public/img/src
-img
-
 # hugo folder
 .hugo_build.lock
-resources/
+./resources/
+./public/
 
 # hugo themes
-themes/yummy-yam
+./themes/yummy-yam
