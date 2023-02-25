@@ -1,10 +1,6 @@
-# Ignore source images
-public/img/competences/src
-public/img/src
-img
-
 # hugo folder
 .hugo_build.lock
+public/
 resources/
 
 # hugo themes
