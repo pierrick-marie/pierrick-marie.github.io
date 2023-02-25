@@ -10,6 +10,7 @@ rm -r img
 rm -r js
 rm -r resources
 rm -r sass
+rm -r docs
 
 git checkout export -- public
 mv public/* ./
