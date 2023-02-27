@@ -17,6 +17,6 @@ mv public/* ./
 
 rm -r public
 rm -r contacts
-rm -r projets
+rm -r projects
 rm -r technologies
 
