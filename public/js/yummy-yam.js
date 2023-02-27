@@ -13,7 +13,40 @@ $(document).ready(function () {
 	scrollFunction();	// call function after loading page
 
 	setupAvatarRotations();
+
+	setupStars();  
+
+	setupNavArrow();
+
+	setupCornerImages();
 });
+
+/**
+ * Add small or large background corner images
+ */
+function setupCornerImages() {
+
+	$('.yummy-yam-corner-images').append(`
+		<img class="corner-image bottom-left large" alt="corner image bottom left" src="./img/theme/corner-left.png">
+		<img class="corner-image bottom-right large" alt="corner image bottom right" src="./img/theme/corner-right.png">`);
+}
+
+/**
+ * Add stars in titles and paragraphs
+ */
+function setupStars() {
+
+	// In titles h1
+	$(`<p class="star">⚝</p>`).insertBefore('.yummy-yam-title');
+	$(`<p class="star">⚝</p>`).insertAfter('.yummy-yam-title');
+}
+
+/**
+ * Add down arrow to navigate in main page
+ */
+function setupNavArrow() {
+	$('.yummy-yam-arrow').html('⮛<br>⮛');
+}
 
 /**
  * Setup avatar rotations:
