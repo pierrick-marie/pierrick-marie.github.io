@@ -7,9 +7,9 @@
 	text-align: center;
 }
 
-#contacts a {
-	text-decoration: underline;
-}
+// #contacts a {
+// 	text-decoration: underline;
+// }
 
 .contacts-icons {
 	width: 70%;
@@ -23,11 +23,21 @@
 	justify-content: space-around;
 
 	filter: drop-shadow(0 0 1rem $shadow);
+
 }
 
 .contacts-icons a img {
 	height: 8vh;
 	padding: 20px;
 	padding-bottom: 1vh;
+
+	transition: 300ms;
 }
 
+.contacts-icons a {
+	border-width: 0;
+}
+
+.contacts-icons a:hover img {
+	height: 10vh;
+}
