@@ -4,4 +4,4 @@ weight: 0
 draft: false
 ---
 
-<h1> INDEX: Mes derniers articles publiés </h1>
+# Derniers articles publiés

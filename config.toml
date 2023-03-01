@@ -15,6 +15,7 @@ contentDir = 'content'
 	description = "Freelance développeur informatique Pierrick MARIE : projets, technologies et contacts."
 	keywords = "freelance, java, kotlin, springBoot, rust"
 	customJS = "simple-gallery.js"
+	timeFormat = "french"
 
 [menu]
 	[[menu.main]]
