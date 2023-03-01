@@ -9,24 +9,33 @@ enableRobotsTXT = true
 
 contentDir = 'content'
 
+paginate = 4
+
 [params]
 	author = "Pierrick MARIE"
 	subtitle = "Voyageur au long court"
 	description = "Freelance développeur informatique Pierrick MARIE : projets, technologies et contacts."
 	keywords = "freelance, java, kotlin, springBoot, rust"
 	customJS = "simple-gallery.js"
+	timeFormat = "french"
 
 [menu]
 	[[menu.main]]
-		name = 'Home'
-		pre = 'home'
-		url = '/'
+		name = 'Projets'
+		url = '#projects'
 		weight = 1
 	[[menu.main]]
-    		name = "Posts"
-    		pre = "posts"
-    		url = "/posts/"
-    		weight = 2
+		name = 'Technologies'
+		url = '#technologies'
+		weight = 2
+	[[menu.main]]
+		name = 'Contacts'
+		url = '#contacts'
+		weight = 3
+	[[menu.main]]
+		name = 'Articles publiés'
+		url = 'posts'
+		weight = 4
 
 [sitemap]
 	changefreq = 'monthly'
