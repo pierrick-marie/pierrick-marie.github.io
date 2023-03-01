@@ -111,7 +111,7 @@
  * thumbnails img:hover
  */
 .simple-gallery-thumbnails img:hover {		/* Add a shadow around thumbnails */
-	filter: drop-shadow(0 0 1em black);
+	filter: drop-shadow(0 0 1em $shadow);
 }
 
 /** 
@@ -159,15 +159,13 @@
 	top: 10vh;
 
 	cursor: pointer;
-
-	z-index: 1000;
 }
 
 /**
  * arrows
  */
  .simple-gallery-arrows:hover {	/* The arrows to change current image (left and right) */
-	filter: drop-shadow(0 0 0.2em black);
+	filter: drop-shadow(0 0 0.2em $shadow);
 }
 
 /**
@@ -193,5 +191,5 @@
 }
 
 .shadow-gallery {
-	filter: drop-shadow(0 0 1em black);
+	filter: drop-shadow(0 0 1em $shadow);
 }

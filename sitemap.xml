@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pierrick-marie.github.io/</loc>
+    <changefreq>monthly</changefreq>
+  </url><url>
     <loc>https://pierrick-marie.github.io/projects/</loc>
     <changefreq>monthly</changefreq>
   </url><url>
@@ -9,9 +12,6 @@
     <changefreq>monthly</changefreq>
   </url><url>
     <loc>https://pierrick-marie.github.io/contacts/</loc>
-    <changefreq>monthly</changefreq>
-  </url><url>
-    <loc>https://pierrick-marie.github.io/</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
