@@ -9,6 +9,8 @@ enableRobotsTXT = true
 
 contentDir = 'content'
 
+paginate = 4
+
 [params]
 	author = "Pierrick MARIE"
 	subtitle = "Voyageur au long court"

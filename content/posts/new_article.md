@@ -1,6 +1,6 @@
 ---
-title: "TITLE: My First Post"
-date: "2022-11-24"
+title: "TITLE 0"
+date: "2022-11-01"
 draft: false
 summary: Lorem Ipsum
 thumbnail: "post-test-1.jpg"
