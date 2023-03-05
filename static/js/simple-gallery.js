@@ -5,24 +5,28 @@
  * All rights reserved.
  **/
 
-const GALLERY = 'simple-gallery';		// the class of the main section of the gallery
-const IMAGES = `.${GALLERY} .images img`;		// all the images of the gallery
-const THUMBNAILS = `${GALLERY}-thumbnails`;	// the class of thumbnails section
-const TITLE = `${GALLERY}-title`;		// the class of title section
-const ARROWS = `${GALLERY}-arrows`;		// the class of arrows section
-const LEGENDS = `.${GALLERY}-legends`;	// legends of images
+const GALLERY = '.projects-gallery';		// the class of the main section of the gallery
+const PROJECTS_LEGENDS = `${GALLERY} .legends .legend`;	// all the images of the gallery
+const PROJECT = `${GALLERY} .project`;
+const THUMBNAILS = `${GALLERY} .thumbnails .horizontal-scroll`
 
-var CURRENT_IMAGE_NUMBER = 0;		// the number of the current image displayed on the screen
-var NB_IMAGES = 0;		// the total number of images
+const LEGENDS = `${GALLERY} .legends`;	// legends of images
+
+var CURRENT_PROJECT_ID = 0;		// the number of the current image displayed on the screen
+var NB_PROJECTS = 0;		// the total number of images
 var THUMBNAIL_SIZE = 0;
 
 $(document).ready(function () {
 
-	setupGallerySections();
+	setupThumbnails();
 
-	setupImages();
+	setupProject();
 
-	setupGalleryLegend();
+	setupArrows();
+	
+	setupLegends();
+
+	showCurrentProject();
 
 	setupKeyboardBinding();
 });
@@ -43,39 +47,45 @@ function setupKeyboardBinding() {
 	});
 }
 
-function copyToClipBoard(code) {
+function copyToClipBoard() {
 
+	var text = $(`${PROJECT} .git-clone`).html();
+	var copyText = text.trim();
+	copyText = copyText.replaceAll('<br>', '\n');
+	navigator.clipboard.writeText(copyText);
 
-	var text = $(`#${code}`).text();
-	text = text.trim();
-	navigator.clipboard.writeText(text);
+	$(`${PROJECT} .git-clone`).fadeOut('fast').promise().done(function() {
+		$(`${PROJECT} .git-clone`).html('Copié <i class="fa-solid fa-check"></i>');
+		$(`${PROJECT} .git-clone`).fadeIn('fast');
 
-	$(`#${code}`).next('.code-copied').fadeIn(); // .css('display', 'inline')
-	setTimeout(function() {
-		$(`#${code}`).next('.code-copied').fadeOut();
-	}, 1000);
+		setTimeout(function() {
+			$(`${PROJECT} .git-clone`).html(text);
+		}, 1500);
+	});
+
 }
 
-function setupGalleryLegend() {
+function setupLegends() {
 
 	var index = 0;
+	
+	$(`${LEGENDS} .legend`).each(function () {
+		$(this).attr('id', `legend-${index}`);
 
-	$('.images').after(`<p class="projects-description" id="${GALLERY}-legend"></p>`);
+		$(this).find('h2').addClass('subtitle');
 
-	$(`${LEGENDS} p`).each(function () {
-		$(this).attr('id', `${GALLERY}-legend-${index}`);
-		
-		var code = $(this).find('code').attr('id', `${GALLERY}-legend-code-${index}`)
-			.attr('onclick', `copyToClipBoard("${GALLERY}-legend-code-${index}")`)
-			.attr('title', 'Copy snippet')
-			.addClass('snippet');
-		$(this).append('<p class="code-copied">Copié <i class="fa-solid fa-check"></i></p>');
+		$(this).find('img').addClass('logo');
+
+		$(this).find('p').addClass('description');
+
+		$(this).find('code')
+			.addClass('git-clone')
+			.attr('onclick', `copyToClipBoard()`);
 		
 		index++;
 	});
 
-	$(`#${GALLERY}-legend`).html(
-		$(`#${GALLERY}-legend-${CURRENT_IMAGE_NUMBER}`).html());
+	NB_PROJECTS = index;
 }
 
 /**
@@ -83,80 +93,51 @@ function setupGalleryLegend() {
  */
 function setupGallerySections() {
 
-	$(`.${GALLERY}`).addClass('sizeOfGallery')	// Defines the size of the gallery
-		.addClass('positionOfGallery')	// Defines the position of the gallery
-		.addClass('decorationGallery');	// Decorates the gallery
-
-	setupTitlesSection();
-
-	setupThumbnailsSection();
-
-	setupArrows();
+	
 }
 
-/**
- * Setup all images in the gallery:
- * 	- init global var NB_IMAGES
- * 	- add class defaultView
- * 	- hide all images except the first
- * 	- add class to all images
- */
-function setupImages() {
-
-	NB_IMAGES = $(IMAGES).length;	// Count number of images to display
-
-	$(IMAGES).first().addClass('defaultView');	// Add classes defaultView to the first image
-	$(IMAGES).first().show();	// Show first image
-
-	setupImagesClass();
-}
 
 /**
  * Configure the section for thumbnails
- */
-function setupThumbnailsSection() {
-
-	$(`.${GALLERY}`).append(`<section class="${THUMBNAILS}"></section>`);	// Add a section for thumbnails after the images
-
-	setupThumbnailImages();
-}
-
-/**
+ * 
  * Setup thumbnails of images
  * It clones all images in '.thumbnails' class.
  * Then it adds an class like .thumbnail-{number}
  *  where {number} starts from 0 to the number of images
  * Finally it adds '.cursorPointer' class to all images except the first
  */
-function setupThumbnailImages() {
+function setupThumbnails() {
 
-	const _thumbnailClass = `${GALLERY}-thumbnail-`;	// Class of thumbnail
+	$(GALLERY).prepend('<section class="thumbnails"></section>');	// Add a section for thumbnails after the images
+	$(`${GALLERY} .thumbnails`).prepend('<div class="horizontal-scroll"></div>');
+
+	const _thumbnailClass = `thumbnail`;	// Class of thumbnail
 	var index = 0;
 
-	$(IMAGES).each(function () {
-		$(`.${THUMBNAILS}`).append(
-			$(this).clone()
-				.attr('class', _thumbnailClass.concat(index))	// Add class .thumbnails-{index}
+	$(PROJECTS_LEGENDS).each(function () {
+		$(THUMBNAILS).append(
+			$(this).find('img').clone()
+				.addClass(`${_thumbnailClass}-${index}`) // Add class .thumbnails-{index}
+				.addClass('thumbnail')
 				.click({ class: index }, callChangeCurrentImage) 	// on click to a thumbnails, call function to display the new image
 		);
 		index++;
 	});
 
-	$(`.${THUMBNAILS} img`).slice(1).addClass('cursorPointer'); // Add cursor clickable to all thumbnails except first
-	$(`.${THUMBNAILS} img`).first().addClass('shadow-gallery'); // Add shadow on first thumbnail
+	$(`${THUMBNAILS} img`).slice(1).addClass('cursorPointer'); // Add cursor clickable to all thumbnails except first
+	$(`${THUMBNAILS} img`).first().addClass('shadow-gallery'); // Add shadow on first thumbnail
 
-	THUMBNAIL_SIZE = $(`.${THUMBNAILS} img`).first().width();
+	THUMBNAIL_SIZE = $(`${THUMBNAILS} img`).first().width();
 }
 
+
 /**
- * Add a section that will contain the title of the current image
- * Setup the title with attribut from the first image
+ * Add a section that will contain the title of the current project
+ * Setup the title with attribut from the first legend
  */
-function setupTitlesSection() {
+function setupProject() {
 
-	const _titleValue = $(IMAGES).first().attr('title');	// Get title of the first image
-
-	$(`.${GALLERY}`).prepend(`<h2 class="${TITLE}">${_titleValue}</h2>`);	// Insert h1 section
+	$(`${GALLERY}`).prepend('<section class="project">');
 }
 
 /**
@@ -165,29 +146,12 @@ function setupTitlesSection() {
  */
 function setupArrows() {
 
-	$(`.${TITLE}`).after(`
-		<nav>
-			<img class="${GALLERY}-left-arrow ${ARROWS}" src="./img/projects/left-arrow.png" onclick="leftArrowClicked()"/>
-			<img class="${GALLERY}-right-arrow ${ARROWS}" src="./img/projects/right-arrow.png" onclick="rightArrowClicked()"/>
+	$('.thumbnails').after(`
+		<nav class="arrow">
+			<img class="left" src="./img/projects/left-arrow.png" onclick="leftArrowClicked()"/>
+			<img class="right" src="./img/projects/right-arrow.png" onclick="rightArrowClicked()"/>
 		</nav>
 	`);	// Insert the arrows
-}
-
-/**
- * Setup class for each images
- * classes are: .images-{number}
- * {number} starts at 0 and increase to the number of images
- */
-function setupImagesClass() {
-
-	const _imageClass = `${GALLERY}-image`; // Class of images
-
-	var index = 0;
-
-	$(IMAGES).each(function () {
-		$(this).addClass(`${_imageClass}-${index}`); // Add class .image-{index}
-		index++;
-	});
 }
 
 /**
@@ -203,29 +167,19 @@ function callChangeCurrentImage(event) {
  */
 function changeCurrentImage(newIndex) {
 
-	if (CURRENT_IMAGE_NUMBER != newIndex) {
-
-		const _image = `.${GALLERY}-image`;			// class of images
-		const _thumbnail = `.${GALLERY}-thumbnail`;	// class of thumbnails
-
-		const _newImageClass = `${_image}-${newIndex}`; 		// Compute new index of .image-
-		const _newThumbnailClass = `${_thumbnail}-${newIndex}`;	// Compute new index of .thumbnail-
-
-		const _currentImageClass = `${_image}-${CURRENT_IMAGE_NUMBER}`;		// Compute current index of is .image-
-		const _currentThumbnailClass = `${_thumbnail}-${CURRENT_IMAGE_NUMBER}`;	// Compute current index of is .thumbnail-
-
-		CURRENT_IMAGE_NUMBER = newIndex;	// update currentIndex with new value
-
-		$(_currentImageClass).hide();	// hide previous image
-		$(_newImageClass).show(); 		// display new image
+	if (CURRENT_PROJECT_ID != newIndex) {
 
 
-		displayDefaultView();
+		const _newThumbnail = `.thumbnail-${newIndex}`;	// Compute new index of .thumbnail-
 
-		$(_currentThumbnailClass).removeClass('shadow-gallery').removeClass('cursorDefault').addClass('cursorPointer');	// change skin of current thumbnail
-		$(_newThumbnailClass).addClass('shadow-gallery').addClass('cursorDefault').removeClass('cursorPointer'); 		// change skin of new selected thumbnail
+		const _currentThumbnail = `.thumbnail-${CURRENT_PROJECT_ID}`;	// Compute current index of is .thumbnail-
 
-		$(`.${TITLE}`).html($(_newImageClass).attr('title')); // Update title
+		CURRENT_PROJECT_ID = newIndex;	// update currentIndex with new value
+
+		showCurrentProject();
+
+		$(_currentThumbnail).removeClass('shadow-gallery').removeClass('cursorDefault').addClass('cursorPointer');	// change skin of current thumbnail
+		$(_newThumbnail).addClass('shadow-gallery').addClass('cursorDefault').removeClass('cursorPointer'); 		// change skin of new selected thumbnail
 	}
 }
 
@@ -234,10 +188,10 @@ function changeCurrentImage(newIndex) {
  */
 function leftArrowClicked() {
 
-	var index = CURRENT_IMAGE_NUMBER - 1;
+	var index = CURRENT_PROJECT_ID - 1;
 
 	if (index < 0) {
-		index = NB_IMAGES - 1;
+		index = NB_PROJECTS - 1;
 	}
 
 	changeCurrentImage(index);
@@ -248,9 +202,9 @@ function leftArrowClicked() {
  */
 function rightArrowClicked() {
 
-	var index = CURRENT_IMAGE_NUMBER + 1;
+	var index = CURRENT_PROJECT_ID + 1;
 
-	if (index >= NB_IMAGES) {
+	if (index >= NB_PROJECTS) {
 		index = 0;
 	}
 
@@ -260,15 +214,15 @@ function rightArrowClicked() {
 /**
  * Display image in default view
  */
-function displayDefaultView() {
+function showCurrentProject() {
 
-	const _currentImage = `.${GALLERY}-image-${CURRENT_IMAGE_NUMBER}`;
+	const _currentLegend = `#legend-${CURRENT_PROJECT_ID}`;
 
-	$(_currentImage).addClass('defaultView');
+	$(PROJECT).fadeOut(200).promise().done(function() {
+		$(PROJECT).html($(`${_currentLegend}`).html());
+		$(PROJECT).fadeIn(200);
+	});
 
-	$(`#${GALLERY}-legend`).html(
-		$(`#${GALLERY}-legend-${CURRENT_IMAGE_NUMBER}`).html());
-
-	var scrollPosition = CURRENT_IMAGE_NUMBER * THUMBNAIL_SIZE;
-	$(`.${THUMBNAILS}`).scrollLeft(scrollPosition);
+	var scrollPosition = CURRENT_PROJECT_ID * THUMBNAIL_SIZE;
+	$(`${THUMBNAILS}`).scrollLeft(scrollPosition);
 }
