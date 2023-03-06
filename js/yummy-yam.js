@@ -1,11 +1,18 @@
-var HEADER_HEIGHT = 0;	// The height of the navbar
+const HEADER_HEIGHT = $('header').height(); // The height of the navbar
+var headerIsHide = false;
 
-var ROTATION_ANGLE = "15deg";
+const TECHNOLOGIES_TOP = $('#technologies .cv').first().offset().top;
+var technologiesAreHide = true;
+
+const ROTATION_ANGLE = "15deg";
 var avatarIsRotated = false;	// status of avatar: rotated or not
 
-$(document).ready(function () {
+const CONTENT_TITLE = '.content .title';
+const AVATAR_IMAGE = '.banner .avatar .img';
 
-	HEADER_HEIGHT = $('header').height();
+const TIMELINE_PARAGRAPHS = $('.timeline .hide');
+
+$(document).ready(function () {
 
 	$(window).scroll(function () {
 		scrollFunction();
@@ -14,12 +21,27 @@ $(document).ready(function () {
 
 	setupAvatarRotations();
 
-	setupStars();  
+	setupStars();
 
 	setupNavArrow();
 
 	setupCornerImages();
+
+	fadeInTimeline();
 });
+
+/**
+ * Fade in timeline
+ */
+function fadeInTimeline() {
+
+	var index = 0;
+
+	(function fadeInTimelineParagraph() {
+		TIMELINE_PARAGRAPHS.eq(index++).fadeIn(300, fadeInTimelineParagraph);
+
+	})();
+}
 
 /**
  * Add small or large background corner images
@@ -38,11 +60,11 @@ function setupCornerImages() {
  */
 function setupStars() {
 
-	$('.list-articles h1').addClass('yummy-yam-title');
+	$('.list-articles h1').addClass(CONTENT_TITLE);
 
 	// In titles h1
-	$(`<p class="star">⚝</p>`).insertBefore('.yummy-yam-title');
-	$(`<p class="star">⚝</p>`).insertAfter('.yummy-yam-title');
+	$(`<p class="star">⚝</p>`).insertBefore(CONTENT_TITLE);
+	$(`<p class="star">⚝</p>`).insertAfter(CONTENT_TITLE);
 }
 
 /**
@@ -59,15 +81,15 @@ function setupNavArrow() {
  */
 function setupAvatarRotations() {
 
-	$('.avatar-img').mouseenter(function() {	// mouse entre: rotate avatar
-		$('.avatar-img').css('rotate', `-${ROTATION_ANGLE}`);
-	});
-	
-	$('.avatar-img').mouseout(function() {	// mouse out: reset avatar rotation
-		$('.avatar-img').css('rotate', '0deg');
+	$(AVATAR_IMAGE).mouseenter(function () {	// mouse entre: rotate avatar
+		$(AVATAR_IMAGE).css('rotate', `-${ROTATION_ANGLE}`);
 	});
 
-	$('#navbar-button').click(function() {	// on click on navbar button
+	$(AVATAR_IMAGE).mouseout(function () {	// mouse out: reset avatar rotation
+		$(AVATAR_IMAGE).css('rotate', '0deg');
+	});
+
+	$('.banner .button').click(function () {	// on click on navbar button
 		rotateAvatar();
 	});
 }
@@ -77,11 +99,11 @@ function setupAvatarRotations() {
  */
 function rotateAvatar() {
 
-	if(avatarIsRotated) {
-		$('.avatar-img').css('rotate', '0deg');	// reset avatar rotation
+	if (avatarIsRotated) {
+		$(AVATAR_IMAGE).css('rotate', '0deg');	// reset avatar rotation
 		avatarIsRotated = false;
 	} else {
-		$('.avatar-img').css('rotate', `+${ROTATION_ANGLE}`);	// rotate avatar
+		$(AVATAR_IMAGE).css('rotate', `+${ROTATION_ANGLE}`);	// rotate avatar
 		avatarIsRotated = true;
 	}
 }
@@ -96,10 +118,28 @@ function scrollFunction() {
 
 	var scroll = $(window).scrollTop();
 
-	if( scroll > HEADER_HEIGHT ) {
-		header.stop().fadeOut(700);
+	if (false == headerIsHide && scroll > HEADER_HEIGHT) {
+		headerIsHide = true;
+		header.fadeOut(500);
 	} else {
-		header.stop().fadeIn(700);
+		if(true == headerIsHide && scroll <= HEADER_HEIGHT) {
+			headerIsHide = false;
+			header.fadeIn(500);
+		}
+	}
+
+	scroll += $(window).height();
+
+	if (true == technologiesAreHide && scroll >= TECHNOLOGIES_TOP) {
+		var indexLanguages = 0;
+		var indexTools = 0;
+		(function showTechnologies() {
+			$(`.languages .hide`).eq(indexLanguages++).fadeIn(300, showTechnologies);
+		})();
+		(function showTechnologies() {
+			$(`.tools .hide`).eq(indexTools++).fadeIn(300, showTechnologies);
+		})();
+		technologiesAreHide = false;
 	}
 }
 
