@@ -2,117 +2,171 @@
 <h1>One article</h1>
 
 
-	<section class="simple-gallery">
-		<h2 class="hide">Projets réalisés</h2>
-		<div class="gallery-container">
-			<div class="images">
+	<section class="projects-gallery">
+		<h3 class="hide">Projets réalisés</h3>
+
+		<!-- 
+			<section class="project">
+				...
+			</section>
+		-->
+
+		<section class="legends hide">
+			<h3>Légendes</h3>
+			
+			<section class="legend">
+				<h2>QoCIM : un framework pour l'Internet des Objets</h2>
 				<img src="./img/projects/qocim.png" title="QoCIM : un framework pour l'Internet des Objets" alt="Framework QoCIM">
+				<p>
+					Projet de recherche QoCIM (Quality of Context Information Model). Un framework pour faciliter le développement 
+					d’applications pour l’Internet des Objets. QoCIM s’intègre dans le projet ANR <a class="link" href="https://www.irit.fr/income/">INCOME</a>.
+					<br> <br>
+					
+					- Technologies : <em>Java</em>, <em>Maven</em>, Broker dédié <br>
+					- Licence : LGPL <br>
+					- <a class="link" href="https://github.com/pierrick-marie/QoCIM-Framework">https://github.com/pierrick-marie/QoCIM-Framework</a>
+				</p>
+				<code>git clone https://github.com/pierrick-marie/QoCIM-Framework.git</code>
+			</section>
+			
+			<section class="legend">
+				<h2>Portage du protocole MQTT-SN pour Arduino</h2>
 				<img src="./img/projects/mqtt-1.png" title="Portage du protocole MQTT-SN pour Arduino" alt="MQTT-SN pour Arduino">
+				<p>
+					Adaptation du protocol <a class="link" href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/MQTT-v3.1.1.pdf">MQTT-SN</a>
+					(MQTT for Sensor Networks) pour Arduino. La communication entre les modules est assurée par des modules <a
+					class="link" href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/zigbee-modules.pdf">XBee</a>.
+					Le coordinateur (broker) est développé en Java.
+					<br> <br> 
+		
+					- Technologies :  <em>Arduino</em>, <em>C/C++</em>, <em>Java</em> <br>
+					- Licence : BSD 3-Clause <br>
+					- <a class="link" href="https://github.com/pierrick-marie/mqtt-sn-for-arduino">https://github.com/pierrick-marie/mqtt-sn-for-arduino</a>
+				</p>
+				<code>git clone https://github.com/pierrick-marie/mqtt-sn-for-arduino.git</code>
+			</section>
+			
+			<section class="legend">
+				<h2>Sondes réseaux (TAP)</h2>
 				<img src="./img/projects/tap.png" title="Sondes réseaux (TAP)" alt="Sondes réseaux (Tap)">
+				<p>
+					Documentation et construction de <a class="link" href="https://fr.wikipedia.org/wiki/TAP_r%C3%A9seau">sonde réseau TAP.</a>
+					Un projet pédagogique de développement de solutions de surveillance et d'analyse de réseaux d'entreprises pour mieux les protéger contre
+					des cyber-attaques. 
+					<br> <br>
+					
+					- Technologies : <em>Ethernet</em>, IP, <em>GNU\Linux</em> <br>
+					- Licence : BSD 3-Clause <br>
+					- <a class="link" href="https://framagit.org/network-probe/tap">https://framagit.org/network-probe/tap</a> 
+				</p>
+				<code>git clone https://framagit.org/network-probe/tap.git</code>
+			</section>
+
+			<section class="legend">
+				<h2>Galerie d'images en JavaScript</h2>
 				<img src="./img/projects/gallery.png" title="Galerie d'images en JavaScript" alt="Simple JavaScript Image Gallery">
+				<p>
+					Une galerie d'image en JavaScript. Fonctionnalités : génération de la galerie à partir d'une liste d'image ; visualisation
+					en plein écran ; utilisation de raccourcis clavier. 
+					<br> <br> 
+					
+					- Technologies : <em>HTML5, CSS3</em>, <em>JavaScript</em>, <em>JQuery</em> <br>
+					- Licence : BSD 3-Clause <br>
+					- <a class="link" href="https://github.com/pierrick-marie/simple-js-gallery">https://github.com/pierrick-marie/simple-js-gallery</a> 
+				</p>
+				<code>git clone https://github.com/pierrick-marie/simple-js-gallery.git</code>
+			</section>
+
+			<section class="legend">
+				<h2>Mini projets Rust : tetris, music player, serveur FTP</h2>
 				<img src="./img/projects/rust.png" title="Mini projets Rust : tetris, music player, serveur FTP" alt="Rust discovery">
+				<p>
+					Découverte et initiation au langage Rust. Développement d'un jeu de Tétris, d'un player de fichiers audio ainsi qu'un client et un
+					serveur FTP.  Développements basés sur le livre « <em>Rust Programming by Example</em> ».
+					<br> <br> 
+					
+					- Technologies : <em>Rust</em>, <em>SDL2</em>, <em>GTK3</em>, <em>Gstreamer</em> <br>
+					- Licence : BSD 3-Clause <br>
+					- <a class="link" href="https://github.com/pierrick-marie/rust-lang-discovery">https://github.com/pierrick-marie/rust-lang-discovery</a> 
+				</p>
+				<code>git clone https://github.com/pierrick-marie/rust-lang-discovery.git</code>
+			</section>
+
+
+			<section class="legend">
+				<h2>Mini projet SpringBoot : API REST</h2>
 				<img src="./img/projects/springboot.png" title="Mini projet SpringBoot : API REST" alt="SpringBoot discovery">
+				<p>
+					Découverte et initiation du framework SpringBoot avec le langage Kotlin. Développement d'une API REST, de tests unitaires et
+					d'intégration et mise en place d'un mécanisme de contrôle d'accès. 
+					<br> <br>
+					
+					- Technologies : <em>SpringBoot</em>, <em>Gradle</em>, <em>Kotlin</em> <br>
+					- Licence : BSD 3-Clause <br>
+					- <a class="link" href="https://github.com/pierrick-marie/springboot-discovery">https://github.com/pierrick-marie/springboot-discovery</a>
+				</p>
+				<code>git clone https://github.com/pierrick-marie/springboot-discovery.git</code>
+			</section>
+
+
+			<section class="legend">
+				<h2>Gyroscope Bluetooth Arduino</h2>
 				<img src="./img/projects/arduino.png" alt="Gyroscope Bluetooth Arduino" title="Gyroscope Bluetooth avec modules Arduino">
+				<p>
+					Un gyroscope sans fil avec de deux modules <a class="link" href="https://docs.arduino.cc/hardware/nano-33-iot">Arduino Nano 33
+						Iot</a> et un écran LED. Un premier module Arduino mesure l'inclinaison et transmet en Bluetooth la mesure au second module qui affiche la valeur sur un écran LED.
+					<br> <br>
+					
+					- Technologies : <em>Arduino Nano 33 IoT</em>, <em>Bluetooth</em> <br>
+					- Licence : BSD 3-Clause <br>
+					- <a class="link" href="https://github.com/pierrick-marie/mqtt-sn-for-arduino">https://github.com/pierrick-marie/mqtt-sn-for-arduino</a>
+				</p>
+				<code>git clone https://github.com/pierrick-marie/mqtt-sn-for-arduino.git</code>
+			</section>
+
+
+			<section class="legend">
+				<h2>Site web Pro</h2>
 				<img src="./img/projects/web.png" alt="Site web : pierrick-marie.github.io" title="https://pierrick-marie.github.io">
+				<p>
+					Mon site web pro de présentation : <a class="link" href="https://pierrick-marie.github.io/">https://pierrick-marie.github.io/</a> 
+					<br> <br>
+					
+					- Technologies : <em><a class="link" href="https://gohugo.io/commands/hugo_server/">Hugo serveur</a></em>, <em><a
+						class="link" href="https://github.com/pierrick-marie/yummy-yam">Yummy Yam</a></em> <br>
+				</p>
+				<code>
+					git clone https://github.com/pierrick-marie/pierrick-marie.github.io.git <br>
+					git clone https://github.com/pierrick-marie/yummy-yam.git
+				</code>
+			</section>
+
+
+			<section class="legend">
+				<h2>Site web de voyage</h2>
 				<img src="./img/projects/web-2.png" title="https://www.ninae.fr" alt="Site web de voyage : https://www.ninae.fr">
-				<img src="./img/projects/these.png" alt="Doctorat"
-					title="Gestion de bout en bout de la Qualité de Contexte pour l'Internet des Objets">
-			</div>
-		</div>
+				<p>
+					Mon tour de l'Atlantique à la voile : <a class="link" href="https://www.ninae.fr">https://www.ninae.fr</a>
+					<br> <br>
+					
+					- Technologies : <em>Wordpress</em> <br> <br>
+				</p>
+			</section>
+
+
+			<section class="legend">
+				<h2>Thèse : Gestion de bout en bout de la Qualité de Contexte pour l'Internet des Objets</h2>
+				<img src="./img/projects/these.png" alt="Doctorat - Gestion de bout en bout de la Qualité de Contexte pour l'Internet des Objets"
+					title="Doctorat - Université Paul Sabatier - Toulouse">
+				<p>
+					Manuscrit de thèse. Intitulé : Gestion de bout en bout de la Qualité de Context pour l'Internet des Objets - le quadriciel QoCIM.
+					<br> <br>
+		
+					- Technologies : <em>QoCIM</em>, <em>Java</em>, <em>Maven</em>, <em>Raspberry Pi</em> <br>
+					- Licence : BSD 3-Clause <br>
+					- <a class="link" href="./docs/manuscrit.pdf">https://pierrick-marie.github.io/manuscrit.pdf</a> 
+				</p>
+			</section>
+		</section>
 	</section>
 
-	<section class="simple-gallery-legends">
-		<h3 class="hide">QoCIM : un framework pour l'Internet des Objets</h3>
-		<p>
-			Projet de recherche QoCIM (Quality of Context Information Model). Un framework pour le développement
-			d’applications pour l’Internet des Objets. Il permet de définir, collecter, filtrer et exploiter la qualité des informations
-			nécessaires pour le bon fonctionnement des applications. QoCIM s’intègre le projet ANR <a href="https://www.irit.fr/income/">INCOME</a>.
-			<br> <br>
-			- Technologies : <em>Java</em>, <em>Maven</em>, Broker dédié <br>
-			- Licence : LGPL <br>
-			- <a href="https://github.com/pierrick-marie/QoCIM-Framework">https://github.com/pierrick-marie/QoCIM-Framework</a> <br>
-			<code>git clone https://github.com/pierrick-marie/QoCIM-Framework.git</code>
-		</p>
-		<h3 class="hide">Portage du protocole MQTT-SN pour Arduino</h3>
-		<p>
-			Adaptation du protocol <a href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/MQTT-v3.1.1.pdf">MQTT-SN</a>
-			(MQTT for Sensor Networks) pour Arduino. La communication entre les modules est assurée par des modules <a
-				href="https://framagit.org/pierrick/mqtt-sn/-/raw/master/documentation/zigbee-modules.pdf">XBee</a>.
-			Le coordinateur (broker) est développé en Java.<br> <br> <br>
-			- Technologies :  <em>Arduino</em>, <em>C/C++</em>, <em>Java</em> <br>
-			- Licence : BSD 3-Clause <br>
-			- <a href="https://framagit.org/pierrick/mqtt-sn">https://framagit.org/pierrick/mqtt-sn</a> <br>
-			<code>git clone https://framagit.org/pierrick/mqtt-sn.git</code>
-		</p>
-		<h3 class="hide">Sondes réseaux (TAP)</h3>
-		<p>
-			Documentation et construction de <a href="https://fr.wikipedia.org/wiki/TAP_r%C3%A9seau">sonde réseau TAP.</a>
-			Un projet pédagogique de développement de solutions de surveillance et d'analyse de réseaux d'entreprises pour mieux les protéger contre
-			des cyber-attaques. <br> <br> <br>
-			- Technologies : <em>Ethernet</em>, IP, <em>GNU\Linux</em> <br>
-			- Licence : BSD 3-Clause <br>
-			- <a href="https://framagit.org/network-probe/tap">https://framagit.org/network-probe/tap</a> <br>
-			<code>git clone https://framagit.org/network-probe/tap.git</code>
-
-		</p>
-		<h3 class="hide">Galerie d'images en JavaScript</h3>
-		<p>
-			Une galerie d'image en JavaScript. Fonctionnalités : génération de la galerie à partir d'une liste d'image ; visualisation
-			en plein écran ; utilisation de raccourcis clavier. <br> <br> <br>
-			- Technologies : <em>HTML5, CSS3</em>, <em>JavaScript</em>, <em>JQuery</em> <br>
-			- Licence : BSD 3-Clause <br>
-			- <a href="https://framagit.org/pierrick/simple-gallery">https://framagit.org/pierrick/simple-gallery</a> <br>
-			<code>git clone https://framagit.org/pierrick/simple-gallery.git</code>
-		</p>
-		<h3 class="hide">Mini projets Rust : tetris, music player, serveur FTP</h3>
-		<p>
-			Découverte et initiation au langage Rust. Développement d'un jeu de Tétris, d'un player de fichiers audio ainsi qu'un client et un
-			serveur FTP.  <br> 
-			Développements basés sur le livre « <em>Rust Programming by Example</em> ».<br> <br> 
-			- Technologies : <em>Rust</em>, <em>SDL2</em>, <em>GTK3</em>, <em>Gstreamer</em> <br>
-			- Licence : BSD 3-Clause <br>
-			- <a href="https://framagit.org/pierrick/rust-lang-discovery">https://framagit.org/pierrick/rust-lang-discovery</a> <br>
-			<code>git clone https://framagit.org/pierrick/rust-lang-discovery.git</code>
-		</p>
-		<h3 class="hide">Mini projet SpringBoot : API REST</h3>
-		<p>
-			Découverte et initiation du framework SpringBoot avec le langage Kotlin. Développement d'une API REST, de tests unitaires et
-			d'intégration et mise en place d'un mécanisme de contrôle d'accès. <br> <br> <br>
-			- Technologies : <em>SpringBoot</em>, <em>Gradle</em>, <em>Kotlin</em> <br>
-			- Licence : BSD 3-Clause <br>
-			- <a href="https://framagit.org/pierrick/spring-boot-discovery">https://framagit.org/pierrick/spring-boot-discovery</a> <br>
-			<code>git clone https://framagit.org/pierrick/spring-boot-discovery.git</code>
-		</p>
-		<h3 class="hide">Gyroscope Bluetooth Arduino</h3>
-		<p>
-			Développement d'un gyroscope sans fil à l'aide de deux modules <a href="https://docs.arduino.cc/hardware/nano-33-iot">Arduino Nano 33
-				Iot</a> et d'un écran LED. Un premier module Arduino mesure son
-			inclinaison et transmet en Bluetooth cette mesure au second module qui affiche alors cette valeur sur un écran LED. <br> <br>
-			- Technologies : <em>Arduino Nano 33 IoT</em>, <em>Bluetooth</em> <br>
-			- Licence : BSD 3-Clause <br>
-			- <a href="https://framagit.org/pierrick/gyroscope-ble">https://framagit.org/pierrick/gyroscope-ble</a> <br>
-			<code>git clone https://framagit.org/pierrick/gyroscope-ble.git</code>
-		</p>
-		<h3 class="hide">Site web : pierrick-marie.github.io</h3>
-		<p>
-			Mon site web pro de présentation : https://pierrick-marie.github.io <br> <br>
-			- Technologies : <em>Hugo server</em>, <em>Bootstrap</em>, <em>JQuery</em>, <em>Fontawesome</em> <br>
-			- <a href="https://pierrick-marie.github.io/">https://pierrick-marie.github.io/</a> <br> 
-			<code>git clone <br> 
-				&nbsp; https://github.com/pierrick-marie/pierrick-marie.github.io.git</code>
-		</p>
-		<h3 class="hide">Site web de voyage : https://www.ninae.fr</h3>
-		<p>
-			Mon site web de voyage : https://www.ninae.fr <br> <br>
-			- Technologies : <em>Wordpress</em> <br> <br>
-			- <a href="https://www.ninae.fr">https://www.ninae.fr</a>
-		</p>
-		<h3 class="hide">Gestion de bout en bout de la Qualité de Contexte pour l'Internet des Objets</h3>
-		<p>
-			Manuscrit de thèse. Intitulé : Gestion de bout en bout de la Qualité de Context pour l'Internet des Objets - le quadriciel QoCIM <br>
-			<br>
-			- Technologies : <em>QoCIM</em>, <em>Java</em>, <em>Raspberry Pi</em> <br>
-			- Licence : BSD 3-Clause <br>
-			- <a href="./docs/manuscrit.pdf">https://pierrick-marie.github.io/manuscrit.pdf</a>  <br>
-		</p>
-	</section>
