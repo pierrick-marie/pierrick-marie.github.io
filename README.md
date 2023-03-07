@@ -1,4 +1,4 @@
-Site web pro : https://pierrick-marie.github.io
+Site web pro : https://pierrick-marie.github.io - Under development!
 =============================
 
 Le site présente mes projets réalisés, ceux en cours et les moyens de me contacter.
