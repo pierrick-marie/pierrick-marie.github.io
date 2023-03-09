@@ -1,0 +1,60 @@
+.contacts-icons {
+	width: 70%;
+
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	display: flex;
+	justify-content: space-around;
+	
+	filter: drop-shadow(0 0 1rem $shadow);
+	
+	@media screen and (max-width: 799px) {
+		padding-top: 1em;
+		height: 10em;
+	}
+	@media screen and (min-width: 800px) and (max-width: 1200px) {
+		padding-top: 1em;
+		height: 12em;
+	}
+	@media screen and (min-width: 1201px) and (max-width: 2000px) {
+		height: 15em;
+	}
+	@media screen and (min-width: 2001px) {
+		height: 25em;
+	}
+}
+
+.contacts-icons {
+	@media screen and (min-width: 1201px) and (max-width: 2000px) {
+		padding-top: 2em;
+	}
+	@media screen and (min-width: 2001px) {
+		padding-top: 4em;
+	}
+}
+
+.contacts-icons a img {
+	padding: 1em;
+	padding-bottom: 1vh;
+	
+	transition: 300ms;
+	
+	@media screen and (max-width: 799px) {
+		height: 3em;
+	}
+	@media screen and (min-width: 800px) and (max-width: 1200px) {
+		height: 4em;
+	}
+	@media screen and (min-width: 1201px) and (max-width: 2000px) {
+		height: 4.5em;
+	}
+	@media screen and (min-width: 2001px) {
+		height: 8em;
+	}
+}
+
+.contacts-icons a:hover img {
+		transform: scale(1.4);
+}
