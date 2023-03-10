@@ -1,58 +1,272 @@
-/* - BEGIN: Gallery */
-
-.simple-gallery-legends {
-	display: none;
+@mixin positionOfGallery {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	@media screen and (min-width: 2001px) {
+		margin-top: 5em;
+	}
 }
 
-.gallery-container {
-	margin-top: 5vh;
-	display: flex;
-	justify-content: space-around;
+@mixin sizeOfGallery {
+	@media screen and (max-width: 799px) {
+		width: 90%;
+		height: 25em;
+	}
+	@media screen and (min-width: 800px) and (max-width: 1200px) {
+		width: 80%;
+		height: 28em;
+	}
+	@media screen and (min-width: 1201px) and (max-width: 2000px) {
+		width: 60%;
+		height: 26em;
+	}
+	@media screen and (min-width: 2001px) {
+		@media (orientation: portrait) {
+			width: 70%;
+			height: 60em;
+		}
+		@media (orientation: landscape) {
+			width: 50%;
+			height: 60em;
+		}
+	}
 }
 
-.projects-description {
+@mixin decorationGallery {
+	background-color: #00000015;
+	box-shadow: 8px 8px 8px #0000008f;
+}
 
-	background-color: $info;
-	padding: 15px;
+.projects-gallery {
 
+	@include decorationGallery;
+	@include sizeOfGallery;
+	@include positionOfGallery;
+
+	padding {
+		top: 1em;
+		left: 1em;
+		right: 1em;
+		bottom: 0;
+	}
+
+	@media screen and (min-width: 800px) and (max-width: 2000px) {
+		margin-bottom: 4em;
+	}
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #4e4a4a;
 	border-radius: 10px;
 
-	box-shadow: 5px 5px 5px $dark;
+	.arrow {
+		z-index: 0;
+		position: absolute;
+		top: 35%;
+		left: -6%;
+		width: 112%;
+		height: 15%;
 
-	transition: 600ms;
+		@media screen and (max-width: 799px) {
+			display: none;
+		}
+		@media screen and (min-width: 800px) and (max-width: 1200px) {
+			width: 114%;
+			left: -7%;
+		}
 
-	text-align: justify;
+		@mixin default {
+			cursor: pointer;
+			height: 100%;
+			
+			&:hover {	/* The arrows to change current image (left and right) */
+				filter: drop-shadow(0 0 0.5em $shadow);
+			}
+		}
 
-	width: 70%;
+		.left {
+			@include default;
+			float: left;
+		}
+		
+		.right {
+			@include default;
+			float: right;
+		}
+	}
+
+	.project {
+
+		padding: 0;
+		@media screen and (max-width: 799px) {
+			padding-top: 1em;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+		@media screen and (min-width: 800px) and (max-width: 2000px) {
+			padding-top: 1em;
+			padding-left: 2em;
+			padding-right: 2em;
+		}
+		@media screen and (min-width: 2001px) {
+			padding-top: 3em;
+			padding-left: 5em;
+			padding-right: 5em;
+		}
+
+		.logo {
+			float: left;
+			shape-outside:circle();
+
+			@media screen and (max-width: 799px) {
+				margin-right: 0.8em;
+				width: 25%;
+			}
+			@media screen and (min-width: 800px) and (max-width: 2000px) {
+				width: 40%; 
+				max-width: 9em;
+				margin: 0.8em;
+			}
+			@media screen and (min-width: 2001px) {
+				width: 15%;
+				margin-right: 5em;
+				margin-top: 3em;
+			}
+		}
+		
+		.description {
+		
+			@extend .paragraph;
+
+			position: relative;
+			@media screen and (min-width: 800px) and (max-width: 2000px) {
+				padding-right: 1em;
+				padding-left: 2em;
+			}
+			@media screen and (min-width: 2001px) {
+				padding-top: 1em;
+			}
+
+			padding-top: 0.5em;
+
+			border-radius: 10px;
+		
+			transition: 600ms;
+		
+			text-align: justify;
+
+			z-index: 2;
+		}
+
+		.git-clone {
+			color: $shadow;
+
+			display: block;
+			width: 100%;
+			white-space:nowrap;
+
+			position: relative;
+			text-align: left !important;
+			z-index: 2;
+			font-family: 'Courier New', Courier, monospace;
+
+			overflow-y: hidden; /* Allow horizontal scroll if there are more images than screen width available */
+			overflow-x: scroll;
+
+			cursor: pointer;
+			
+			@media screen and (max-width: 799px) {
+				font-size: 0.7em;
+			}
+			@media screen and (min-width: 800px) and (max-width: 2000px) {
+				padding-top: 0.5em;
+				font-size: 0.9em;
+			}
+			@media screen and (min-width: 2001px) {
+				padding-top: 1em;
+				font-size: 2em;
+			}
+		}
+	}
+
+	.thumbnails {
+
+		position: absolute;
+		bottom: 1em;
+		left: 8%;
+
+		width: 84%;
+		height: 6em;
+
+		border-style: solid;
+		border-width: 1px;
+		border-color: #444343;
+		border-radius: 10px;
+		
+		background-color: #44434316;
+
+		@media screen and (max-width: 799px) {
+			height: 5em;
+		}
+		@media screen and (min-width: 2001px) {
+			height: 11em;
+			width: 80%;
+			left: 10%;
+			bottom: 2em;
+		}
+
+		.horizontal-scroll {
+			display: flex;
+			margin-left: auto;
+			margin-right: auto;
+			width: fit-content;
+			max-width: 100%;
+			height: inherit;
+			overflow-y: hidden; /* Allow horizontal scroll if there are more images than screen width available */
+			overflow-x: scroll;
+		}
+
+		.thumbnail {		/* Thumbnails images, style and size */
+			width: auto;
+			height: 95%;
+			@media screen and (min-width: 2001px) {
+				height: 100%;
+			}
+
+			padding: 1%;
+		
+			margin-left: 0.5em;
+			margin-right: 0.5em;
+			margin-top: auto;
+			margin-bottom: auto;
+
+			transition: 200ms;
+		}
+	
+		.thumbnail:hover {		/* Add a shadow around thumbnails */
+			transition: 200ms;
+			transform: scale(1.1);
+		}
+	}
 }
 
-// .projects-description a {
-// 	color: $secondary;
-// 	text-decoration: underline;
-// 	text-align: justify;
-// }
 
-$snippet-padding: 2em;
+.cursorDefault {
+	cursor: default;
+}
 
-.projects-description .snippet {
-
-	padding-top: $snippet-padding;
-	padding-bottom: $snippet-padding;
-	width: 91%;
-
-	text-align: left;
-
-	display: inline-block;
-
-	overflow-wrap: break-word;
-
+.cursorPointer { /* clickable cursor */
 	cursor: pointer;
 }
-.code-copied {
-	display: none;
-	float: right;
-	padding-top: $snippet-padding;
-	width: 9%;
+
+.shadow-gallery {
+	filter: brightness(65%);
+	transform: scale(0.9);
+
+	&:hover {
+		transform: scale(0.9) !important;
+	}
 }
 
-/* - END: Gallery */
+
