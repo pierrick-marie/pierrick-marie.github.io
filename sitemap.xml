@@ -1,6 +1,3 @@
-Sitemap: https://pierrick-marie.github.io/sitemap.xml
-pirik@pirik-Latitude-5500 [10:04:41] [~/Documents/informatique/blog/pierrick-marie.github.io] [export *]
--> % cat public/sitemap.xml 
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
