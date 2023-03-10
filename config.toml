@@ -17,22 +17,22 @@ paginate = 4
 	description = "Freelance développeur informatique Pierrick MARIE : projets, technologies et contacts."
 	keywords = "freelance, java, kotlin, springBoot, rust"
 	customJS = "simple-gallery.js"
-	timeFormat = "french"
+	language = "french"
 
 [menu]
 	[[menu.main]]
 		name = 'Projets'
-		url = '#projects'
+		url = 'projects'
 		weight = 1
 	[[menu.main]]
 		name = 'Technologies'
-		url = '#technologies'
+		url = 'technologies'
 		weight = 2
 	[[menu.main]]
 		name = 'Contacts'
-		url = '#contacts'
+		url = 'contacts'
 		weight = 3
-	[[menu.main]]
+	[[menu.pages]]
 		name = 'Articles publiés'
 		url = 'posts'
 		weight = 4

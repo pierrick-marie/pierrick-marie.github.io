@@ -3,3 +3,5 @@
 # hugo folder
 .hugo_build.lock
 resources/
+
+import.sh
