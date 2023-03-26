@@ -23,17 +23,17 @@ Le site est réalisé à l'aide du framework [Hugo](https://gohugo.io/commands/h
 
 ### Langages
 
-* Java, Kotlin, SQL : ★ ★ ★ ★ ☆
-* HTML5, CSS3, JavaScript : ★ ★ ★ ★ ☆
+* Java, Kotlin, SQL : ★ ★ ★ ★ ★
+* HTML5, Sass, JavaScript, React.js : ★ ★ ★ ★ ☆
 * C, C++, Rust, Shell : ★ ★ ★ ☆ ☆
 * Perl, Php, Python : ★ ★ ☆ ☆ ☆
 
 ### Outils
 
-* SpringBoot, Hugo server : ★ ★ ★ ★ ☆
+* SpringBoot, Next.js Hugo server : ★ ★ ★ ★ ★
 * Maven, Gradle, Git : ★ ★ ★ ★ ☆
-* Arduino, Raspberry Pi : ★ ★ ★ ★ ☆
-* Docker : ★ ★ ☆ ☆ ☆
+* Docker : ★ ★ ★ ★ ☆
+* Arduino, Raspberry Pi : ★ ★ ★ ★ ★
 
 ## Me contacter
 
