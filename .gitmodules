@@ -1,4 +1,3 @@
-[submodule "themes/prettyhugo"]
-	path = themes/prettyhugo
-	url = https://github.com/pierrick-marie/pretty-hugo-theme.git
-
+[submodule "themes/yummy-yam"]
+	path = themes/yummy-yam
+	url = git@github.com:pierrick-marie/yummy-yam.git

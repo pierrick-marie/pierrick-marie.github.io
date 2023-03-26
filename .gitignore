@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore source images
 img/competences/src/
 img/src/
@@ -10,3 +11,13 @@ resources/
 .vscode/
 
 import.sh
+=======
+.vscode/
+
+# hugo folder
+.hugo_build.lock
+resources/
+
+import.sh
+export.sh
+>>>>>>> export

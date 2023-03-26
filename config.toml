@@ -1,0 +1,42 @@
+baseURL = 'https://pierrick-marie.github.io/'
+languageCode = 'fr-FR'
+title = 'Développeur informatique freelance'
+theme = 'yummy-yam'
+
+disableKinds = ["taxonomy", "term", "RSS"]
+
+enableRobotsTXT = true
+
+contentDir = 'content'
+
+paginate = 4
+
+[params]
+	author = "Pierrick MARIE"
+	subtitle = "Voyageur au long court"
+	description = "Freelance développeur informatique Pierrick MARIE : projets, technologies et contacts."
+	keywords = "freelance, java, kotlin, springBoot, rust"
+	customJS = "simple-gallery.js"
+	language = "french"
+
+[menu]
+	[[menu.main]]
+		name = 'Projets'
+		url = 'projects'
+		weight = 1
+	[[menu.main]]
+		name = 'Technologies'
+		url = 'technologies'
+		weight = 2
+	[[menu.main]]
+		name = 'Contacts'
+		url = 'contacts'
+		weight = 3
+	[[menu.pages]]
+		name = 'Articles publiés'
+		url = 'posts'
+		weight = 4
+
+[sitemap]
+	changefreq = 'monthly'
+	filename = 'sitemap.xml'
