@@ -21,7 +21,7 @@ paginate = 4
 
 [menu]
 	[[menu.main]]
-		name = 'Projets'
+		name = 'Projets réalisés'
 		url = 'projects'
 		weight = 1
 	[[menu.main]]
