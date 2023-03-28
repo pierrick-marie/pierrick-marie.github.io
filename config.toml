@@ -9,7 +9,7 @@ enableRobotsTXT = true
 
 contentDir = 'content'
 
-paginate = 4
+paginate = 6
 
 [params]
 	author = "Pierrick MARIE"
