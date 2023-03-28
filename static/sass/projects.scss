@@ -3,25 +3,25 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 3em;
-	@media screen and (min-width: 2001px) {
+	@media screen and #{$tv} {
 		margin-top: 5em;
 	}
 }
 
 @mixin sizeOfGallery {
-	@media screen and (max-width: 799px) {
+	@media screen and #{$phone} {
 		width: 90%;
 		height: 25em;
 	}
-	@media screen and (min-width: 800px) and (max-width: 1200px) {
+	@media screen and #{$tablet} {
 		width: 80%;
 		height: 28em;
 	}
-	@media screen and (min-width: 1201px) and (max-width: 2000px) {
+	@media screen and #{$laptop} {
 		width: 60%;
 		height: 26em;
 	}
-	@media screen and (min-width: 2001px) {
+	@media screen and #{$tv} {
 		@media (orientation: portrait) {
 			width: 70%;
 			height: 60em;
@@ -51,7 +51,7 @@
 		bottom: 0;
 	}
 
-	@media screen and (min-width: 800px) and (max-width: 2000px) {
+	@media screen and #{$laptop} {
 		margin-bottom: 4em;
 	}
 
@@ -68,10 +68,10 @@
 		width: 112%;
 		height: 15%;
 
-		@media screen and (max-width: 799px) {
+		@media screen and #{$phone} {
 			display: none;
 		}
-		@media screen and (min-width: 800px) and (max-width: 1200px) {
+		@media screen and #{$tablet} {
 			width: 114%;
 			left: -7%;
 		}
@@ -99,17 +99,17 @@
 	.project {
 
 		padding: 0;
-		@media screen and (max-width: 799px) {
+		@media screen and #{$phone} {
 			padding-top: 1em;
 			padding-left: 1em;
 			padding-right: 1em;
 		}
-		@media screen and (min-width: 800px) and (max-width: 2000px) {
+		@media screen and #{$laptop} {
 			padding-top: 1em;
 			padding-left: 2em;
 			padding-right: 2em;
 		}
-		@media screen and (min-width: 2001px) {
+		@media screen and #{$tv} {
 			padding-top: 3em;
 			padding-left: 5em;
 			padding-right: 5em;
@@ -119,16 +119,16 @@
 			float: left;
 			shape-outside:circle();
 
-			@media screen and (max-width: 799px) {
+			@media screen and #{$phone} {
 				margin-right: 0.8em;
 				width: 25%;
 			}
-			@media screen and (min-width: 800px) and (max-width: 2000px) {
+			@media screen and #{$laptop} {
 				width: 40%; 
 				max-width: 9em;
 				margin: 0.8em;
 			}
-			@media screen and (min-width: 2001px) {
+			@media screen and #{$tv} {
 				width: 15%;
 				margin-right: 5em;
 				margin-top: 3em;
@@ -140,11 +140,11 @@
 			@extend .paragraph;
 
 			position: relative;
-			@media screen and (min-width: 800px) and (max-width: 2000px) {
+			@media screen and #{$laptop} {
 				padding-right: 1em;
 				padding-left: 2em;
 			}
-			@media screen and (min-width: 2001px) {
+			@media screen and #{$tv} {
 				padding-top: 1em;
 			}
 
@@ -176,14 +176,14 @@
 
 			cursor: pointer;
 			
-			@media screen and (max-width: 799px) {
+			@media screen and #{$phone} {
 				font-size: 0.7em;
 			}
-			@media screen and (min-width: 800px) and (max-width: 2000px) {
+			@media screen and #{$laptop} {
 				padding-top: 0.5em;
 				font-size: 0.9em;
 			}
-			@media screen and (min-width: 2001px) {
+			@media screen and #{$tv} {
 				padding-top: 1em;
 				font-size: 2em;
 			}
@@ -206,10 +206,10 @@
 		
 		background-color: #44434316;
 
-		@media screen and (max-width: 799px) {
+		@media screen and #{$phone} {
 			height: 5em;
 		}
-		@media screen and (min-width: 2001px) {
+		@media screen and #{$tv} {
 			height: 11em;
 			width: 80%;
 			left: 10%;
@@ -230,7 +230,7 @@
 		.thumbnail {		/* Thumbnails images, style and size */
 			width: auto;
 			height: 95%;
-			@media screen and (min-width: 2001px) {
+			@media screen and #{$tv} {
 				height: 100%;
 			}
 
