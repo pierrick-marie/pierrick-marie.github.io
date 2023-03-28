@@ -4,7 +4,7 @@
  * Copyright (c) 2023, Pierrick MARIE contact at pierrickmarie.info
  * All rights reserved.
  **/
-const TECHNOLOGIES_TOP = $('#technologies .cv').first().offset().top;
+var TECHNOLOGIES_TOP = 0;
 var technologiesAreHide = true;
 
 const GALLERY = '.projects-gallery';		// the class of the main section of the gallery
@@ -20,24 +20,28 @@ var THUMBNAIL_SIZE = 0;
 
 $(document).ready(function () {
 
-	$(window).scroll(function () {
-		SimpleGallery.scrollTechnologiesFunction();
-	});
-	SimpleGallery.scrollTechnologiesFunction();	// call function after loading page
-
-	SimpleGallery.setupThumbnails();
-
-	SimpleGallery.setupProject();
-
-	SimpleGallery.setupArrows();
+	if( $('#technologies').length ){
+		TECHNOLOGIES_TOP = $('#technologies .cv').first().offset().top;
+		
+		$(window).scroll(function () {
+			SimpleGallery.scrollTechnologiesFunction();
+		});
+		SimpleGallery.scrollTechnologiesFunction();	// call function after loading page
 	
-	SimpleGallery.setupLegends();
-
-	SimpleGallery.showCurrentProject();
-
-	SimpleGallery.setupKeyboardBinding();
-
-	SimpleGallery.fadeInTimeline();
+		SimpleGallery.setupThumbnails();
+	
+		SimpleGallery.setupProject();
+	
+		SimpleGallery.setupArrows();
+		
+		SimpleGallery.setupLegends();
+	
+		SimpleGallery.showCurrentProject();
+	
+		SimpleGallery.setupKeyboardBinding();
+	
+		SimpleGallery.fadeInTimeline();
+	}
 });
 
 var SimpleGallery = {

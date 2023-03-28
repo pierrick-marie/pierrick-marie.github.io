@@ -10,27 +10,27 @@
 	
 	filter: drop-shadow(0 0 1rem $shadow);
 	
-	@media screen and (max-width: 799px) {
+	@media screen and #{$phone} {
 		padding-top: 1em;
 		height: 10em;
 	}
-	@media screen and (min-width: 800px) and (max-width: 1200px) {
+	@media screen and #{$tablet} {
 		padding-top: 1em;
 		height: 12em;
 	}
-	@media screen and (min-width: 1201px) and (max-width: 2000px) {
+	@media screen and #{$laptop} {
 		height: 15em;
 	}
-	@media screen and (min-width: 2001px) {
+	@media screen and #{$tv} {
 		height: 25em;
 	}
 }
 
 .contacts-icons {
-	@media screen and (min-width: 1201px) and (max-width: 2000px) {
+	@media screen and #{$laptop} {
 		padding-top: 2em;
 	}
-	@media screen and (min-width: 2001px) {
+	@media screen and #{$tv} {
 		padding-top: 4em;
 	}
 }
@@ -41,16 +41,16 @@
 	
 	transition: 300ms;
 	
-	@media screen and (max-width: 799px) {
+	@media screen and #{$phone} {
 		height: 3em;
 	}
-	@media screen and (min-width: 800px) and (max-width: 1200px) {
+	@media screen and #{$tablet} {
 		height: 4em;
 	}
-	@media screen and (min-width: 1201px) and (max-width: 2000px) {
+	@media screen and #{$laptop} {
 		height: 4.5em;
 	}
-	@media screen and (min-width: 2001px) {
+	@media screen and #{$tv} {
 		height: 8em;
 	}
 }
