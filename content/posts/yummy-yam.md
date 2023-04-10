@@ -11,7 +11,7 @@ FeatureImage: /img/yummy-yam.jpg
 
 # Demonstration
 
-A demonstration of the default configuration of Yummy Yam is at this address: https://pierrick-marie.github.io/yummy-yam/
+A demonstration of the default configuration of Yummy Yam is available at this address: https://pierrick-marie.github.io/yummy-yam/
 
 You can find a full demonstration of Yummy Yam at this address: https://pierrick-marie.github.io
 
