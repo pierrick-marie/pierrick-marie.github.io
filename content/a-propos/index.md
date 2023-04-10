@@ -1,11 +1,8 @@
 ---
 title: "À propos"
 draft: false
-thumbnail: /img/post-test-1.jpg
-FeatureImage: /img/post-test-1.jpg
+FeatureImage: /img/a-propos.jpg
 ---
-
-![Avatar](/img/a-propos.jpg)
 
 En 2020, après cinq ans comme enseignant-chercheur en informatique à l'université de Toulouse III Paul Sabatier, je décide de changer de cap. Je pars pour un tour de l’Atlantique à la voile : France, Espagne, Canaries, Antilles, Açores et enfin, retour en France.
 
