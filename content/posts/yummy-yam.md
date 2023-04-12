@@ -3,15 +3,11 @@ title: "(En) Yummy Yam"
 draft: false
 summary: "A new theme for Hugo Server. Yummy Yam is half a theme and half a framework. It's a theme that generate main menu and titles and article pages. It's a framework to easily develop a single web page with useful librairies and Hugo server features." 
 date: 2023-03-28
-thumbnail: /img/yummy-yam.jpg
-FeatureImage: /img/yummy-yam.jpg
+thumbnail: /img/yummy-yam/thumbnail.jpg
+FeatureImage: /img/yummy-yam/thumbnail.jpg
 ---
 
-**Yummy Yam, a new theme for Hugo Server**
-
-# Demonstration
-
-You can find a full demonstration of Yummy Yam at this address: https://pierrick-marie.github.io
+Yummy Yam is another theme for Hugo Server.
 
 # Features
 
@@ -26,6 +22,15 @@ Yummy Yam provides:
 1. a single main page with many sections highly customizable with HTML, Scss and Javascript
 2. JQuery, Bootstrap and Fontawesome librairies
 3. dynamic pages for blog posts
+
+# Demonstration
+
+You can find a full demonstration of Yummy Yam at this address: https://pierrick-marie.github.io
+
+Here is a screen shot of Yummy Yam with the included example web site.
+
+![Yummy Yam in action](/img/yummy-yam/example.jpg "Screen shot of Yummy yam theme with example web site")
+
 
 # Installation
 
